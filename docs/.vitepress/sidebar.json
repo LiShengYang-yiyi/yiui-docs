@@ -5,6 +5,7 @@
   },
   {
     "text": "YIUI 更新日志",
+    "link": "/changelog/",
     "collapsed": true,
     "items": [
       {
@@ -75,6 +76,7 @@
   },
   {
     "text": "接入",
+    "link": "/integration/",
     "collapsed": true,
     "items": [
       {
@@ -83,6 +85,7 @@
       },
       {
         "text": "ET 接入",
+        "link": "/integration/et-接入/",
         "collapsed": true,
         "items": [
           {
@@ -103,6 +106,7 @@
   },
   {
     "text": "CDE Table",
+    "link": "/cde-table/",
     "collapsed": true,
     "items": [
       {
@@ -121,10 +125,12 @@
   },
   {
     "text": "快速入门",
+    "link": "/quick-start/",
     "collapsed": true,
     "items": [
       {
         "text": "层级 Layer",
+        "link": "/quick-start/层级-layer/",
         "collapsed": true,
         "items": [
           {
@@ -145,10 +151,12 @@
   },
   {
     "text": "YIUI ET9",
+    "link": "/et9/",
     "collapsed": true,
     "items": [
       {
         "text": "🌟 ET9 YIUI框架：入门视频教程 🌟",
+        "link": "/et9/et9-yiui框架：入门视频教程/",
         "collapsed": true,
         "items": [
           {
@@ -159,6 +167,7 @@
       },
       {
         "text": "YIUI 包目录",
+        "link": "/et9/yiui-包目录/",
         "collapsed": true,
         "items": [
           {
@@ -223,10 +232,12 @@
       },
       {
         "text": "配套功能",
+        "link": "/et9/配套功能/",
         "collapsed": true,
         "items": [
           {
             "text": "YIUI 自动化工具",
+            "link": "/et9/配套功能/yiui-自动化工具/",
             "collapsed": true,
             "items": [
               {
@@ -257,6 +268,7 @@
           },
           {
             "text": "Invoke",
+            "link": "/et9/配套功能/invoke/",
             "collapsed": true,
             "items": [
               {
@@ -295,6 +307,7 @@
           },
           {
             "text": "小功能",
+            "link": "/et9/配套功能/小功能/",
             "collapsed": true,
             "items": [
               {
@@ -331,6 +344,7 @@
               },
               {
                 "text": "编辑器快捷功能",
+                "link": "/et9/配套功能/小功能/编辑器快捷功能/",
                 "collapsed": true,
                 "items": [
                   {
@@ -353,10 +367,12 @@
       },
       {
         "text": "扩展包",
+        "link": "/et9/扩展包/",
         "collapsed": true,
         "items": [
           {
             "text": "Luban 配置解决方案",
+            "link": "/et9/扩展包/luban-配置解决方案/",
             "collapsed": true,
             "items": [
               {
@@ -413,6 +429,7 @@
               },
               {
                 "text": "常见问题汇总",
+                "link": "/et9/扩展包/luban-配置解决方案/常见问题汇总/",
                 "collapsed": true,
                 "items": [
                   {
@@ -435,6 +452,7 @@
               },
               {
                 "text": "更新日志",
+                "link": "/et9/扩展包/luban-配置解决方案/更新日志/",
                 "collapsed": true,
                 "items": [
                   {
@@ -471,6 +489,7 @@
                   },
                   {
                     "text": "3.0.0",
+                    "link": "/et9/扩展包/luban-配置解决方案/更新日志/3.0.0/",
                     "collapsed": true,
                     "items": [
                       {
@@ -497,6 +516,7 @@
           },
           {
             "text": "Numeric 数值系统",
+            "link": "/et9/扩展包/numeric-数值系统/",
             "collapsed": true,
             "items": [
               {
@@ -517,6 +537,7 @@
               },
               {
                 "text": "数值配置",
+                "link": "/et9/扩展包/numeric-数值系统/数值配置/",
                 "collapsed": true,
                 "items": [
                   {
@@ -531,6 +552,7 @@
               },
               {
                 "text": "数值限制",
+                "link": "/et9/扩展包/numeric-数值系统/数值限制/",
                 "collapsed": true,
                 "items": [
                   {
@@ -557,6 +579,7 @@
               },
               {
                 "text": "监听",
+                "link": "/et9/扩展包/numeric-数值系统/监听/",
                 "collapsed": true,
                 "items": [
                   {
@@ -571,6 +594,7 @@
               },
               {
                 "text": "GM调试",
+                "link": "/et9/扩展包/numeric-数值系统/gm调试/",
                 "collapsed": true,
                 "items": [
                   {
@@ -599,6 +623,7 @@
           },
           {
             "text": "Condition 条件系统",
+            "link": "/et9/扩展包/condition-条件系统/",
             "collapsed": true,
             "items": [
               {
@@ -629,6 +654,7 @@
           },
           {
             "text": "GameObjectPool 游戏对象缓存池",
+            "link": "/et9/扩展包/gameobjectpool-游戏对象缓存池/",
             "collapsed": true,
             "items": [
               {
@@ -647,6 +673,7 @@
           },
           {
             "text": "Audio 声音",
+            "link": "/et9/扩展包/audio-声音/",
             "collapsed": true,
             "items": [
               {
@@ -665,10 +692,12 @@
           },
           {
             "text": "Video 视频",
+            "link": "/et9/扩展包/video-视频/",
             "collapsed": true,
             "items": [
               {
                 "text": "快速入门",
+                "link": "/et9/扩展包/video-视频/快速入门/",
                 "collapsed": true,
                 "items": [
                   {
@@ -689,6 +718,7 @@
           },
           {
             "text": "DamageTips 伤害提示",
+            "link": "/et9/扩展包/damagetips-伤害提示/",
             "collapsed": true,
             "items": [
               {
@@ -723,10 +753,12 @@
           },
           {
             "text": "多语言 Pro",
+            "link": "/et9/扩展包/多语言-pro/",
             "collapsed": true,
             "items": [
               {
                 "text": "快速入门",
+                "link": "/et9/扩展包/多语言-pro/快速入门/",
                 "collapsed": true,
                 "items": [
                   {
@@ -747,10 +779,12 @@
           },
           {
             "text": "SuperScroll 循环列表",
+            "link": "/et9/扩展包/superscroll-循环列表/",
             "collapsed": true,
             "items": [
               {
                 "text": "官方Demo",
+                "link": "/et9/扩展包/superscroll-循环列表/官方demo/",
                 "collapsed": true,
                 "items": [
                   {
@@ -789,10 +823,12 @@
       },
       {
         "text": "ET10",
+        "link": "/et9/et10/",
         "collapsed": true,
         "items": [
           {
             "text": "取消YIUIMgrComponent.Inst",
+            "link": "/et9/et10/取消yiuimgrcomponent.inst/",
             "collapsed": true,
             "items": [
               {
@@ -811,6 +847,7 @@
   },
   {
     "text": "配套功能",
+    "link": "/features/",
     "collapsed": true,
     "items": [
       {
@@ -827,6 +864,7 @@
       },
       {
         "text": "红点",
+        "link": "/features/红点/",
         "collapsed": true,
         "items": [
           {
@@ -837,10 +875,12 @@
       },
       {
         "text": "无限循环列表",
+        "link": "/features/无限循环列表/",
         "collapsed": true,
         "items": [
           {
             "text": "其他循环列表插件推荐",
+            "link": "/features/无限循环列表/其他循环列表插件推荐/",
             "collapsed": true,
             "items": [
               {
@@ -901,6 +941,7 @@
       },
       {
         "text": "UI3D模型展示",
+        "link": "/features/ui3d模型展示/",
         "collapsed": true,
         "items": [
           {
@@ -947,6 +988,7 @@
       },
       {
         "text": "工具",
+        "link": "/features/工具/",
         "collapsed": true,
         "items": [
           {
@@ -959,6 +1001,7 @@
           },
           {
             "text": "宏",
+            "link": "/features/工具/宏/",
             "collapsed": true,
             "items": [
               {
@@ -977,6 +1020,7 @@
           },
           {
             "text": "UI特效",
+            "link": "/features/工具/ui特效/",
             "collapsed": true,
             "items": [
               {
@@ -987,6 +1031,7 @@
           },
           {
             "text": "图集",
+            "link": "/features/工具/图集/",
             "collapsed": true,
             "items": [
               {
@@ -1015,10 +1060,12 @@
       },
       {
         "text": "TODO",
+        "link": "/features/todo/",
         "collapsed": true,
         "items": [
           {
             "text": "新建文件夹",
+            "link": "/features/todo/新建文件夹/",
             "collapsed": true,
             "items": [
               {
@@ -1037,6 +1084,7 @@
           },
           {
             "text": "已完成",
+            "link": "/features/todo/已完成/",
             "collapsed": true,
             "items": [
               {
@@ -1079,6 +1127,7 @@
   },
   {
     "text": "常见问题",
+    "link": "/faq/",
     "collapsed": true,
     "items": [
       {
@@ -1155,6 +1204,7 @@
       },
       {
         "text": "案例",
+        "link": "/faq/案例/",
         "collapsed": true,
         "items": [
           {
@@ -1197,10 +1247,12 @@
   },
   {
     "text": "其他",
+    "link": "/other/",
     "collapsed": true,
     "items": [
       {
         "text": "Xmind 文档",
+        "link": "/other/xmind-文档/",
         "collapsed": true,
         "items": [
           {
@@ -1251,6 +1303,7 @@
       },
       {
         "text": "插件分享",
+        "link": "/other/插件分享/",
         "collapsed": true,
         "items": [
           {
