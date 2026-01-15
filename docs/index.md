@@ -13,7 +13,7 @@ hero:
       text: 更新日志
       link: /changelog/
     - theme: alt
-      text: YIUI
+      text: ⭐ Star YIUI
       link: https://github.com/LiShengYang-yiyi/YIUI
     - theme: alt
       text: ET框架
