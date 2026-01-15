@@ -11,13 +11,15 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '入门', link: '/intro/' },
       { text: '更新日志', link: '/changelog/' },
-      { text: '常见问题', link: '/faq/' }
+      { text: '常见问题', link: '/faq/' },
+      { text: 'YIUI', link: 'https://github.com/LiShengYang-yiyi/YIUI' },
+      { text: 'ET框架', link: 'https://github.com/egametang/ET' }
     ],
 
     sidebar: sidebar,
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/egametang/ET' }
+      { icon: 'github', link: 'https://github.com/LiShengYang-yiyi' }
     ],
 
     search: {
