@@ -1,8 +1,7 @@
 # 版本管理
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  版本预览 
+版本预览 
  
 ![Image](/images/SLlHwBMAMiAjVnkqiWAcKU5InIc_1_039982f7.png)
  

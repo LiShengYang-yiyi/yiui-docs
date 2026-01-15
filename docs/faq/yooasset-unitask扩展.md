@@ -1,9 +1,7 @@
 # YooAsset UniTask扩展
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  
- UniTask 扩展 
+UniTask 扩展 
  这里为了照顾新手使用，做了一些妥协，有定制需求的需要手动调整一下 
  代码示例 
  public async UniTask Example(IProgress&lt;float&gt; progress = null, PlayerLoopTiming timing = PlayerLoopTiming.Update){var handle = YooAssets.LoadAssetAsync&lt;GameObject&gt;("Assets/Res/Prefabs/TestImg.prefab");await handle.ToUniTask(progress, timing);var obj = handle.AssetObject as GameObject;var go  = Instantiate(obj, transform);go.transform.localPosition = Vector3.zero;go.transform.localScale    = Vector3.one;} 

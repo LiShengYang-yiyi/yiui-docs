@@ -1,9 +1,7 @@
 # Panel 打开动画重复播放问题
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  
- 1. 先打开了A 
+1. 先打开了A 
  
  2. 然后打开B, 因为B打开时会触发A的关闭 
  这个关闭是系统缓存堆栈的关闭 只是隐藏了 并没有调用关闭API 

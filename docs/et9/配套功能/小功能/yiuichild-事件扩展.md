@@ -1,9 +1,7 @@
 # YIUIChild 事件扩展
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  
- 常见需求 
+常见需求 
  有一个主界面 
  下面有10个View界面 
  

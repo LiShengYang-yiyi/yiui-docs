@@ -1,8 +1,7 @@
 # PrimeTween 替代 DoTween
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  Create animations, delays, and sequences in one line of code. 
+Create animations, delays, and sequences in one line of code. 
  
  [https://github.com/KyryloKuzyk/PrimeTween](https://github.com/KyryloKuzyk/PrimeTween) 
  

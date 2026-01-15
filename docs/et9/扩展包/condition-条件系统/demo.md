@@ -1,8 +1,7 @@
 # Demo
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  已知EConditionType 
+已知EConditionType 
  
 ![Image](/images/ITgBwiMBUiGFpukAEGrcOSxTnUH_1_c9b9e238.png)
  每个条件类型都要有一个实现 如果未实现会报错 

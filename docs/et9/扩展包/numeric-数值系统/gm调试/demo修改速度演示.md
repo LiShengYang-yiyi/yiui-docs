@@ -1,8 +1,7 @@
 # Demo修改速度演示
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- ![Image](/images/ImRKwd70NiJqlwkE3DMcNlgIn7y_1_92005245.jpg)
+![Image](/images/ImRKwd70NiJqlwkE3DMcNlgIn7y_1_92005245.jpg)
  
  可以看到原本的速度很慢的 
  通过GM命令直接修改了速度 移动就很快了 

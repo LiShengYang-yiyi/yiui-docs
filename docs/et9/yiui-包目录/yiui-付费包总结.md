@@ -1,9 +1,7 @@
 # YIUI 付费包总结
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  
- 其他付费链接 
+其他付费链接 
  ET付费教程连接 
  
  1. [cn.etetet.yiuiluban](/et9/扩展包/luban-配置解决方案/) 无缝替换cn.etetet.excel成luban配置，售价100元0. 限免 购买luban包即赠送以下所有 

@@ -1,8 +1,7 @@
 # Component Table
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  定义 
+定义 
  通过 设定的名称 直接找到对应的预设组件 
  名称 与 组件 之间的映射表 
  预览 

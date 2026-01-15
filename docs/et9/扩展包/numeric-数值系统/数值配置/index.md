@@ -1,8 +1,7 @@
 # 数值配置
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  最大的考虑分离设计 
+最大的考虑分离设计 
  
  所以数值系统的包分了2个 
  一个原始包  cn.etetet.yiuinumeric 

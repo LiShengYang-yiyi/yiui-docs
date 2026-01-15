@@ -1,9 +1,7 @@
 # ET10
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  
- ET10 = 熊猫的WOW包的内容  如果你不是用的WOW包为基础代码 != 10 
+ET10 = 熊猫的WOW包的内容  如果你不是用的WOW包为基础代码 != 10 
  
  其他的默认为ET9 如果是ET9 不需要开启这个宏 
  

@@ -1,8 +1,7 @@
 # YIUIBind
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  因为 
+因为 
  UIBind 自动生成 
  
  

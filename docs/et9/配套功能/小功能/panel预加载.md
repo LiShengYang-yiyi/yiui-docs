@@ -1,8 +1,7 @@
 # Panel预加载
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  针对超大型预制,需要提前加载 
+针对超大型预制,需要提前加载 
  就算有异步加载还是会有延迟情况的 
  需要无延迟打开的时候使用 
  

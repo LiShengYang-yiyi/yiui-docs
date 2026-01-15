@@ -1,8 +1,7 @@
 # YooAsset 可寻址修改
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  总结 
+总结 
  嫌麻烦的可以直接看总结 
  不建议改 
  

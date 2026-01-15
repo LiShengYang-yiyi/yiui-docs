@@ -1,8 +1,7 @@
 # PS2UI
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  [https://github.com/zs9024/quick_psd2ugui](https://github.com/zs9024/quick_psd2ugui) 
+[https://github.com/zs9024/quick_psd2ugui](https://github.com/zs9024/quick_psd2ugui) 
  
  付费 
  [https://assetstore.unity.com/packages/tools/gui/psd-2-ugui-pro-16131](https://assetstore.unity.com/packages/tools/gui/psd-2-ugui-pro-16131) 

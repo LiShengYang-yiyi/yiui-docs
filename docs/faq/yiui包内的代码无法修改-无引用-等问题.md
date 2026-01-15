@@ -1,9 +1,6 @@
 # YIUI包内的代码无法修改 无引用 等问题
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  
- 
 ![Image](/images/TYCwwGQcvi2HoHkZN5acKSthnIU_1_61fd1ef9.png)
  
  1. 看一下YIUI的包在那个目录 

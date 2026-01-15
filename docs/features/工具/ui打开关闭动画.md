@@ -1,10 +1,7 @@
 # UI打开关闭动画
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  
- 
- 打开关闭动画 适用于 Panel / View 
+打开关闭动画 适用于 Panel / View 
  
  通用版 
  

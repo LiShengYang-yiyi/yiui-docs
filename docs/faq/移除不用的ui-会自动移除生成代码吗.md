@@ -1,8 +1,7 @@
 # 移除不用的UI 会自动移除生成代码吗
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  不能完全 全自动  (ET9有工具可以半自动) 
+不能完全 全自动  (ET9有工具可以半自动) 
  
  为什么? 
  

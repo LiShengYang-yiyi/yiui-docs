@@ -1,8 +1,7 @@
 # WPS启用VBA
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  Excel 怎么开启VBA 使用的工具不同 有不同的方式 
+Excel 怎么开启VBA 使用的工具不同 有不同的方式 
  具体可以AI 
  
  后缀是 xlsm 的才能使用VBA 

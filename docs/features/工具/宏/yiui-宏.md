@@ -1,8 +1,7 @@
 # YIUI 宏
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  需要的可以手动开启 
+需要的可以手动开启 
  
  视频操作步骤 
  

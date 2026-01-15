@@ -1,8 +1,7 @@
 # 🌟 ET9 YIUI框架：入门视频教程 🌟
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- ![Image](/images/Qngkwcu7ki8p74kTa1ccZGFhnch_1_521c47d1.png)
+![Image](/images/Qngkwcu7ki8p74kTa1ccZGFhnch_1_521c47d1.png)
  💎 🏆 品质保证 
  熊猫大大审核监制 
  YIUI ET官方强烈推荐 

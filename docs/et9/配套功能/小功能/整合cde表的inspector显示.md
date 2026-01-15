@@ -1,8 +1,7 @@
 # 整合CDE表的Inspector显示
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  太长了 所以整合了C,D,E脚本到 CDETable中 使用页签的形式可以横向切换 
+太长了 所以整合了C,D,E脚本到 CDETable中 使用页签的形式可以横向切换 
  
 ![Image](/images/Dc7hwHI6aigru8knEAecRz64nlh_1_ceef6a1e.gif)
  

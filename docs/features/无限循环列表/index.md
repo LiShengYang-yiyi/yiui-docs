@@ -1,9 +1,7 @@
 # 无限循环列表
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  
- [https://github.com/qiankanglai/LoopScrollRect](https://github.com/qiankanglai/LoopScrollRect) 
+[https://github.com/qiankanglai/LoopScrollRect](https://github.com/qiankanglai/LoopScrollRect) 
  基于Git开源项目 LoopScrollRect 上做的扩展 
  基础知识 与使用请参考Github地址 
  

@@ -1,8 +1,7 @@
 # Data Table
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  定义 
+定义 
  设定各种变量        名称 与 变量 之间的映射表 
  通过修改变量数据来修改 UI 上的各种数据表现 
  我们并不需要知道 我们要操作的组件是什么  我们只关心变量数据  达到解绑的目的 

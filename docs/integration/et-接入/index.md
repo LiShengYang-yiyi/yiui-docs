@@ -1,8 +1,7 @@
 # ET 接入
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  🌟 点赞支持 一键三连 
+🌟 点赞支持 一键三连 
  
  准备工作 
  

@@ -1,8 +1,6 @@
 # SuperScrollView
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  
 ![Image](/images/FRS8werUji25YdknNslcySi9nIf_1_c915dfe4.png)
  
  

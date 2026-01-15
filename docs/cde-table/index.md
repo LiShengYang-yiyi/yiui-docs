@@ -7,8 +7,7 @@
 # CDE Table
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  🌟 点赞支持 一键三连 
+🌟 点赞支持 一键三连 
  
  CDE 是什么 
  C  = [Component Table](/cde-table/component-table) 

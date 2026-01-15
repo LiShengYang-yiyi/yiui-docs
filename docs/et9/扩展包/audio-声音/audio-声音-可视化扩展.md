@@ -1,8 +1,7 @@
 # Audio 声音 可视化扩展
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  2.0.0+ 
+2.0.0+ 
  新增功能 
  注意此版本不兼容老版本 如果升级请慎重 
  (因为改了结构) 以前的数据可能丢失 

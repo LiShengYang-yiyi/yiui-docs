@@ -1,8 +1,7 @@
 # INumericHandler
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  注意区分发送方与监听方的 SceneType 要对应 
+注意区分发送方与监听方的 SceneType 要对应 
  具体请参考ET 事件系统 
  代码块 
  namespace ET 

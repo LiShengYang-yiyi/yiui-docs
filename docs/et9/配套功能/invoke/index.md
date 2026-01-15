@@ -1,8 +1,7 @@
 # Invoke
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  [YIUIInvoke] 
+[YIUIInvoke] 
  特性 
  在任意类的System中标记静态方法则可生成对应的System类 
  

@@ -1,8 +1,7 @@
 # 快速入门
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  升级指南 
+升级指南 
  如果是从普通升级的 
  
  原数据 

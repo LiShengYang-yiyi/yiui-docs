@@ -1,9 +1,7 @@
 # YIUI-ET 2.0
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  
- YIUIRoot 
+YIUIRoot 
  新增了逻辑层root节点 
  在此之前 所有Panel的打开都是在YIUIMgr这个逻辑节点下 
  目前打开UI必须使用yiuiroot中提供的方法打开 

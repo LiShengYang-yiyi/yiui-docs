@@ -1,8 +1,7 @@
 # 取消YIUIMgrComponent.Inst
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  这个组件本质就是所有UI的管理器 
+这个组件本质就是所有UI的管理器 
  以前的Inst 是为了快捷访问 但是他是一个单例始终会存在隐患 
  特别是有人跨纤程访问 为了防止出现这个问题 
  以前的Inst 当你在其他fiber的时候 也是可以访问到的 

@@ -1,9 +1,7 @@
 # ET.Excel 转 Luban.Excel
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  
- ET.Excel 
+ET.Excel 
  AI包中的配置 
  
 ![Image](/images/Md7YwSLZKiEOoKkBhk4cuSG5nUf_1_b4ceadd6.png)

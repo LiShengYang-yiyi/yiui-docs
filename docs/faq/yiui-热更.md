@@ -1,9 +1,7 @@
 # YIUI 热更
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  
- 总结 
+总结 
  1. YIUI没有自带热更 
  (毕竟每个项目选的热更方式都有可能不一样 我这是一个独立的UI框架也没办法给你自带热更) 
  

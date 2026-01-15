@@ -1,8 +1,6 @@
 # YIUI 自动化工具
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  
 ![Image](/images/NvAow4D8gir5cgk7tLDczPH3nnc_1_cc28d3ad.png)
  
  可扩展页签 

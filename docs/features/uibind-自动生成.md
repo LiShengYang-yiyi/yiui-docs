@@ -1,8 +1,7 @@
 # UIBind 自动生成
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  将改变打包流程 
+将改变打包流程 
  取消反射 取消反射替代 方案由SG 自动生成 
  
 ![Image](/images/AFj9w2gtriFXVZk8igEc7SMBnff_1_f4f8c90d.png)

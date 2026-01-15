@@ -1,9 +1,6 @@
 # Panel下的View如何打开另外一个View
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  
- 
 ![Image](/images/Jr2Wwj5IZiogVhkLVzlcmf6Wnac_1_0b804e29.png)
  结构 
  这里有一个Panel  然后有多个view 

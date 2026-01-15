@@ -1,8 +1,7 @@
 # Demo
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  ModelDisplayDemoView 
+ModelDisplayDemoView 
  
 ![Image](/images/RanjwSPjIidfDtkNdc2cjZvInVh_1_9ba3537d.png)
  

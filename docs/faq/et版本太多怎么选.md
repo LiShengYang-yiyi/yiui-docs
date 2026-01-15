@@ -1,9 +1,7 @@
 # ET版本太多怎么选
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  
- ⚽ 版本历史 
+⚽ 版本历史 
  ET从17年开始距今 2025年已经过去了8年 
  更早的版本就不详细说了 
  

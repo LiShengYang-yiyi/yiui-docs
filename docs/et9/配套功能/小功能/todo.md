@@ -1,8 +1,7 @@
 # TODO
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  还是建议封装一个属性 
+还是建议封装一个属性 
  
  如果做成分析器呢  会不会更方便 
  代码块 

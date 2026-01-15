@@ -1,8 +1,7 @@
 # NINO 序列化
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  已加入ET9包 使用ET9的可以直接下载 
+已加入ET9包 使用ET9的可以直接下载 
  也可以自行根据官网提示下载 
  cn.etetet.yiuinino 
  

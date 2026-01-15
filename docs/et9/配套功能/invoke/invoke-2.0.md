@@ -1,8 +1,7 @@
 # Invoke 2.0
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  由猫大提出的关联问题 
+由猫大提出的关联问题 
  
  ❤️ 重构 
  注意必须所有UI重新生成 重新修改 

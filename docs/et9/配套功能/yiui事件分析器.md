@@ -1,9 +1,7 @@
 # YIUI事件分析器
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  
- ❤️ 有YIUI相关事件接口 
+❤️ 有YIUI相关事件接口 
  但是System未实现时报错提示 
  
 ![Image](/images/XA97wMAzgiWTVHkeVGHc8AMmnSh_1_12954bc5.png)

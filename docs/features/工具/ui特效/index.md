@@ -1,8 +1,7 @@
 # UI特效
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  [https://github.com/mob-sakai](https://github.com/mob-sakai) 
+[https://github.com/mob-sakai](https://github.com/mob-sakai) 
  
 ![Image](/images/PA9CwTAMMiBxx9k30iBcXJnznIc_1_5287f342.png)
  

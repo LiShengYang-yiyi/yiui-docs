@@ -1,8 +1,7 @@
 # UIBlock
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- ![Image](/images/ErCHwAzmWiyEfSkXY8bcHjcZnxc_1_055168d8.png)
+![Image](/images/ErCHwAzmWiyEfSkXY8bcHjcZnxc_1_055168d8.png)
  
  字面意思  UI阻挡 
  

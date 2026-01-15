@@ -1,8 +1,7 @@
 # ET自动生成
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  Tools >> YIUI自动化工具 
+Tools >> YIUI自动化工具 
  
 ![Image](/images/XKHYwD7Ppi95f6kqz7IcijmKnQg_1_4895ecb3.png)
  自动生成ET代码 

@@ -1,8 +1,7 @@
 # 微信小游戏/Web 的支持
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  YIUI 本质上就是 Unity UGUI的扩展而已 
+YIUI 本质上就是 Unity UGUI的扩展而已 
  所以UGUI支持 那就支持 
  
  代码 

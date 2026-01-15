@@ -1,9 +1,6 @@
 # 数值限制
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  
- 
 ![Image](/images/NVlVwoDPDiJ8BMkPRO8cL2rznEe_1_51049aec.png)
  
  某个值被修改时 必须满足限制 

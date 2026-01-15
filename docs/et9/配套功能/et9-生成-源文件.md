@@ -1,8 +1,7 @@
 # ET9 生成/源文件
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  因为有很多人用不明白 
+因为有很多人用不明白 
  以前的功能都还在 
  
  改变 

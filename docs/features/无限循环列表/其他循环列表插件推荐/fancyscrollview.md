@@ -1,8 +1,7 @@
 # FancyScrollView
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  插件地址: [https://github.com/setchi/FancyScrollView](https://github.com/setchi/FancyScrollView) 
+插件地址: [https://github.com/setchi/FancyScrollView](https://github.com/setchi/FancyScrollView) 
  
  其他网络上搜索的文档介绍: 
  [https://blog.csdn.net/q764424567/article/details/118926700](https://blog.csdn.net/q764424567/article/details/118926700) 

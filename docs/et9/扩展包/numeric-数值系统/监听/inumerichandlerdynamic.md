@@ -1,8 +1,7 @@
 # INumericHandlerDynamic
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  会直接发送对监听者的实体组件方法中 
+会直接发送对监听者的实体组件方法中 
  避免了查找等频繁复杂的操作 
  
  案例: 

@@ -1,8 +1,6 @@
 # YIUI 包目录
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  
 | 编号
  | 包名
  | 描述/文档

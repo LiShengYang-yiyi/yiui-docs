@@ -1,8 +1,7 @@
 # 快速入门
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  AV Pro 视频播放 
+AV Pro 视频播放 
  
  依赖YIUI框架 
  依赖 

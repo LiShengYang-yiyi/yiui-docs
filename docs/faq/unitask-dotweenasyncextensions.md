@@ -1,8 +1,7 @@
 # UniTask DOTweenAsyncExtensions
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  ET中有自带的ETTask异步方案 
+ET中有自带的ETTask异步方案 
  
  其中Dotween 插件的动画也可以被异步 所以框架中有用到 
  UniTask本身也是支持Dotween的 但是需要手动开启 

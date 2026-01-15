@@ -1,8 +1,7 @@
 # 宏
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  Tools >> YIUI自动化工具 
+Tools >> YIUI自动化工具 
  
 ![Image](/images/F1cDwqKSliIiBIkWMwmcfsj6nUe_1_e5b665d2.png)
  快捷开关宏 

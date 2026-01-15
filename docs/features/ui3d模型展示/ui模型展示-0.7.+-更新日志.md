@@ -1,8 +1,7 @@
 # UI模型展示 0.7.+ 更新日志
 
  
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
-  不使用Invoke 改为 EntitySystem 
+不使用Invoke 改为 EntitySystem 
  
  由 
  Invoke 2.0 修改引起的优化 
