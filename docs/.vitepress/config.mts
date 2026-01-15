@@ -1,28 +1,23 @@
 import { defineConfig } from 'vitepress'
+import sidebar from './sidebar.json'
 
 export default defineConfig({
-  title: "YIUI Docs",
-  description: "YIUI 个人文档站",
+  title: "YIUI",
+  description: "YIUI - Unity UI 框架文档",
   lang: 'zh-CN',
   
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '文档', link: '/guide/' }
+      { text: '入门', link: '/intro/' },
+      { text: '更新日志', link: '/changelog/' },
+      { text: '常见问题', link: '/faq/' }
     ],
 
-    sidebar: [
-      {
-        text: '指南',
-        items: [
-          { text: '介绍', link: '/guide/' },
-          { text: '快速开始', link: '/guide/getting-started' }
-        ]
-      }
-    ],
+    sidebar: sidebar,
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/LiShengYang-yiyi/yiui-docs' }
+      { icon: 'github', link: 'https://github.com/egametang/ET' }
     ],
 
     search: {
@@ -30,12 +25,17 @@ export default defineConfig({
     },
 
     outline: {
-      label: '页面导航'
+      label: '页面导航',
+      level: [2, 3]
     },
 
     docFooter: {
       prev: '上一页',
       next: '下一页'
+    },
+
+    lastUpdated: {
+      text: '最后更新'
     }
   }
 })
