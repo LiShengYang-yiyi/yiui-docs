@@ -1,11 +1,8 @@
 # ET9 YIUI运行指南
 
-# ET9 YIUI运行指南
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 官方运行指南 
- [https://github.com/egametang/ET/blob/release9.0/Book/1.1%E8%BF%90%E8%A1%8C%E6%8C%87%E5%8D%97.md](https://github.com/egametang/ET/blob/release9.0/Book/1.1%E8%BF%90%E8%A1%8C%E6%8C%87%E5%8D%97.md) 
+  [https://github.com/egametang/ET/blob/release9.0/Book/1.1%E8%BF%90%E8%A1%8C%E6%8C%87%E5%8D%97.md](https://github.com/egametang/ET/blob/release9.0/Book/1.1%E8%BF%90%E8%A1%8C%E6%8C%87%E5%8D%97.md) 
  
  
  

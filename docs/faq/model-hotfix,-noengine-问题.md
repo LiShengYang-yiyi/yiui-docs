@@ -1,11 +1,8 @@
 # Model/Hotfix, NoEngine 问题
 
-# Model/Hotfix, NoEngine 问题
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 2025年5月12日修改 
-![Image](/images/KXPtwUvgQi5kKpkMXxjcexNCnsb_1_9fe7cfe5.png)
+ ![Image](/images/KXPtwUvgQi5kKpkMXxjcexNCnsb_1_9fe7cfe5.png)
  
  在ET默认设置中  这里是√上的 也就是 在Model/Hotfix 下是不允许有UnityAPI的 
  这些表现层的东西不都应该在ModelView 上面操作吗 

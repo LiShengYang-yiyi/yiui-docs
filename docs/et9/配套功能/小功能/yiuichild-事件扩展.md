@@ -1,11 +1,8 @@
 # YIUIChild 事件扩展
 
-# YIUIChild 事件扩展
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 事件扩展 可快速调用子类的事件 
- 
+  
  常见需求 
  有一个主界面 
  下面有10个View界面 

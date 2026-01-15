@@ -1,11 +1,8 @@
 # YIUI 更新日志
 
-# YIUI 更新日志
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 
- 欢迎关注 👏 
+  欢迎关注 👏 
  你可以通过这篇文档来了解产品更新日志与功能预告等信息～ ❤️ 
  
  

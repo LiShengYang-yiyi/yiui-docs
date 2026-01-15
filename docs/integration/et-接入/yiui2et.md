@@ -1,11 +1,8 @@
 # YIUI2ET
 
-# YIUI2ET
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 UI 框架 
- 在插件目录中的 UI 框架 
+  在插件目录中的 UI 框架 
  
 ![Image](/images/JoLkw9QgniU3tXkX36XcfNNPnIh_1_ee0e234d.png)
  并没有把整个都都放到 ET 的文件内 

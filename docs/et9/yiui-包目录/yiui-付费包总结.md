@@ -1,11 +1,8 @@
 # YIUI 付费包总结
 
-# YIUI 付费包总结
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 🔔 赠送包目前没有单独售卖 
- 
+  
  其他付费链接 
  ET付费教程连接 
  

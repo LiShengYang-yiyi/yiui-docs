@@ -5,8 +5,7 @@ YIUI成长记录 输入“/”快速插入内容
 
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 
- 本地提交记录 
+  本地提交记录 
  从有Git记录开始算 是2023-3-18日   但其实时间会更早一些只是一直没有加入到Git中 
  
 ![Image](/images/Te4YwUD2GimkKekWkOtcDTBwneh_1_5626d00a.png)

@@ -1,11 +1,8 @@
 # ET-Loader-各功能
 
-# ET-Loader-各功能
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 2025年4月28日修改 
-![Image](/images/M4NuwB05CiCDdikEAJocuBbdnJc_1_f111e43e.png)
+ ![Image](/images/M4NuwB05CiCDdikEAJocuBbdnJc_1_f111e43e.png)
  RepairDependencies (修复依赖关系) 
  吧 所有包从缓存目录移动到Packages 目录 
  如果移动失败 可以尝试手动 

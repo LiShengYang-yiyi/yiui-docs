@@ -8,8 +8,7 @@
 
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 [视频介绍](https://www.bilibili.com/video/BV1cz4y1s7QS/?p=7&share_source=copy_web&vd_source=6e0d179a3a63e0f636a62f905ab61a5a) 
- 🌟 点赞支持 一键三连 
+  🌟 点赞支持 一键三连 
  
  CDE 是什么 
  C  = [Component Table](/cde-table/component-table) 

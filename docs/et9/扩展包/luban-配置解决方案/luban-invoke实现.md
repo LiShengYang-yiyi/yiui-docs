@@ -1,11 +1,8 @@
 # Luban Invoke实现
 
-# Luban Invoke实现
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 在ConfigLoader中 
- 有2个Invoke事件 需要实现 
+  有2个Invoke事件 需要实现 
  Luban包 在Gen包中有默认实现 
  
  

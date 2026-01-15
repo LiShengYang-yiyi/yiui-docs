@@ -1,11 +1,8 @@
 # YIUI-ET 2.0
 
-# YIUI-ET 2.0
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 以此为分界线区分YIUI ET版本 
- 
+  
  YIUIRoot 
  新增了逻辑层root节点 
  在此之前 所有Panel的打开都是在YIUIMgr这个逻辑节点下 

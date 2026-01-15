@@ -1,11 +1,8 @@
 # Demo
 
-# Demo
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 ET9 中 自带mode  GM命令 
- ModelDisplayDemoView 
+  ModelDisplayDemoView 
  
 ![Image](/images/RanjwSPjIidfDtkNdc2cjZvInVh_1_9ba3537d.png)
  

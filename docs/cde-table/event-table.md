@@ -1,11 +1,8 @@
 # Event Table
 
-# Event Table
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 事件表 
- 定义 
+  定义 
  名称 与 事件 之间的映射表 
  我们不再关心 UI 上的那个按钮触发什么事件 
  只需要设定好事件即可 无需关心是什么触发的 

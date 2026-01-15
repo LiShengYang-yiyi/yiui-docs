@@ -1,11 +1,8 @@
 # Audio 声音
 
-# Audio 声音
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 🌟 [ET9 声音 插件包] 🌟 
- 简单的基于Unity AudioClip的音乐音效系统 
+  简单的基于Unity AudioClip的音乐音效系统 
  并非万能 请根据实际需求合理选择 
  
  📞 立即行动 

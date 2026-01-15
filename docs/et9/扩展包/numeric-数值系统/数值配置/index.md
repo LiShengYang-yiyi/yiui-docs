@@ -1,11 +1,8 @@
 # 数值配置
 
-# 数值配置
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 同样考虑到包的更新 尽可能的减少更新冲突带来的问题 
- 最大的考虑分离设计 
+  最大的考虑分离设计 
  
  所以数值系统的包分了2个 
  一个原始包  cn.etetet.yiuinumeric 

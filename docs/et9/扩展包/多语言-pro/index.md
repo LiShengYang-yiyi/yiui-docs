@@ -1,11 +1,8 @@
 # 多语言 Pro
 
-# 多语言 Pro
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 
- 🌟 ET9 YIUI框架：入门视频教程 🌟 
+  🌟 ET9 YIUI框架：入门视频教程 🌟 
  有YIUI教程的免费获取 
  
  ⚠️ 依赖  ET9 YIUI框架 

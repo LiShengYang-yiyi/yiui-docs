@@ -1,11 +1,8 @@
 # YIUI事件 生命周期
 
-# YIUI事件 生命周期
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 
-![Image](/images/GQb8wtMiYibrxaklR9ic6RHUnUe_1_132cc8ba.png)
+ ![Image](/images/GQb8wtMiYibrxaklR9ic6RHUnUe_1_132cc8ba.png)
  Invoke 
  所有的Invoke事件 
  

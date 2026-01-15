@@ -1,11 +1,8 @@
 # Odin 提示
 
-# Odin 提示
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 🏆 奥丁版本请保持当前Unity可用的最新版本 
- 
+  
  由于官方出了预制件嵌套功能后  奥丁的序列化出现了问题 需要正确的使用 
  否则就会出现数据丢失的问题 
  提示 

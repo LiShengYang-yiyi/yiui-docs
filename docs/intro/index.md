@@ -1,11 +1,5 @@
 # 入门前言
 
-# 入门前言
-
- 
-![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 ❤️ 叠甲 
- 可以不爱 但请别伤害 
  
  YIUI 是一个偏大的UI框架 内容非常多 
  你需要有耐心的学习   视频 + 文档 全部的内容 

@@ -1,11 +1,8 @@
 # AwakeAsync (异步Awake)
 
-# AwakeAsync (异步Awake)
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 官方建议方式: 
- await XX.AddComponent&lt;XXXComponent&gt;().InitAsync(); 
+  await XX.AddComponent&lt;XXXComponent&gt;().InitAsync(); 
  YIUI扩展了一个通用的方案 可以少写点 不过也是微不足道的优化 
  有需要的可以自用 
  

@@ -1,11 +1,8 @@
 # ET.Excel 替换
 
-# ET.Excel 替换
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 
-![Image](/images/A5Ktw8ITdi9LaIkCH8BcmeCQnwh_1_21d066d0.png)
+ ![Image](/images/A5Ktw8ITdi9LaIkCH8BcmeCQnwh_1_21d066d0.png)
  
  详细讲解替换操作都干了什么 
  如果你更新操作导致ET.Excel 又重新生成导致报错 

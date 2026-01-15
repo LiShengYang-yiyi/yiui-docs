@@ -1,11 +1,8 @@
 # 小功能
 
-# 小功能
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 
- 0.6.0 
+  0.6.0 
  
  GM 
  1. GM命令添加常量 快捷打开按键设置 

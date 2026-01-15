@@ -1,11 +1,8 @@
 # GM命令 扩展
 
-# GM命令 扩展
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 
-![Image](/images/Fbe7wXBl9iTlgik1SHXcKYfrnJb_1_a6fea669.png)
+ ![Image](/images/Fbe7wXBl9iTlgik1SHXcKYfrnJb_1_a6fea669.png)
  扩展 GM页签 
  
  可以在这个类中扩展其他ID 

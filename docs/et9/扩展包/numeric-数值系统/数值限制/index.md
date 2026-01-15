@@ -1,11 +1,8 @@
 # 数值限制
 
-# 数值限制
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 💀 没有深入了解不懂的情况下 不建议使用此功能 
- 
+  
  
 ![Image](/images/NVlVwoDPDiJ8BMkPRO8cL2rznEe_1_51049aec.png)
  

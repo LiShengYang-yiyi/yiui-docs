@@ -1,11 +1,8 @@
 # 快速入门
 
-# 快速入门
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 
- 
+  
  🌟 ET9 YIUI框架：入门视频教程 🌟 
  
  🔔 以下为老版本文档 可能与最新代码有小部分差异, 文档无法做到及时更新 

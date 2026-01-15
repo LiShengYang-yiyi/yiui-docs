@@ -1,11 +1,8 @@
 # UI特效
 
-# UI特效
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 将会整合以下所有方案 
- [https://github.com/mob-sakai](https://github.com/mob-sakai) 
+  [https://github.com/mob-sakai](https://github.com/mob-sakai) 
  
 ![Image](/images/PA9CwTAMMiBxx9k30iBcXJnznIc_1_5287f342.png)
  

@@ -1,11 +1,8 @@
 # 层级 Layer
 
-# 层级 Layer
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 
-![Image](/images/Nxd0wfYogitBGokjsdec321onzg_1_e479b902.png)
+ ![Image](/images/Nxd0wfYogitBGokjsdec321onzg_1_e479b902.png)
  
  YIUI会自动生成层级  EPanelLayer 
  遵循UGUI规则 在前的先渲染 

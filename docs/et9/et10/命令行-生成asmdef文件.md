@@ -4,8 +4,7 @@
 
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 报错导致没有菜单的问题 
- 根据运行指南 
+  根据运行指南 
  编译ET.CodeMode工程，然后在命令行执行dotnet ./Bin/ET.CodeMode.dll,这样会生成asmdef文件 
  
  因为各种原因可能出现包的asmdef文件错误 导致的编译问题 

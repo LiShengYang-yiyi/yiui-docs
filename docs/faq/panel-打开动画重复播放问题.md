@@ -1,11 +1,8 @@
 # Panel 打开动画重复播放问题
 
-# Panel 打开动画重复播放问题
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 2025年8月20日修改 假设 A,B 都是Panel层的Panel 
- 
+  
  1. 先打开了A 
  
  2. 然后打开B, 因为B打开时会触发A的关闭 

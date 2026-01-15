@@ -1,11 +1,8 @@
 # 0GC 的StringBuilder [ZString]
 
-# 0GC 的StringBuilder [ZString]
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 cn.etetet.yiuizstring 
- 
+  
  [https://github.com/Cysharp/ZString](https://github.com/Cysharp/ZString) 
  
  适用于 .NET Core 和 Unity 的 零 分配 字符串生成器。 

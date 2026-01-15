@@ -1,11 +1,8 @@
 # YIUI事件分析器
 
-# YIUI事件分析器
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 0.7.0+版本 
- 
+  
  ❤️ 有YIUI相关事件接口 
  但是System未实现时报错提示 
  

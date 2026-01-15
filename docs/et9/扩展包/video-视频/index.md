@@ -1,11 +1,8 @@
 # Video 视频
 
-# Video 视频
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 🌟 [ET9 视频 插件包] 🌟 
- 
+  
  基于 AVPro 插件的视频播放 
  基础接入 更多业务逻辑根据需求扩展 
  

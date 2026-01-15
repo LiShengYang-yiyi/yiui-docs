@@ -1,11 +1,8 @@
 # 替换ET.Numeric
 
-# 替换ET.Numeric
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 全通过后 
- 本包与ET.Numeric 不冲突 相互独立 
+  本包与ET.Numeric 不冲突 相互独立 
  自行选择一起用还是 只用本包 
  如果用本包 
  手动删除本地的ET.Numeric 包中的Scripts内容 

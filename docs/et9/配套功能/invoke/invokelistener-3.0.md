@@ -1,11 +1,8 @@
 # InvokeListener 3.0
 
-# InvokeListener 3.0
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 快速监听 
- Invoke 相同Key只允许同时存在一个 
+  Invoke 相同Key只允许同时存在一个 
  通过快速监听可实现对任意Invoke事件 前后进行处理 
  
  一般常规功能需求可能都用不上 

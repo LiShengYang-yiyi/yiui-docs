@@ -1,11 +1,8 @@
 # ET8.1 F6 报错
 
-# ET8.1 F6 报错
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 
- 1. Unity中没有报错 
+  1. Unity中没有报错 
  2. ET.sln 工程全编译不会错 
  但是用F6编译时就会报错 
  

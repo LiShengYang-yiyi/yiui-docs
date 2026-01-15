@@ -1,11 +1,8 @@
 # Demo
 
-# Demo
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 
-![Image](/images/CRLfwOdrSi8zQWkQjjScZu01n6b_1_c41cb128.png)
+ ![Image](/images/CRLfwOdrSi8zQWkQjjScZu01n6b_1_c41cb128.png)
  创建与删除 
  
 ![Image](/images/CRLfwOdrSi8zQWkQjjScZu01n6b_2_65523ed4.png)

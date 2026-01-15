@@ -1,11 +1,8 @@
 # ET.Excel 转 Luban.Excel
 
-# ET.Excel 转 Luban.Excel
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 ET源生配置文件转Luban的配置文件案例参考 
- 
+  
  ET.Excel 
  AI包中的配置 
  

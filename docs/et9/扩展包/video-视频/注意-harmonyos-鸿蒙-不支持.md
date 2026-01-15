@@ -1,10 +1,7 @@
 # 注意 HarmonyOS 鸿蒙 不支持
 
-# 注意 HarmonyOS 鸿蒙 不支持
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 [https://github.com/RenderHeads/UnityPlugin-AVProVideo/issues/1980](https://github.com/RenderHeads/UnityPlugin-AVProVideo/issues/1980) 
- 
+  
  
 ![Image](/images/HVVRwhCAti9FX5k6m5OcVnDQnud_1_90d0d0dc.png)

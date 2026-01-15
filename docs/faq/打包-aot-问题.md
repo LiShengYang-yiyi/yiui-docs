@@ -1,11 +1,8 @@
 # 打包  AOT 问题
 
-# 打包  AOT 问题
-
  
 ![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
- 用户7857 主要还是要明白为什么会有AOT问题 
- 每个人项目不同 自己也会写泛型都是需要解决的 
+  每个人项目不同 自己也会写泛型都是需要解决的 
  基本解决思路是相同的 以下可参考 
  
  Odin AOT 
