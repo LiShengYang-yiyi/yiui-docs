@@ -1,0 +1,25 @@
+{
+  "name": "yiui-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiShengYang-yiyi/yiui-docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiShengYang-yiyi/yiui-docs/issues"
+  },
+  "homepage": "https://github.com/LiShengYang-yiyi/yiui-docs#readme",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
