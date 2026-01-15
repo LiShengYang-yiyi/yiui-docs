@@ -13,7 +13,10 @@ hero:
       text: 更新日志
       link: /changelog/
     - theme: alt
-      text: GitHub
+      text: YIUI
+      link: https://github.com/LiShengYang-yiyi/YIUI
+    - theme: alt
+      text: ET框架
       link: https://github.com/egametang/ET
 
 features:
