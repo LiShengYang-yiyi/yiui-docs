@@ -1,14 +1,7 @@
 # 接入
 
-**URL**: https://ai.feishu.cn/wiki/OG8UweP91iZRwEkbtE8cfHEBnzc
+# 接入
 
-**Parent**: YIUI
-
-**Depth**: 1
-
----
-接入
-输入“/”快速插入内容
-接入
-亦亦
-子页面目录
+ 
+![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
+ 用户7857 子页面目录

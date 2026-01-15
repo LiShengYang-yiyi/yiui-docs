@@ -780,6 +780,10 @@
           {
             "text": "Dialog 对话系统",
             "link": "/et9/扩展包/dialog-对话系统"
+          },
+          {
+            "text": "UnityMCP 编辑器AI操作",
+            "link": "/et9/扩展包/unitymcp-编辑器ai操作"
           }
         ]
       },
@@ -1272,6 +1276,10 @@
           {
             "text": "PS2UI",
             "link": "/other/插件分享/ps2ui"
+          },
+          {
+            "text": "Better UI 布局插件",
+            "link": "/other/插件分享/better-ui-布局插件"
           }
         ]
       },

@@ -1,14 +1,7 @@
 # 配套功能
 
-**URL**: https://ai.feishu.cn/wiki/XGZywq7B3iVuJvkRRuKcxrnBnzg
+# 配套功能
 
-**Parent**: YIUI ET9
-
-**Depth**: 2
-
----
-配套功能
-输入“/”快速插入内容
-配套功能
-亦亦
-子页面列表
+ 
+![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
+ 用户7857 子页面列表

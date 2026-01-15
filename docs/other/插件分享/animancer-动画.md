@@ -1,16 +1,16 @@
 # Animancer  动画
 
-**URL**: https://ai.feishu.cn/wiki/O7JJwwYAximdgKk6HLrciOPnn5f
+# Animancer  动画
 
-**Parent**: 插件分享
-
-**Depth**: 3
-
----
-Animancer  动画
-输入“/”快速插入内容
-Animancer  动画
-亦亦
-https://kybernetik.com.au/animancer/
-Ragdoll Animator
-https://assetstore.unity.com/packages/tools/physics/ragdoll-animator-2-285638
+ 
+![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
+ 用户7857 [https://kybernetik.com.au/animancer/](https://kybernetik.com.au/animancer/) 
+ 
+ 
+![Image](/images/O7JJwwYAximdgKk6HLrciOPnn5f_1_b85da4eb.png)
+ 
+ 
+ Ragdoll Animator 
+ [https://assetstore.unity.com/packages/tools/physics/ragdoll-animator-2-285638](https://assetstore.unity.com/packages/tools/physics/ragdoll-animator-2-285638) 
+ 
+![Image](/images/O7JJwwYAximdgKk6HLrciOPnn5f_2_24538a52.png)

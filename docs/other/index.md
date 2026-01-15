@@ -1,15 +1,7 @@
 # 其他
 
-**URL**: https://ai.feishu.cn/wiki/EyprwedcUiZ6Hfkd08ccFQr9nxe
+# 😍其他
 
-**Parent**: YIUI
-
-**Depth**: 1
-
----
-其他
-输入“/”快速插入内容
-😍
-其他
-亦亦
-子页面目录
+ 
+![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
+ 用户7857 子页面目录

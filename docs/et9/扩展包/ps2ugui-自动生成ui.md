@@ -1,13 +1,7 @@
 # PS2UGUI 自动生成UI
 
-**URL**: https://ai.feishu.cn/wiki/FAJrwGlbKiLSMUkTVyycFfHknbb
+# PS2UGUI 自动生成UI
 
-**Parent**: 扩展包
-
-**Depth**: 3
-
----
-PS2UGUI 自动生成UI
-输入“/”快速插入内容
-PS2UGUI 自动生成UI
-亦亦
+ 
+![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
+ 用户7857

@@ -1,13 +1,7 @@
 # 新建文件夹
 
-**URL**: https://ai.feishu.cn/wiki/SurowzvzJiK9w6kZlkMcjZb3npd
+# 新建文件夹
 
-**Parent**: TODO
-
-**Depth**: 3
-
----
-新建文件夹
-输入“/”快速插入内容
-新建文件夹
-亦亦
+ 
+![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
+ 用户7857

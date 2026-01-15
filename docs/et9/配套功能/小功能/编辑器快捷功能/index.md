@@ -1,14 +1,7 @@
 # 编辑器快捷功能
 
-**URL**: https://ai.feishu.cn/wiki/WSPxwRYDoisStIkwzcFc2rwWnpb
+# 编辑器快捷功能
 
-**Parent**: 小功能
-
-**Depth**: 4
-
----
-编辑器快捷功能
-输入“/”快速插入内容
-编辑器快捷功能
-亦亦
-列表
+ 
+![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
+ 用户7857 列表

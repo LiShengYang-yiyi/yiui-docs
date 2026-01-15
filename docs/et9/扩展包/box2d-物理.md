@@ -1,13 +1,7 @@
 # Box2D 物理
 
-**URL**: https://ai.feishu.cn/wiki/Y7ZQw33Udi1lDdki3ayc6ReknZb
+# Box2D 物理
 
-**Parent**: 扩展包
-
-**Depth**: 3
-
----
-Box2D 物理
-输入“/”快速插入内容
-Box2D 物理
-亦亦
+ 
+![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
+ 用户7857

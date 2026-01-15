@@ -1,13 +1,7 @@
 # 扩展包
 
-**URL**: https://ai.feishu.cn/wiki/HDYQwZvcPiaSnpkApPWcwuy9nVJ
+# 扩展包
 
-**Parent**: YIUI ET9
-
-**Depth**: 2
-
----
-扩展包
-输入“/”快速插入内容
-扩展包
-亦亦
+ 
+![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
+ 用户7857

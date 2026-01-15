@@ -1,14 +1,7 @@
 # Skill 技能系统
 
-**URL**: https://ai.feishu.cn/wiki/ChcGwXTSkiulURkRFgOcKnyEnOh
+# Skill 技能系统
 
-**Parent**: 扩展包
-
-**Depth**: 3
-
----
-Skill 技能系统
-输入“/”快速插入内容
-Skill 技能系统
-亦亦
-基于 Behave 的 技能系统
+ 
+![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
+ 用户7857 基于 Behave 的 技能系统

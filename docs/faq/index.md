@@ -1,14 +1,7 @@
 # 常见问题
 
-**URL**: https://ai.feishu.cn/wiki/QpC8wuCMQiG10zkM3l3cWyKMnpd
+# 常见问题
 
-**Parent**: YIUI
-
-**Depth**: 1
-
----
-常见问题
-输入“/”快速插入内容
-常见问题
-亦亦
-子页面列表
+ 
+![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
+ 用户7857 子页面列表

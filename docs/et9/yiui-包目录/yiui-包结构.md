@@ -1,14 +1,7 @@
 # YIUI 包结构
 
-**URL**: https://ai.feishu.cn/wiki/OALtwf2HqiIb30kM3EXcMKgpnpn
+# YIUI 包结构
 
-**Parent**: YIUI 包目录
-
-**Depth**: 3
-
----
-YIUI 包结构
-输入“/”快速插入内容
-YIUI 包结构
-亦亦
-画板
+ 
+![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
+ 用户7857 画板

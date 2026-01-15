@@ -1,14 +1,7 @@
 # YIUI ET9
 
-**URL**: https://ai.feishu.cn/wiki/EAu9wrfyKiXqVyk1deUcoVwMnOb
+# YIUI ET9
 
-**Parent**: YIUI
-
-**Depth**: 1
-
----
-YIUI ET9
-输入“/”快速插入内容
-YIUI ET9
-亦亦
-子页面列表
+ 
+![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
+ 用户7857 子页面列表

@@ -1,16 +1,14 @@
 # YIUI 自动化工具
 
-**URL**: https://ai.feishu.cn/wiki/NvAow4D8gir5cgk7tLDczPH3nnc
+# YIUI 自动化工具
 
-**Parent**: 配套功能
-
-**Depth**: 3
-
----
-YIUI 自动化工具
-输入“/”快速插入内容
-YIUI 自动化工具
-亦亦
-入口
-可扩展页签
-每个页签详细功能请到对应文件查看
+ 
+![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
+ 用户7857 入口 
+ 
+![Image](/images/NvAow4D8gir5cgk7tLDczPH3nnc_1_cc28d3ad.png)
+ 
+ 可扩展页签 
+ 每个页签详细功能请到对应文件查看 
+ 
+![Image](/images/NvAow4D8gir5cgk7tLDczPH3nnc_2_fb3b5fa8.png)

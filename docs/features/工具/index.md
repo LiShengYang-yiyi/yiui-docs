@@ -1,14 +1,7 @@
 # 工具
 
-**URL**: https://ai.feishu.cn/wiki/WthAwnajzieA8KkqtdecDjJZnOf
+# 工具
 
-**Parent**: 配套功能
-
-**Depth**: 2
-
----
-工具
-输入“/”快速插入内容
-工具
-亦亦
-子页面列表
+ 
+![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
+ 用户7857 子页面列表

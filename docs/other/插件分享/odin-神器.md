@@ -1,16 +1,15 @@
 # Odin 神器
 
-**URL**: https://ai.feishu.cn/wiki/TPrMw1gUtioW3akwzlkcXMGrnob
+# Odin 神器
 
-**Parent**: 插件分享
-
-**Depth**: 3
-
----
-Odin 神器
-输入“/”快速插入内容
-Odin 神器
-亦亦
-https://odininspector.com/
-https://odininspector.com/download
-90天免费试用
+ 
+![Image](/images/CB5ewIAQZiBf1Ykp2DDcMj22nHb_0_81cbc665.png)
+ 用户7857 [https://odininspector.com/](https://odininspector.com/) 
+ 
+ 
+![Image](/images/TPrMw1gUtioW3akwzlkcXMGrnob_1_aeb90a61.png)
+ 
+ [https://odininspector.com/download](https://odininspector.com/download) 
+ 90天免费试用 
+ 
+![Image](/images/TPrMw1gUtioW3akwzlkcXMGrnob_2_bf154b88.png)
