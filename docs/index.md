@@ -16,7 +16,7 @@ hero:
       text: ⭐ Star YIUI
       link: https://github.com/LiShengYang-yiyi/YIUI
     - theme: alt
-      text: ET框架
+      text: ⭐ Star ET框架
       link: https://github.com/egametang/ET
 
 features:
