@@ -1,0 +1,343 @@
+/* UI-UX-Pro-Max Style: Developer Tool + Gaming Theme for YIUI */
+/* Color Palette: 
+   Primary: #3B82F6 (Blue)
+   Secondary: #7C3AED (Purple/Gaming)
+   CTA: #2563EB
+   Background Dark: #0F172A
+   Text Light: #F1F5F9
+   Border: #334155
+*/
+
+/* Typography: Modern Professional - Poppins + Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Brand Colors */
+  --vp-c-brand-1: #3B82F6;
+  --vp-c-brand-2: #2563EB;
+  --vp-c-brand-3: #1D4ED8;
+  --vp-c-brand-soft: rgba(59, 130, 246, 0.14);
+  
+  /* Accent - Gaming Purple */
+  --vp-c-accent: #7C3AED;
+  --vp-c-accent-soft: rgba(124, 58, 237, 0.14);
+  
+  /* Typography */
+  --vp-font-family-base: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --vp-font-family-mono: 'JetBrains Mono', 'Fira Code', Consolas, monospace;
+  
+  /* Custom Properties */
+  --yiui-gradient-start: #3B82F6;
+  --yiui-gradient-end: #7C3AED;
+  --yiui-glow: rgba(59, 130, 246, 0.5);
+}
+
+/* Dark Mode Enhancements */
+.dark {
+  --vp-c-bg: #0F172A;
+  --vp-c-bg-soft: #1E293B;
+  --vp-c-bg-mute: #334155;
+  --vp-c-bg-alt: #0F172A;
+  
+  --vp-c-divider: #334155;
+  --vp-c-divider-light: rgba(51, 65, 85, 0.5);
+  
+  --vp-c-text-1: #F1F5F9;
+  --vp-c-text-2: #CBD5E1;
+  --vp-c-text-3: #94A3B8;
+  
+  --vp-code-block-bg: #1E293B;
+  --vp-code-line-highlight-color: rgba(59, 130, 246, 0.1);
+}
+
+/* Light Mode */
+:root:not(.dark) {
+  --vp-c-bg: #FFFFFF;
+  --vp-c-bg-soft: #F8FAFC;
+  --vp-c-bg-mute: #F1F5F9;
+  
+  --vp-c-text-1: #0F172A;
+  --vp-c-text-2: #334155;
+  --vp-c-text-3: #64748B;
+}
+
+/* Hero Section Enhancement */
+.VPHero {
+  padding-bottom: 64px !important;
+}
+
+.VPHero .name {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 700 !important;
+  background: linear-gradient(135deg, var(--yiui-gradient-start), var(--yiui-gradient-end)) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+}
+
+.VPHero .text {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 600 !important;
+}
+
+.VPHero .tagline {
+  font-size: 1.25rem !important;
+  line-height: 1.6 !important;
+  color: var(--vp-c-text-2) !important;
+}
+
+/* Action Buttons */
+.VPButton.brand {
+  background: linear-gradient(135deg, var(--yiui-gradient-start), var(--yiui-gradient-end)) !important;
+  border: none !important;
+  box-shadow: 0 4px 14px var(--yiui-glow) !important;
+  transition: all 0.3s ease !important;
+}
+
+.VPButton.brand:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 20px var(--yiui-glow) !important;
+}
+
+.VPButton.alt {
+  border: 1px solid var(--vp-c-brand-1) !important;
+  color: var(--vp-c-brand-1) !important;
+  transition: all 0.3s ease !important;
+}
+
+.VPButton.alt:hover {
+  background: var(--vp-c-brand-soft) !important;
+  transform: translateY(-2px) !important;
+}
+
+/* Feature Cards - Bento Grid Style */
+.VPFeatures {
+  padding: 48px 24px !important;
+}
+
+.VPFeature {
+  background: var(--vp-c-bg-soft) !important;
+  border: 1px solid var(--vp-c-divider) !important;
+  border-radius: 16px !important;
+  padding: 28px !important;
+  transition: all 0.3s ease !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.VPFeature::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--yiui-gradient-start), var(--yiui-gradient-end));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.VPFeature:hover {
+  transform: translateY(-4px) !important;
+  border-color: var(--vp-c-brand-1) !important;
+  box-shadow: 0 12px 40px rgba(59, 130, 246, 0.15) !important;
+}
+
+.VPFeature:hover::before {
+  opacity: 1;
+}
+
+.VPFeature .title {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 1.1rem !important;
+  color: var(--vp-c-text-1) !important;
+}
+
+.VPFeature .details {
+  color: var(--vp-c-text-2) !important;
+  line-height: 1.6 !important;
+}
+
+/* Navigation Enhancement */
+.VPNav {
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+}
+
+.dark .VPNav {
+  background: rgba(15, 23, 42, 0.85) !important;
+}
+
+:root:not(.dark) .VPNav {
+  background: rgba(255, 255, 255, 0.85) !important;
+}
+
+.VPNavBarTitle .title {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 700 !important;
+  background: linear-gradient(135deg, var(--yiui-gradient-start), var(--yiui-gradient-end));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Sidebar Enhancement */
+.VPSidebar {
+  backdrop-filter: blur(8px) !important;
+}
+
+.dark .VPSidebar {
+  background: rgba(15, 23, 42, 0.95) !important;
+}
+
+.VPSidebarItem.is-active > .item > .link > .text {
+  color: var(--vp-c-brand-1) !important;
+  font-weight: 600 !important;
+}
+
+.VPSidebarItem .link:hover .text {
+  color: var(--vp-c-brand-1) !important;
+}
+
+/* Content Area */
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3 {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.vp-doc h1 {
+  background: linear-gradient(135deg, var(--yiui-gradient-start), var(--yiui-gradient-end));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.vp-doc a {
+  color: var(--vp-c-brand-1) !important;
+  text-decoration: none !important;
+  border-bottom: 1px dashed var(--vp-c-brand-1);
+  transition: all 0.2s ease;
+}
+
+.vp-doc a:hover {
+  border-bottom-style: solid;
+}
+
+/* Code Blocks Enhancement */
+.vp-doc div[class*='language-'] {
+  border-radius: 12px !important;
+  border: 1px solid var(--vp-c-divider) !important;
+}
+
+.dark .vp-doc div[class*='language-'] {
+  background: #1E293B !important;
+}
+
+.vp-doc div[class*='language-']::before {
+  color: var(--vp-c-text-3) !important;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--vp-c-bg-soft);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--vp-c-divider);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--vp-c-brand-1);
+}
+
+/* Home Page Custom Section */
+.vp-doc .custom-block {
+  border-radius: 12px !important;
+  border-left-width: 4px !important;
+}
+
+.vp-doc .custom-block.tip {
+  border-color: var(--vp-c-brand-1) !important;
+  background: var(--vp-c-brand-soft) !important;
+}
+
+.vp-doc .custom-block.warning {
+  border-color: #F59E0B !important;
+}
+
+.vp-doc .custom-block.danger {
+  border-color: #EF4444 !important;
+}
+
+/* Footer Enhancement */
+.VPDocFooter {
+  margin-top: 48px !important;
+  padding-top: 24px !important;
+  border-top: 1px solid var(--vp-c-divider) !important;
+}
+
+/* Smooth Animations */
+* {
+  scroll-behavior: smooth;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .VPHero .name {
+    font-size: 2.5rem !important;
+  }
+  
+  .VPHero .text {
+    font-size: 1.5rem !important;
+  }
+  
+  .VPFeature {
+    padding: 20px !important;
+  }
+}
+
+/* Badge/Tag Styles */
+.vp-doc .badge {
+  display: inline-block;
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 6px;
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+}
+
+/* Table Enhancement */
+.vp-doc table {
+  border-radius: 8px !important;
+  overflow: hidden !important;
+  border: 1px solid var(--vp-c-divider) !important;
+}
+
+.vp-doc th {
+  background: var(--vp-c-bg-soft) !important;
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 600 !important;
+}
+
+.vp-doc tr:hover td {
+  background: var(--vp-c-bg-soft) !important;
+}
+
+/* Search Enhancement */
+.DocSearch-Button {
+  border-radius: 8px !important;
+  border: 1px solid var(--vp-c-divider) !important;
+}
+
+.DocSearch-Button:hover {
+  border-color: var(--vp-c-brand-1) !important;
+}
