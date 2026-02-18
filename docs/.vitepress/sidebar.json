@@ -502,70 +502,28 @@
                 ]
               },
               {
-                "text": "更新日志",
+                "text": "AI-指导",
                 "collapsed": true,
                 "items": [
                   {
-                    "text": "介绍",
-                    "link": "/et9/扩展包/luban-配置解决方案/更新日志/"
+                    "text": "目录",
+                    "link": "/et9/扩展包/luban-配置解决方案/AI-指导/"
                   },
                   {
-                    "text": "1.1.0_3.8",
-                    "link": "/et9/扩展包/luban-配置解决方案/更新日志/1.1.0_3.8"
+                    "text": "01-入门",
+                    "link": "/et9/扩展包/luban-配置解决方案/AI-指导/01-入门"
                   },
                   {
-                    "text": "1.2.0_3.11",
-                    "link": "/et9/扩展包/luban-配置解决方案/更新日志/1.2.0_3.11"
+                    "text": "02-配置",
+                    "link": "/et9/扩展包/luban-配置解决方案/AI-指导/02-配置"
                   },
                   {
-                    "text": "1.3.0",
-                    "link": "/et9/扩展包/luban-配置解决方案/更新日志/1.3.0"
+                    "text": "03-代码使用",
+                    "link": "/et9/扩展包/luban-配置解决方案/AI-指导/03-代码使用"
                   },
                   {
-                    "text": "1.4.0",
-                    "link": "/et9/扩展包/luban-配置解决方案/更新日志/1.4.0"
-                  },
-                  {
-                    "text": "1.5.0_4.0.0",
-                    "link": "/et9/扩展包/luban-配置解决方案/更新日志/1.5.0_4.0.0"
-                  },
-                  {
-                    "text": "1.6.0_4.2.0",
-                    "link": "/et9/扩展包/luban-配置解决方案/更新日志/1.6.0_4.2.0"
-                  },
-                  {
-                    "text": "1.6.1",
-                    "link": "/et9/扩展包/luban-配置解决方案/更新日志/1.6.1"
-                  },
-                  {
-                    "text": "2.0.2",
-                    "link": "/et9/扩展包/luban-配置解决方案/更新日志/2.0.2"
-                  },
-                  {
-                    "text": "3.0.0",
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "text": "介绍",
-                        "link": "/et9/扩展包/luban-配置解决方案/更新日志/3.0.0/"
-                      },
-                      {
-                        "text": "多配置",
-                        "link": "/et9/扩展包/luban-配置解决方案/更新日志/3.0.0/多配置"
-                      },
-                      {
-                        "text": "多加载",
-                        "link": "/et9/扩展包/luban-配置解决方案/更新日志/3.0.0/多加载"
-                      },
-                      {
-                        "text": "多线程",
-                        "link": "/et9/扩展包/luban-配置解决方案/更新日志/3.0.0/多线程"
-                      },
-                      {
-                        "text": "报错解决方案",
-                        "link": "/et9/扩展包/luban-配置解决方案/更新日志/3.0.0/报错解决方案"
-                      }
-                    ]
+                    "text": "04-故障排查",
+                    "link": "/et9/扩展包/luban-配置解决方案/AI-指导/04-故障排查"
                   }
                 ]
               }
@@ -690,6 +648,28 @@
               {
                 "text": "更新日志",
                 "link": "/et9/扩展包/numeric-数值系统/更新日志"
+              },
+              {
+                "text": "AI-指导",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "目录",
+                    "link": "/et9/扩展包/numeric-数值系统/AI-指导/"
+                  },
+                  {
+                    "text": "01-入门",
+                    "link": "/et9/扩展包/numeric-数值系统/AI-指导/01-入门"
+                  },
+                  {
+                    "text": "02-代码使用",
+                    "link": "/et9/扩展包/numeric-数值系统/AI-指导/02-代码使用"
+                  },
+                  {
+                    "text": "03-故障排查",
+                    "link": "/et9/扩展包/numeric-数值系统/AI-指导/03-故障排查"
+                  }
+                ]
               }
             ]
           },
@@ -724,6 +704,32 @@
               {
                 "text": "更新日志",
                 "link": "/et9/扩展包/condition-条件系统/更新日志"
+              },
+              {
+                "text": "AI-指导",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "目录",
+                    "link": "/et9/扩展包/condition-条件系统/AI-指导/"
+                  },
+                  {
+                    "text": "01-入门",
+                    "link": "/et9/扩展包/condition-条件系统/AI-指导/01-入门"
+                  },
+                  {
+                    "text": "02-配置",
+                    "link": "/et9/扩展包/condition-条件系统/AI-指导/02-配置"
+                  },
+                  {
+                    "text": "03-代码使用",
+                    "link": "/et9/扩展包/condition-条件系统/AI-指导/03-代码使用"
+                  },
+                  {
+                    "text": "04-故障排查",
+                    "link": "/et9/扩展包/condition-条件系统/AI-指导/04-故障排查"
+                  }
+                ]
               }
             ]
           },
@@ -746,6 +752,28 @@
               {
                 "text": "更新日志",
                 "link": "/et9/扩展包/gameobjectpool-游戏对象缓存池/更新日志"
+              },
+              {
+                "text": "AI-指导",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "目录",
+                    "link": "/et9/扩展包/gameobjectpool-游戏对象缓存池/AI-指导/"
+                  },
+                  {
+                    "text": "01-入门",
+                    "link": "/et9/扩展包/gameobjectpool-游戏对象缓存池/AI-指导/01-入门"
+                  },
+                  {
+                    "text": "02-代码使用",
+                    "link": "/et9/扩展包/gameobjectpool-游戏对象缓存池/AI-指导/02-代码使用"
+                  },
+                  {
+                    "text": "03-故障排查",
+                    "link": "/et9/扩展包/gameobjectpool-游戏对象缓存池/AI-指导/03-故障排查"
+                  }
+                ]
               }
             ]
           },
@@ -768,6 +796,32 @@
               {
                 "text": "配置枚举自动生成",
                 "link": "/et9/扩展包/audio-声音/配置枚举自动生成"
+              },
+              {
+                "text": "AI-指导",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "目录",
+                    "link": "/et9/扩展包/audio-声音/AI-指导/"
+                  },
+                  {
+                    "text": "01-入门",
+                    "link": "/et9/扩展包/audio-声音/AI-指导/01-入门"
+                  },
+                  {
+                    "text": "02-配置",
+                    "link": "/et9/扩展包/audio-声音/AI-指导/02-配置"
+                  },
+                  {
+                    "text": "03-代码使用",
+                    "link": "/et9/扩展包/audio-声音/AI-指导/03-代码使用"
+                  },
+                  {
+                    "text": "04-故障排查",
+                    "link": "/et9/扩展包/audio-声音/AI-指导/04-故障排查"
+                  }
+                ]
               }
             ]
           },
@@ -822,6 +876,28 @@
               {
                 "text": "更新日志",
                 "link": "/et9/扩展包/damagetips-伤害提示/更新日志"
+              },
+              {
+                "text": "AI-指导",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "目录",
+                    "link": "/et9/扩展包/damagetips-伤害提示/AI-指导/"
+                  },
+                  {
+                    "text": "01-入门",
+                    "link": "/et9/扩展包/damagetips-伤害提示/AI-指导/01-入门"
+                  },
+                  {
+                    "text": "02-代码使用",
+                    "link": "/et9/扩展包/damagetips-伤害提示/AI-指导/02-代码使用"
+                  },
+                  {
+                    "text": "03-故障排查",
+                    "link": "/et9/扩展包/damagetips-伤害提示/AI-指导/03-故障排查"
+                  }
+                ]
               }
             ]
           },
@@ -870,6 +946,24 @@
               {
                 "text": "修改记录",
                 "link": "/et9/扩展包/多语言-pro/修改记录"
+              },
+              {
+                "text": "AI-指导",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "目录",
+                    "link": "/et9/扩展包/多语言-pro/AI-指导/"
+                  },
+                  {
+                    "text": "01-入门",
+                    "link": "/et9/扩展包/多语言-pro/AI-指导/01-入门"
+                  },
+                  {
+                    "text": "02-代码使用",
+                    "link": "/et9/扩展包/多语言-pro/AI-指导/02-代码使用"
+                  }
+                ]
               }
             ]
           },
@@ -902,6 +996,24 @@
               {
                 "text": "快速入门",
                 "link": "/et9/扩展包/superscroll-循环列表/快速入门"
+              },
+              {
+                "text": "AI-指导",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "目录",
+                    "link": "/et9/扩展包/superscroll-循环列表/AI-指导/"
+                  },
+                  {
+                    "text": "01-入门",
+                    "link": "/et9/扩展包/superscroll-循环列表/AI-指导/01-入门"
+                  },
+                  {
+                    "text": "02-代码使用",
+                    "link": "/et9/扩展包/superscroll-循环列表/AI-指导/02-代码使用"
+                  }
+                ]
               }
             ]
           },
