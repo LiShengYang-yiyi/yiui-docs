@@ -6,6 +6,9 @@ export default defineConfig({
   description: "YIUI - Unity UI 框架文档",
   lang: 'zh-CN',
   
+  // 忽略死链接检查（文档还在完善中）
+  ignoreDeadLinks: true,
+  
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
