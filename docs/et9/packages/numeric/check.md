@@ -1,0 +1,39 @@
+---
+title: 数值检查
+et9: true
+---
+
+# 数值检查
+
+## 检查宏
+
+## NUMERIC_CHECK_SYMBOLS
+
+## 客户端
+
+所有客户端代码默认加入宏
+
+数值检查宏 离开Unity要使用就在unity设置中添加这个宏
+
+#if UNITY_EDITOR
+
+#define NUMERIC_CHECK_SYMBOLS
+
+#endif
+
+### 服务器
+
+服务器的
+
+Model Hofix 都可以添加
+
+![](/images/et9/img/Bq3wbC75uoGgWRxi8zhc4i6rnbe.png)
+
+## 各种限制
+
+| 基础类型范围 | 10W-100W  |
+|-|-|
+| 赋值 | 成长型数值结果不允许直接修改 |
+| 类型判断 | 1-6修改时 必须满足配置的类型 |
+| Getxx | 必须使用对应类型 |
+| NumericChange | 消息的所有字段都不可以直接使用 请用扩展方法获取 |

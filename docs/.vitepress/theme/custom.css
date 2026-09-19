@@ -1,343 +1,1110 @@
-/* UI-UX-Pro-Max Style: Developer Tool + Gaming Theme for YIUI */
-/* Color Palette: 
-   Primary: #3B82F6 (Blue)
-   Secondary: #7C3AED (Purple/Gaming)
-   CTA: #2563EB
-   Background Dark: #0F172A
-   Text Light: #F1F5F9
-   Border: #334155
-*/
+/* ==========================================================================
+   YIUI 文档站 · 主题
+   --------------------------------------------------------------------------
+   视觉参照：Luban 文档站（https://www.datable.cn/docs/intro），
+   即 Docusaurus 默认主题 Infima。以下 token 全部从该站 CSS 实测提取，
+   不是目测——见 .workbuddy/memory/2026-09-19.md 的提取记录。
 
-/* Typography: Modern Professional - Poppins + Open Sans */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+   取向：浅色优先。三栏阅读布局，一处用力（主色蓝），其余交给留白与 1px 细线。
+   深色是等价的一套，不是简单反色。
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. 字体与节奏
+   -------------------------------------------------------------------------- */
 
 :root {
-  /* Brand Colors */
-  --vp-c-brand-1: #3B82F6;
-  --vp-c-brand-2: #2563EB;
-  --vp-c-brand-3: #1D4ED8;
-  --vp-c-brand-soft: rgba(59, 130, 246, 0.14);
-  
-  /* Accent - Gaming Purple */
-  --vp-c-accent: #7C3AED;
-  --vp-c-accent-soft: rgba(124, 58, 237, 0.14);
-  
-  /* Typography */
-  --vp-font-family-base: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --vp-font-family-mono: 'JetBrains Mono', 'Fira Code', Consolas, monospace;
-  
-  /* Custom Properties */
-  --yiui-gradient-start: #3B82F6;
-  --yiui-gradient-end: #7C3AED;
-  --yiui-glow: rgba(59, 130, 246, 0.5);
+  /* 参考站字族栈，仅插入中文首选字面（PingFang / 微软雅黑 / Noto Sans SC），
+     让中文字形由系统里最合适的那一个承担。零在线字体请求。 */
+  --vp-font-family-base:
+    system-ui, -apple-system, 'Segoe UI', Roboto,
+    'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei',
+    'Noto Sans SC', Ubuntu, Cantarell, Helvetica, Arial, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji';
+  --vp-font-family-mono:
+    SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New',
+    monospace;
+
+  /* 版心与栏宽 */
+  --vp-layout-max-width: 1440px;
+  --vp-sidebar-width: 300px;      /* 参考站 --doc-sidebar-width: 300px */
+  --vp-nav-height: 60px;          /* 参考站导航高 3.75rem */
+
+  /* 节奏（Infima leading = 1.25rem） */
+  --yiui-leading: 1.25rem;
+  --yiui-radius: 0.4rem;          /* 6.4px，全站唯一圆角 */
+  --yiui-ease: cubic-bezier(0.08, 0.52, 0.52, 1);
 }
 
-/* Dark Mode Enhancements */
+/* --------------------------------------------------------------------------
+   2. 浅色 token（默认）
+   -------------------------------------------------------------------------- */
+
+:root {
+  /* 参考站没有沿用 Docusaurus 出厂蓝，而是把主色覆盖成了灰紫 —
+     这才是它看起来不像「又一个 Docusaurus 站」的原因。照做。 */
+  --vp-c-brand-1: #826fa5;        /* 链接 / 激活态 */
+  --vp-c-brand-2: #756393;        /* hover */
+  --vp-c-brand-3: #826fa5;        /* 实心按钮底 */
+  --vp-c-brand-soft: rgba(130, 111, 165, 0.1);
+  --yiui-btn-fg: #ffffff;
+
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-alt: #ffffff;
+  --vp-c-bg-elv: #ffffff;
+  --vp-c-bg-soft: #f6f7f8;
+
+  --vp-c-text-1: #1c1e21;         /* 15.6:1 */
+  --vp-c-text-2: #525860;         /* 7.4:1  */
+  --vp-c-text-3: #606770;         /* 5.9:1  */
+
+  --vp-c-divider: #dadde1;
+  --vp-c-border: #dadde1;
+  --vp-c-gutter: #dadde1;
+
+  --vp-code-block-bg: #f6f7f8;
+  --vp-code-block-color: #1c1e21;
+  --vp-code-line-highlight-color: rgba(0, 0, 0, 0.08);
+  --vp-code-copy-code-bg: rgba(0, 0, 0, 0.04);
+
+  /* 本站自用：细线、浅面、遮罩 */
+  --yiui-line: #dadde1;
+  --yiui-line-soft: #ebedf0;
+  --yiui-surface: #f6f7f8;
+  --yiui-hover: rgba(0, 0, 0, 0.05);   /* Infima hover-overlay */
+  --yiui-footer-bg: #303846;
+  --yiui-footer-fg: #ebedf0;
+}
+
+/* --------------------------------------------------------------------------
+   3. 深色 token
+   -------------------------------------------------------------------------- */
+
 .dark {
-  --vp-c-bg: #0F172A;
-  --vp-c-bg-soft: #1E293B;
-  --vp-c-bg-mute: #334155;
-  --vp-c-bg-alt: #0F172A;
-  
-  --vp-c-divider: #334155;
-  --vp-c-divider-light: rgba(51, 65, 85, 0.5);
-  
-  --vp-c-text-1: #F1F5F9;
-  --vp-c-text-2: #CBD5E1;
-  --vp-c-text-3: #94A3B8;
-  
-  --vp-code-block-bg: #1E293B;
-  --vp-code-line-highlight-color: rgba(59, 130, 246, 0.1);
+  /* 深色下换成蓝绿 —— 参考站在两套主题里用的是两个完全不同的色相。
+     蓝绿比灰紫亮得多，按钮文字因此改回深色（7.6:1）。 */
+  --vp-c-brand-1: #25c2a0;
+  --vp-c-brand-2: #29d5b0;
+  --vp-c-brand-3: #21af90;
+  --vp-c-brand-soft: rgba(37, 194, 160, 0.12);
+  --yiui-btn-fg: #1b1b1d;
+
+  --vp-c-bg: #1b1b1d;
+  --vp-c-bg-alt: #1b1b1d;
+  --vp-c-bg-elv: #242526;
+  --vp-c-bg-soft: #242526;
+
+  --vp-c-text-1: #e3e3e3;
+  --vp-c-text-2: #b8b8b8;
+  --vp-c-text-3: #8d949e;
+
+  --vp-c-divider: #444950;
+  --vp-c-border: #444950;
+  --vp-c-gutter: #1b1b1d;
+
+  --vp-code-block-bg: #242526;
+  --vp-code-block-color: #e3e3e3;
+  --vp-code-line-highlight-color: #484d5b;
+  --vp-code-copy-code-bg: rgba(255, 255, 255, 0.05);
+
+  --yiui-line: #444950;
+  --yiui-line-soft: #3a3d44;
+  --yiui-surface: #242526;
+  --yiui-hover: rgba(255, 255, 255, 0.05);
+  --yiui-footer-bg: #303846;
+  --yiui-footer-fg: #ebedf0;
 }
 
-/* Light Mode */
-:root:not(.dark) {
-  --vp-c-bg: #FFFFFF;
-  --vp-c-bg-soft: #F8FAFC;
-  --vp-c-bg-mute: #F1F5F9;
-  
-  --vp-c-text-1: #0F172A;
-  --vp-c-text-2: #334155;
-  --vp-c-text-3: #64748B;
-}
+/* --------------------------------------------------------------------------
+   4. 全局细节
+   -------------------------------------------------------------------------- */
 
-/* Hero Section Enhancement */
-.VPHero {
-  padding-bottom: 64px !important;
-}
-
-.VPHero .name {
-  font-family: 'Poppins', sans-serif !important;
-  font-weight: 700 !important;
-  background: linear-gradient(135deg, var(--yiui-gradient-start), var(--yiui-gradient-end)) !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
-  background-clip: text !important;
-}
-
-.VPHero .text {
-  font-family: 'Poppins', sans-serif !important;
-  font-weight: 600 !important;
-}
-
-.VPHero .tagline {
-  font-size: 1.25rem !important;
-  line-height: 1.6 !important;
-  color: var(--vp-c-text-2) !important;
-}
-
-/* Action Buttons */
-.VPButton.brand {
-  background: linear-gradient(135deg, var(--yiui-gradient-start), var(--yiui-gradient-end)) !important;
-  border: none !important;
-  box-shadow: 0 4px 14px var(--yiui-glow) !important;
-  transition: all 0.3s ease !important;
-}
-
-.VPButton.brand:hover {
-  transform: translateY(-2px) !important;
-  box-shadow: 0 6px 20px var(--yiui-glow) !important;
-}
-
-.VPButton.alt {
-  border: 1px solid var(--vp-c-brand-1) !important;
-  color: var(--vp-c-brand-1) !important;
-  transition: all 0.3s ease !important;
-}
-
-.VPButton.alt:hover {
-  background: var(--vp-c-brand-soft) !important;
-  transform: translateY(-2px) !important;
-}
-
-/* Feature Cards - Bento Grid Style */
-.VPFeatures {
-  padding: 48px 24px !important;
-}
-
-.VPFeature {
-  background: var(--vp-c-bg-soft) !important;
-  border: 1px solid var(--vp-c-divider) !important;
-  border-radius: 16px !important;
-  padding: 28px !important;
-  transition: all 0.3s ease !important;
-  position: relative !important;
-  overflow: hidden !important;
-}
-
-.VPFeature::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background: linear-gradient(90deg, var(--yiui-gradient-start), var(--yiui-gradient-end));
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.VPFeature:hover {
-  transform: translateY(-4px) !important;
-  border-color: var(--vp-c-brand-1) !important;
-  box-shadow: 0 12px 40px rgba(59, 130, 246, 0.15) !important;
-}
-
-.VPFeature:hover::before {
-  opacity: 1;
-}
-
-.VPFeature .title {
-  font-family: 'Poppins', sans-serif !important;
-  font-weight: 600 !important;
-  font-size: 1.1rem !important;
-  color: var(--vp-c-text-1) !important;
-}
-
-.VPFeature .details {
-  color: var(--vp-c-text-2) !important;
-  line-height: 1.6 !important;
-}
-
-/* Navigation Enhancement */
-.VPNav {
-  backdrop-filter: blur(12px) !important;
-  -webkit-backdrop-filter: blur(12px) !important;
-}
-
-.dark .VPNav {
-  background: rgba(15, 23, 42, 0.85) !important;
-}
-
-:root:not(.dark) .VPNav {
-  background: rgba(255, 255, 255, 0.85) !important;
-}
-
-.VPNavBarTitle .title {
-  font-family: 'Poppins', sans-serif !important;
-  font-weight: 700 !important;
-  background: linear-gradient(135deg, var(--yiui-gradient-start), var(--yiui-gradient-end));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-/* Sidebar Enhancement */
-.VPSidebar {
-  backdrop-filter: blur(8px) !important;
-}
-
-.dark .VPSidebar {
-  background: rgba(15, 23, 42, 0.95) !important;
-}
-
-.VPSidebarItem.is-active > .item > .link > .text {
-  color: var(--vp-c-brand-1) !important;
-  font-weight: 600 !important;
-}
-
-.VPSidebarItem .link:hover .text {
-  color: var(--vp-c-brand-1) !important;
-}
-
-/* Content Area */
-.vp-doc h1,
-.vp-doc h2,
-.vp-doc h3 {
-  font-family: 'Poppins', sans-serif !important;
-}
-
-.vp-doc h1 {
-  background: linear-gradient(135deg, var(--yiui-gradient-start), var(--yiui-gradient-end));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.vp-doc a {
-  color: var(--vp-c-brand-1) !important;
-  text-decoration: none !important;
-  border-bottom: 1px dashed var(--vp-c-brand-1);
-  transition: all 0.2s ease;
-}
-
-.vp-doc a:hover {
-  border-bottom-style: solid;
-}
-
-/* Code Blocks Enhancement */
-.vp-doc div[class*='language-'] {
-  border-radius: 12px !important;
-  border: 1px solid var(--vp-c-divider) !important;
-}
-
-.dark .vp-doc div[class*='language-'] {
-  background: #1E293B !important;
-}
-
-.vp-doc div[class*='language-']::before {
-  color: var(--vp-c-text-3) !important;
-}
-
-/* Custom Scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: var(--vp-c-bg-soft);
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--vp-c-divider);
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: var(--vp-c-brand-1);
-}
-
-/* Home Page Custom Section */
-.vp-doc .custom-block {
-  border-radius: 12px !important;
-  border-left-width: 4px !important;
-}
-
-.vp-doc .custom-block.tip {
-  border-color: var(--vp-c-brand-1) !important;
-  background: var(--vp-c-brand-soft) !important;
-}
-
-.vp-doc .custom-block.warning {
-  border-color: #F59E0B !important;
-}
-
-.vp-doc .custom-block.danger {
-  border-color: #EF4444 !important;
-}
-
-/* Footer Enhancement */
-.VPDocFooter {
-  margin-top: 48px !important;
-  padding-top: 24px !important;
-  border-top: 1px solid var(--vp-c-divider) !important;
-}
-
-/* Smooth Animations */
-* {
+html {
   scroll-behavior: smooth;
 }
 
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-  .VPHero .name {
-    font-size: 2.5rem !important;
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: rgba(130, 111, 165, 0.24);
+}
+
+/* 键盘焦点必须看得见 */
+:focus-visible {
+  outline: 2px solid var(--vp-c-brand-1);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* 滚动条：Infima 的 7px */
+* {
+  scrollbar-width: thin;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
   }
-  
-  .VPHero .text {
-    font-size: 1.5rem !important;
-  }
-  
-  .VPFeature {
-    padding: 20px !important;
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }
 
-/* Badge/Tag Styles */
-.vp-doc .badge {
-  display: inline-block;
-  padding: 2px 8px;
-  font-size: 0.75rem;
+/* --------------------------------------------------------------------------
+   5. 顶部导航
+   -------------------------------------------------------------------------- */
+
+.VPNav .VPNavBar {
+  border-bottom: 1px solid var(--yiui-line);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.VPNavBarTitle .title {
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 0;
+  color: var(--vp-c-text-1);
+}
+
+.VPNavBarMenuLink {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--vp-c-text-1) !important;
+}
+
+.VPNavBarMenuLink:hover,
+.VPNavBarMenuLink.active {
+  color: var(--vp-c-brand-1) !important;
+}
+
+.VPNavBarSearch .DocSearch-Button,
+.VPNavBarSearch .VPNavBarSearchButton {
+  border: 1px solid var(--yiui-line);
+  border-radius: var(--yiui-radius);
+  background: var(--vp-c-bg);
+}
+
+.VPNavBarSearch .DocSearch-Button:hover {
+  border-color: var(--vp-c-brand-1);
+}
+
+/* 首屏之外出现的贴顶导航条 */
+.VPLocalNav {
+  border-bottom: 1px solid var(--yiui-line);
+  background: var(--vp-c-bg);
+}
+
+/* --------------------------------------------------------------------------
+   6. 左侧边栏
+   -------------------------------------------------------------------------- */
+
+.VPSidebar {
+  border-right: 1px solid var(--yiui-line);
+  background: var(--vp-c-bg);
+  padding-top: 24px;
+}
+
+/* 组标题：正常大小写，不做全大写装饰。
+   ⚠️ level-0 有两种 DOM —— 有落地页的分区是 `<a class="link"><p class="text">`，
+   而「框架」这一区没有 index 页，`<p class="text">` 直挂 `.item`。
+   于是「有 link」「无 link」各命中一条规则，两条必须给同一套字号字重，
+   否则「框架」会单独变成小一号的灰字（旧值是 13px/600/三级色，就是不一致的来源）。 */
+.VPSidebarItem.level-0 > .item > .text {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: var(--vp-c-text-2);
+  text-transform: none;
+}
+
+.VPSidebarItem .link .text {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--vp-c-text-2);
+}
+
+.VPSidebarItem .item {
+  border-radius: var(--yiui-radius);
+  transition: background-color 0.2s var(--yiui-ease);
+}
+
+.VPSidebarItem .item:hover {
+  background: var(--yiui-hover);
+}
+
+.VPSidebarItem.is-active > .item .link .text,
+.VPSidebarItem.is-active > .item .text {
   font-weight: 600;
-  border-radius: 6px;
-  background: var(--vp-c-brand-soft);
   color: var(--vp-c-brand-1);
 }
 
-/* Table Enhancement */
+/* 收起/展开箭头与竖线的低对比处理 */
+.VPSidebarItem.is-active > .item > .indicator,
+.VPSidebarItem .indicator {
+  background-color: var(--yiui-line);
+}
+
+/* --------------------------------------------------------------------------
+   7. 面包屑（Layout.vue 注入；位于 .content-container 内，与正文列天然对齐）
+   -------------------------------------------------------------------------- */
+
+.yiui-crumbs {
+  margin: 0 0 20px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--vp-c-text-2);
+}
+
+.yiui-crumbs-sep {
+  margin: 0 6px;
+  color: var(--vp-c-text-3);
+}
+
+.yiui-crumbs-item.is-last {
+  color: var(--vp-c-text-1);
+  font-weight: 500;
+}
+
+/* --------------------------------------------------------------------------
+   8. 正文
+   -------------------------------------------------------------------------- */
+
+.vp-doc {
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--vp-c-text-1);
+}
+
+/* — 标题：Infima 刻度，桌面 3 / 2 / 1.5rem，移动降一档 — */
+
+.vp-doc h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  margin: 0 0 var(--yiui-leading);
+}
+
+.vp-doc h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.005em;
+  margin: 2.5rem 0 var(--yiui-leading);
+  padding-top: 0;
+  border-top: 0;
+}
+
+.vp-doc h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 1.875rem 0 var(--yiui-leading);
+}
+
+.vp-doc h4 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 1.5625rem 0 var(--yiui-leading);
+}
+
+.vp-doc h5,
+.vp-doc h6 {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 1.5625rem 0 var(--yiui-leading);
+}
+
+.vp-doc h2 .header-anchor,
+.vp-doc h3 .header-anchor {
+  top: 0;
+}
+
+/* — 段落 / 列表 — */
+
+.vp-doc p,
+.vp-doc ul,
+.vp-doc ol,
+.vp-doc pre,
+.vp-doc table,
+.vp-doc blockquote {
+  margin: 0 0 var(--yiui-leading);
+}
+
+.vp-doc ul,
+.vp-doc ol {
+  padding-left: 2rem;             /* Infima --ifm-list-left-padding */
+}
+
+.vp-doc li + li {
+  margin-top: 0.25rem;
+}
+
+.vp-doc li > p {
+  margin: 0.5rem 0;
+}
+
+/* — 链接：Infima 的做法是「默认只用颜色区分，hover 才加下划线」 —
+   实测参考站正文里的链接是灰紫色、无下划线，与正文同字重。
+   （不要改成「同色 + 常驻下划线」，那会让整页布满下划线。） */
+
+.vp-doc a {
+  color: var(--vp-c-brand-1);
+  text-decoration: none;
+  font-weight: 400;
+  transition: color 0.2s var(--yiui-ease);
+}
+
+.vp-doc a:hover {
+  color: var(--vp-c-brand-2);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* 标题锚点不参与 */
+.vp-doc a.header-anchor {
+  text-decoration: none;
+}
+
+/* — 强调 — */
+
+.vp-doc strong {
+  font-weight: 700;
+  color: var(--vp-c-text-1);
+}
+
+/* — 行内代码：Infima 的浅底 + 半透明 1px 描边 — */
+
+.vp-doc :not(pre) > code {
+  background: var(--yiui-surface);
+  color: inherit;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: var(--yiui-radius);
+  padding: 0.1rem 0.28rem;
+  font-size: 0.95em;              /* Infima --ifm-code-font-size: 95% */
+  font-weight: 400;
+}
+
+.dark .vp-doc :not(pre) > code {
+  border-color: rgba(255, 255, 255, 0.14);
+}
+
+.vp-doc a > code {
+  color: inherit;
+}
+
+/* — 代码块 — */
+
+.vp-doc div[class*='language-'] {
+  border: 0;
+  border-radius: var(--yiui-radius);
+  margin: 0 0 var(--yiui-leading);
+  background: var(--vp-code-block-bg);
+}
+
+.vp-doc div[class*='language-'] pre {
+  margin: 0;
+  padding: 1rem 1.25rem;
+}
+
+.vp-doc div[class*='language-'] code {
+  font-size: 0.95em;
+  line-height: 1.45;
+}
+
+.vp-doc [class*='language-'] > span.lang {
+  top: 8px;
+  right: 12px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--vp-c-text-3);
+  text-transform: none;
+}
+
+.vp-doc div[class*='language-'] button.copy {
+  top: 8px;
+  right: 8px;
+  border-radius: var(--yiui-radius);
+}
+
+/* — 表格：参考站的表格是全站最靠前的视觉元素，照做 — */
+
 .vp-doc table {
-  border-radius: 8px !important;
-  overflow: hidden !important;
-  border: 1px solid var(--vp-c-divider) !important;
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid var(--yiui-line);
+  border-radius: var(--yiui-radius);
+  overflow: hidden;
+  font-size: 0.9375rem;
+}
+
+.vp-doc tr {
+  border-top: 1px solid var(--yiui-line);
+  background: transparent;
+}
+
+.vp-doc tr:nth-child(2n) {
+  background: transparent;
+}
+
+.vp-doc th,
+.vp-doc td {
+  border: 1px solid var(--yiui-line);
+  padding: 0.75rem 1rem;
+  text-align: left;
+  vertical-align: top;
 }
 
 .vp-doc th {
-  background: var(--vp-c-bg-soft) !important;
-  font-family: 'Poppins', sans-serif !important;
-  font-weight: 600 !important;
+  font-weight: 700;
+  color: var(--vp-c-text-1);
+  background: transparent;
 }
 
-.vp-doc tr:hover td {
-  background: var(--vp-c-bg-soft) !important;
+.vp-doc td {
+  color: var(--vp-c-text-1);
 }
 
-/* Search Enhancement */
-.DocSearch-Button {
-  border-radius: 8px !important;
-  border: 1px solid var(--vp-c-divider) !important;
+/* — 引用 — */
+
+.vp-doc blockquote {
+  border-left: 2px solid var(--yiui-line);
+  padding: 0 1rem;
+  margin-left: 0;
+  color: var(--vp-c-text-2);
 }
 
-.DocSearch-Button:hover {
-  border-color: var(--vp-c-brand-1) !important;
+.vp-doc blockquote > p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* — 分隔线 — */
+
+.vp-doc hr {
+  height: 1px;
+  border: 0;
+  background: var(--yiui-line);
+  margin: 1.5rem 0;
+}
+
+/* — 图片 — */
+
+.vp-doc img {
+  border-radius: var(--yiui-radius);
+}
+
+/* --------------------------------------------------------------------------
+   9. 提示块（定制 Infima admonition：5px 左竖条 + 同族图标）
+   -------------------------------------------------------------------------- */
+
+.vp-doc .custom-block {
+  position: relative;
+  border: 0;
+  border-left: 5px solid var(--yiui-line);
+  border-radius: var(--yiui-radius);
+  padding: 1rem 1rem 1rem 3rem;
+  margin: 0 0 var(--yiui-leading);
+  font-size: 0.9375rem;
+  line-height: 1.65;
+  background: var(--yiui-surface);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.vp-doc .custom-block::before {
+  content: '';
+  position: absolute;
+  left: 0.9rem;
+  top: 1.05rem;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px 16px;
+}
+
+.vp-doc .custom-block .custom-block-title {
+  font-weight: 700;
+  font-size: 0.9375rem;
+  margin: 0 0 0.25rem;
+  color: inherit;
+}
+
+.vp-doc .custom-block p:last-child,
+.vp-doc .custom-block ul:last-child,
+.vp-doc .custom-block ol:last-child {
+  margin-bottom: 0;
+}
+
+.vp-doc .custom-block code {
+  background: rgba(255, 255, 255, 0.5);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+/* tip → success */
+.vp-doc .custom-block.tip {
+  border-left-color: #009400;
+  background: #e6f6e6;
+  color: #003100;
+}
+.vp-doc .custom-block.tip::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23009400'%3E%3Cpath d='M8 1.5a5 5 0 0 0-2.9 9.07c.4.28.65.72.65 1.2v.48h4.5v-.48c0-.48.25-.92.65-1.2A5 5 0 0 0 8 1.5Zm-2 11.75h4v.75a1.25 1.25 0 0 1-2.5 0v-.75Z'/%3E%3C/svg%3E");
+}
+
+/* info / details → info */
+.vp-doc .custom-block.info,
+.vp-doc .custom-block.details {
+  border-left-color: #4cb3d4;
+  background: #eef9fd;
+  color: #193c47;
+}
+.vp-doc .custom-block.info::before,
+.vp-doc .custom-block.details::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%234cb3d4'%3E%3Cpath d='M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1Zm0 3a1 1 0 1 1 0 2 1 1 0 0 1 0-2Zm1 8H7V7h2v5Z'/%3E%3C/svg%3E");
+}
+
+/* warning */
+.vp-doc .custom-block.warning {
+  border-left-color: #e6a700;
+  background: #fff8e6;
+  color: #4d3800;
+}
+.vp-doc .custom-block.warning::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23e6a700'%3E%3Cpath d='M7.13 1.9a1 1 0 0 1 1.74 0l5.6 9.7A1 1 0 0 1 13.6 13H2.4a1 1 0 0 1-.87-1.4l5.6-9.7ZM8 5a.9.9 0 0 0-.9.94l.2 2.9a.7.7 0 0 0 1.4 0l.2-2.9A.9.9 0 0 0 8 5Zm0 6.6a.9.9 0 1 0 0-1.8.9.9 0 0 0 0 1.8Z'/%3E%3C/svg%3E");
+}
+
+/* danger */
+.vp-doc .custom-block.danger {
+  border-left-color: #e13238;
+  background: #ffebec;
+  color: #4b1113;
+}
+.vp-doc .custom-block.danger::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23e13238'%3E%3Cpath d='M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1Zm3 4.3L8.3 8l2.7 2.7-1 1L7.3 9l-2.7 2.7-1-1L6.3 8 3.6 5.3l1-1L7.3 7l2.7-2.7 1 1Z'/%3E%3C/svg%3E");
+}
+
+/* 深色下提示块改成低饱和的深色面，不保留浅底 */
+.dark .vp-doc .custom-block {
+  box-shadow: none;
+  background: var(--vp-c-bg-elv);
+  color: var(--vp-c-text-1);
+}
+.dark .vp-doc .custom-block code {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.14);
+}
+
+/* --------------------------------------------------------------------------
+   10. 右侧「本页目录」
+   -------------------------------------------------------------------------- */
+
+.VPDocAsideOutline .outline-title {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0;
+  color: var(--vp-c-text-3);
+  text-transform: none;
+}
+
+.VPDocAsideOutline .outline-link {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--vp-c-text-2);
+  padding: 3px 0;
+}
+
+.VPDocAsideOutline .outline-link:hover,
+.VPDocAsideOutline .outline-link.active {
+  color: var(--vp-c-brand-1);
+}
+
+.VPDocAsideOutline .outline-marker {
+  width: 2px;
+  border-radius: 1px;
+  background: var(--vp-c-brand-1);
+}
+
+/* --------------------------------------------------------------------------
+   11. 上一篇 / 下一篇
+   -------------------------------------------------------------------------- */
+
+.VPDocFooter {
+  margin-top: 3rem;
+}
+
+.VPDocFooter .pager-link {
+  border: 1px solid var(--yiui-line);
+  border-radius: var(--yiui-radius);
+  padding: 0.75rem 1rem;
+  background: transparent;
+  transition: border-color 0.2s var(--yiui-ease), background-color 0.2s var(--yiui-ease);
+}
+
+.VPDocFooter .pager-link:hover {
+  border-color: var(--vp-c-brand-1);
+  background: var(--yiui-hover);
+}
+
+.VPDocFooter .pager-link .title {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--vp-c-text-3);
+}
+
+.VPDocFooter .pager-link .desc {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--vp-c-brand-1);
+}
+
+/* --------------------------------------------------------------------------
+   12. 首页
+   -------------------------------------------------------------------------- */
+
+.yiui-hero {
+  padding: 40px 0 8px;
+}
+
+.yiui-hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.5rem;
+  color: var(--vp-c-text-1);
+}
+
+.yiui-hero-lead {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.35;
+  margin: 0 0 1.5rem;
+  color: var(--vp-c-text-2);
+}
+
+.yiui-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.yiui-btn,
+.vp-doc a.yiui-btn {
+  display: inline-flex;
+  align-items: center;
+  height: 40px;
+  padding: 0 1.25rem;
+  border: 1px solid var(--yiui-line);
+  border-radius: var(--yiui-radius);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--vp-c-text-1);
+  text-decoration: none;
+  background: transparent;
+  transition: background-color 0.2s var(--yiui-ease), border-color 0.2s var(--yiui-ease),
+    color 0.2s var(--yiui-ease);
+}
+
+.vp-doc a.yiui-btn:hover {
+  border-color: var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1);
+  text-decoration: none;
+}
+
+.vp-doc a.yiui-btn--primary {
+  border-color: var(--vp-c-brand-3);
+  background: var(--vp-c-brand-3);
+  color: var(--yiui-btn-fg);
+}
+
+.vp-doc a.yiui-btn--primary:hover {
+  border-color: var(--vp-c-brand-2);
+  background: var(--vp-c-brand-2);
+  color: var(--yiui-btn-fg);
+  text-decoration: none;
+}
+
+/* 首页没有侧栏，也没有右侧目录列 —— 让 688px 正文在一屏里真正居中。
+   （VitePress 的 .content-container 规则带 scoped 属性，这里靠 :not 提权。） */
+.VPDoc:not(.has-sidebar) .content-container {
+  max-width: 688px;
+}
+
+/* 首页正文与文档页同宽同律，不做居中卡片 */
+.yiui-hero + h2 {
+  margin-top: 2.5rem;
+}
+
+@media (max-width: 959px) {
+  .yiui-hero-title {
+    font-size: 2.25rem;
+  }
+  .yiui-hero-lead {
+    font-size: 1.25rem;
+  }
+  .vp-doc h1 {
+    font-size: 2rem;
+  }
+  .vp-doc h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  .vp-doc h3 {
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   13. 深色页脚带（参考站最辨识度的一笔）
+   --------------------------------------------------------------------------
+   两个必须绕开的地方：
+   1. VPFooter.vue 有 `.VPFooter.has-sidebar { display: none }` —— 文档页默认
+      不显示自带页脚，要显式恢复；它的样式是 scoped 的（[data-v-*]），
+      普通选择器压不过，这里用重复类名把特异性顶到同级再靠顺序取胜。
+   2. VPFooter 把 message 渲染进 <p>，v-html 里的块级元素会被 HTML 解析器
+      丢弃 —— 实测 <div> 整块消失、只剩空 <p>。所以三栏只能用 <span> 搭，
+      再把那个 <p> 本身变成 grid 容器。
+   -------------------------------------------------------------------------- */
+
+html .VPFooter.VPFooter.has-sidebar {
+  display: block;
+}
+
+html .VPFooter.VPFooter {
+  border-top: 0;
+  background: var(--yiui-footer-bg);
+  color: var(--yiui-footer-fg);
+  padding: 3rem 2rem;
+}
+
+html .VPFooter.VPFooter .container {
+  max-width: 1140px;              /* 参考站 --ifm-container-width */
+  margin: 0 auto;
+  padding: 0;
+  text-align: left;
+}
+
+html .VPFooter.VPFooter .message {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+html .VPFooter.VPFooter .yiui-footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+html .VPFooter.VPFooter .yiui-footer-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.25rem;
+}
+
+html .VPFooter.VPFooter .message a {
+  font-size: 14px;
+  color: var(--yiui-footer-fg) !important;
+  text-decoration: none !important;
+  opacity: 0.85;
+}
+
+html .VPFooter.VPFooter .message a:hover {
+  color: #ffffff !important;
+  opacity: 1;
+  text-decoration: underline !important;
+}
+
+html .VPFooter.VPFooter .copyright {
+  margin: 2rem 0 0;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--yiui-footer-fg);
+  opacity: 0.75;
+}
+
+@media (max-width: 767px) {
+  html .VPFooter.VPFooter .message {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   14. 本地搜索
+   -------------------------------------------------------------------------- */
+
+.VPLocalSearchBox .shell {
+  border: 1px solid var(--yiui-line);
+  border-radius: var(--yiui-radius);
+  box-shadow: 0 5px 40px rgba(0, 0, 0, 0.2);
+}
+
+.VPLocalSearchBox .search-bar {
+  border-bottom: 1px solid var(--yiui-line);
+}
+
+.VPLocalSearchBox .result {
+  border: 1px solid transparent;
+  border-radius: var(--yiui-radius);
+}
+
+.VPLocalSearchBox .result.selected {
+  border-color: var(--vp-c-brand-1);
+  background: var(--vp-c-brand-soft);
+}
+
+/* --------------------------------------------------------------------------
+   15. 响应式基线
+   -------------------------------------------------------------------------- */
+
+@media (max-width: 1439px) {
+  .VPDoc .container {
+    max-width: 1104px;
+  }
+}
+
+@media (max-width: 959px) {
+  .VPSidebar {
+    padding-top: 16px;
+  }
+  .vp-doc table {
+    font-size: 0.9rem;
+  }
+  .vp-doc th,
+  .vp-doc td {
+    padding: 0.625rem 0.75rem;
+  }
+}
+
+/* 窄屏表格允许横向滚动，而不是压扁单元格 */
+@media (max-width: 639px) {
+  .vp-doc table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+
+
+/* --------------------------------------------------------------------------
+   16. 版本切换与版本提示
+   -------------------------------------------------------------------------- */
+
+/* 导航栏右侧的版本按钮。刻意低调：它是个功能性控件，不是装饰。 */
+.yiui-ver {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.yiui-ver-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  height: 32px;
+  padding: 0 8px 0 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--vp-c-text-1);
+  background: transparent;
+  border: 1px solid var(--yiui-line);
+  border-radius: var(--yiui-radius);
+  cursor: pointer;
+  transition: border-color 0.2s var(--yiui-ease), background-color 0.2s var(--yiui-ease);
+}
+
+.yiui-ver-btn:hover {
+  background: var(--yiui-hover);
+  border-color: var(--vp-c-brand-1);
+}
+
+.yiui-ver-caret {
+  width: 14px;
+  height: 14px;
+  color: var(--vp-c-text-3);
+  transition: transform 0.2s var(--yiui-ease);
+}
+
+.yiui-ver-btn[aria-expanded='true'] .yiui-ver-caret {
+  transform: rotate(180deg);
+}
+
+.yiui-ver-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  z-index: 40;
+  min-width: 180px;
+  margin: 0;
+  padding: 4px;
+  list-style: none;
+  background: var(--vp-c-bg-elv);
+  border: 1px solid var(--yiui-line);
+  border-radius: var(--yiui-radius);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.yiui-ver-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  width: 100%;
+  padding: 7px 10px;
+  font-size: 14px;
+  text-align: left;
+  color: var(--vp-c-text-1);
+  background: transparent;
+  border: 0;
+  border-radius: var(--yiui-radius);
+  cursor: pointer;
+}
+
+.yiui-ver-item:hover {
+  background: var(--yiui-hover);
+}
+
+.yiui-ver-item.is-current {
+  background: var(--vp-c-brand-soft);
+}
+
+.yiui-ver-item-main {
+  font-weight: 500;
+}
+
+.yiui-ver-item-note {
+  font-size: 12px;
+  color: var(--vp-c-text-3);
+}
+
+.yiui-ver-item.is-pending .yiui-ver-item-main {
+  color: var(--vp-c-text-2);
+}
+
+/* ET9 冻结提示。ET10 未开放前不渲染，所以这块平时是隐形的。 */
+.yiui-notice {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin: 0 0 24px;
+  padding: 12px 14px;
+  background: var(--vp-c-brand-soft);
+  border-left: 5px solid var(--vp-c-brand-1);
+  border-radius: var(--yiui-radius);
+}
+
+.yiui-notice-body {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.yiui-notice-title {
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+}
+
+.yiui-notice-text {
+  color: var(--vp-c-text-2);
+}
+
+.yiui-notice-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: auto;
+  flex: none;
+}
+
+.yiui-notice-go {
+  padding: 4px 10px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--yiui-btn-fg);
+  background: var(--vp-c-brand-1);
+  border-radius: var(--yiui-radius);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.yiui-notice-go:hover {
+  background: var(--vp-c-brand-2);
+}
+
+.yiui-notice-close {
+  width: 24px;
+  height: 24px;
+  font-size: 16px;
+  line-height: 1;
+  color: var(--vp-c-text-3);
+  background: transparent;
+  border: 0;
+  border-radius: var(--yiui-radius);
+  cursor: pointer;
+}
+
+.yiui-notice-close:hover {
+  color: var(--vp-c-text-1);
+  background: var(--yiui-hover);
+}
+
+@media (max-width: 639px) {
+  .yiui-notice {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .yiui-notice-actions {
+    margin-left: 0;
+  }
+}
+
+/* 未开放版本的占位页 */
+.yiui-placeholder {
+  padding: 40px 0 24px;
+}
+
+.yiui-placeholder-badge {
+  display: inline-block;
+  margin-bottom: 14px;
+  padding: 3px 9px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--vp-c-brand-1);
+  background: var(--vp-c-brand-soft);
+  border-radius: var(--yiui-radius);
+}
+
+.yiui-placeholder h1 {
+  margin: 0 0 12px;
+  font-size: 2rem;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+
+.yiui-placeholder p {
+  max-width: 60ch;
+  margin: 0 0 20px;
+  color: var(--vp-c-text-2);
 }

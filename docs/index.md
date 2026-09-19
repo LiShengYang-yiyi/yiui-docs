@@ -1,39 +1,35 @@
 ---
-layout: home
-
-hero:
-  name: "YIUI"
-  text: "Unity UI 框架"
-  tagline: 基于 UGUI 的数据驱动 UI 框架，ET 官方推荐
-  actions:
-    - theme: brand
-      text: 快速开始
-      link: /intro/
-    - theme: alt
-      text: 更新日志
-      link: /changelog/
-    - theme: alt
-      text: ⭐ Star YIUI
-      link: https://github.com/LiShengYang-yiyi/YIUI
-    - theme: alt
-      text: ⭐ Star ET框架
-      link: https://github.com/egametang/ET
-
-features:
-  - title: 数据驱动
-    details: UI 数据事件绑定为核心，数据驱动界面更新
-  - title: 分层设计
-    details: 支持分层设计和分块式加载，灵活高效
-  - title: ET 官方推荐
-    details: 作为 ET 框架默认 UI 框架，无缝集成
-  - title: 丰富功能
-    details: 多语言、无限循环列表、红点系统、GM 命令等
+outline: false
+aside: false
 ---
 
-## 未来展望
+<div class="yiui-hero">
+  <h1 class="yiui-hero-title">YIUI</h1>
+  <div class="yiui-hero-lead">Unity 数据驱动 UI 框架</div>
+  <div class="yiui-hero-actions">
+    <a class="yiui-btn yiui-btn--primary" href="/et9/start/quick-start/">快速开始</a>
+    <a class="yiui-btn" href="/et9/">进入 ET9 文档</a>
+  </div>
+</div>
 
-YIUI 将逐步接入 AI 功能，致力于实现 UI 开发的全自动化：
+## 核心能力
 
-- **AI 友好文档** - 文档采用 Markdown 格式，便于 AI 识别和理解
-- **YIUI 专属 MCP** - 开发中的 MCP 服务，支持在 Unity 中通过 AI 直接拼装 UI
-- **全自动接管** - 最终目标：AI 全自动完成 UI 开发流程
+- **组件绑定**：在编辑器里标记 UI 节点，绑定代码在编译时自动生成，不再手写 `Find` 与 `GetComponent`。
+- **事件驱动**：`Invoke` 与 `InvokeListener` 提供统一消息通道，视图层与逻辑层互不感知。
+- **循环列表**：`SuperScroll` 复用列表项，支撑大规模数据的滚动性能。
+- **多语言**：内置本地化方案，文案从表格导入，运行时按语言切换。
+- **配置方案**：集成 Luban，配置表直接导出为强类型代码。
+- **ET 集成**：与 ET9 / ET10 配合，包管理、热更与资源加载开箱可用。
+
+## 开始阅读
+
+1. [快速入门](/et9/start/quick-start/) —— 从安装包到打开第一个界面的完整流程。
+2. [接入](/et9/integration/) —— 把 YIUI 接进已有工程，含 ET9 与通用两条路径。
+3. [扩展包](/et9/packages/) —— 逐个说明官方包能做什么、怎么配。
+4. [示例仓库](https://github.com/LiShengYang-yiyi/YIUI) —— 完整可运行的工程，直接对照阅读。
+
+## 官方资源
+
+- 源码：[LiShengYang-yiyi/YIUI](https://github.com/LiShengYang-yiyi/YIUI)
+- 依赖框架：[ET](https://github.com/egametang/ET)
+- 更新记录：[更新日志](/et9/changelog/)

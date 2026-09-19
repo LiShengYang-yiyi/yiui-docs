@@ -5,3 +5,9 @@ docs/.vitepress/dist
 *.log
 .temp
 .planning/
+
+# 本地工作区：记忆 / 截图 / 交付物 —— 只在本机用，绝不入库
+.workbuddy/
+
+# Vite 读取 .mts 配置时落下的临时编译产物
+*.timestamp-*.mjs
