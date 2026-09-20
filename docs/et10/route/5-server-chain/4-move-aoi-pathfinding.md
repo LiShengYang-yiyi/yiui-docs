@@ -18,9 +18,9 @@ title: 5.4 移动 · AOI · 寻路
 | `cn.etetet.aoi` | 九宫格 AOI：谁在谁的视野里 |
 | `cn.etetet.recast` | 3D 寻路库：从 A 到 B 的路径计算 |
 
-`move` 的直接依赖（`move/AGENTS.md` 声明）是：`core`、`login`、`map`、`proto`、`recast`、数值包、Unit 包。
+`move` 的直接依赖是：`core`、`login`、`map`、`proto`、`recast`、数值包、Unit 包。
 
-> ⚠️ `move/AGENTS.md` 里写的依赖名是 `numeric` 和 `unit`，但这两个包在本工程**已被 `yiuinumeric` / `yiuiunit` 替换**（见 [5.2](./2-scene-unit-actor)）。包内文档还没同步，以实际 `package.json` 与代码为准。
+> ⚠️ 这两个包在本工程里叫 **`yiuinumeric` / `yiuiunit`**（见 [5.2](./2-scene-unit-actor)）。工程内的依赖清单沿用的是旧名 `numeric` / `unit`，看到旧名直接对应过来即可。
 
 ## AOI：谁该看到谁
 

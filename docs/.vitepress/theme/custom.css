@@ -674,6 +674,7 @@ body {
 
 .yiui-hero {
   padding: 40px 0 8px;
+  text-align: center;
 }
 
 .yiui-hero-title {
@@ -696,30 +697,36 @@ body {
 .yiui-hero-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.75rem;
+  justify-content: center;
+  gap: 0.875rem;
 }
 
 .yiui-btn,
 .vp-doc a.yiui-btn {
   display: inline-flex;
   align-items: center;
-  height: 40px;
-  padding: 0 1.25rem;
+  justify-content: center;
+  min-width: 152px;
+  height: 48px;
+  padding: 0 2rem;
   border: 1px solid var(--yiui-line);
-  border-radius: var(--yiui-radius);
-  font-size: 15px;
+  border-radius: 0.5rem;
+  font-size: 16px;
   font-weight: 600;
+  letter-spacing: 0.01em;
   line-height: 1;
   color: var(--vp-c-text-1);
   text-decoration: none;
   background: transparent;
   transition: background-color 0.2s var(--yiui-ease), border-color 0.2s var(--yiui-ease),
-    color 0.2s var(--yiui-ease);
+    color 0.2s var(--yiui-ease), box-shadow 0.2s var(--yiui-ease), transform 0.2s var(--yiui-ease);
 }
 
 .vp-doc a.yiui-btn:hover {
   border-color: var(--vp-c-brand-1);
   color: var(--vp-c-brand-1);
+  background: var(--vp-c-brand-soft);
+  transform: translateY(-1px);
   text-decoration: none;
 }
 
@@ -727,12 +734,14 @@ body {
   border-color: var(--vp-c-brand-3);
   background: var(--vp-c-brand-3);
   color: var(--yiui-btn-fg);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
 }
 
 .vp-doc a.yiui-btn--primary:hover {
   border-color: var(--vp-c-brand-2);
   background: var(--vp-c-brand-2);
   color: var(--yiui-btn-fg);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
   text-decoration: none;
 }
 
@@ -740,6 +749,13 @@ body {
    （VitePress 的 .content-container 规则带 scoped 属性，这里靠 :not 提权。） */
 .VPDoc:not(.has-sidebar) .content-container {
   max-width: 688px;
+}
+
+/* 首页的包目录表格：VitePress 默认给 .vp-doc table 设了 display:block，
+   宽度会收缩到内容宽度，右侧留一大块白。首页这里让它撑满正文栏。
+   只限定「无侧栏」页面（首页 / 独立页），不影响 ET9、ET10 的文档页。 */
+.VPDoc:not(.has-sidebar) .vp-doc table {
+  width: 100%;
 }
 
 /* 首页正文与文档页同宽同律，不做居中卡片 */

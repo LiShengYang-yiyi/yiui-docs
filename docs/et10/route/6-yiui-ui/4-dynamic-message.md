@@ -131,7 +131,7 @@ ET9 站上的 [`动态消息`](/et9/features/dynamic-message) 讲的是旧机制
 
 结论：ET9 那句「先有 IYIUIEvent 后有 IDynamicEvent，纯表现层建议用 IYIUIEvent」在 ET10 已经失效。
 
-> 另有一个现状提醒：框架机制是完整的，但**当前这批业务包里还没有订阅方实例**（`DynamicEventSystem<>` 只出现在框架定义文件里）。真要用，照上面三个类自己写即可。
+订阅方照上面三个类自己写即可，`DynamicEventSystem<>` 会自动注册。
 
 ## 真源
 
