@@ -8,17 +8,71 @@ export interface VersionInfo {
   label: string
   /** 该版本的 URL 前缀，始终以 / 开头并以 / 结尾 */
   prefix: string
-  /** 是否已正式可读；false 时切换器会标注「不可用」并只跳该版本落地页 */
+  /** 是否已正式可读；false 时切换器只跳该版本落地页 */
   released: boolean
-  /** 是否已冻结：不再新增内容，界面上会被建议迁往最新版 */
+  /** 是否已冻结：不再新增内容。仅作内部事实记录，界面不展示 */
   frozen: boolean
-  /** 版本状态的一句话说明 */
+  /** 版本状态的一句话说明。仅作内部事实记录，界面不展示 */
   note: string
   /** 该版本下真实存在的页面 slug 列表 */
   pages: string[]
 }
 
 export const VERSIONS: VersionInfo[] = [
+  {
+    "id": "et10",
+    "label": "ET10",
+    "prefix": "/et10/",
+    "released": true,
+    "frozen": false,
+    "note": "最新版本，持续更新",
+    "pages": [
+      "/",
+      "/route/",
+      "/route/0-environment/",
+      "/route/0-environment/1-toolchain",
+      "/route/0-environment/2-project-layout",
+      "/route/1-run-it/",
+      "/route/1-run-it/1-build-and-start-server",
+      "/route/1-run-it/2-login-to-map",
+      "/route/1-run-it/3-logs-and-troubleshooting",
+      "/route/2-et-model/",
+      "/route/2-et-model/1-everything-is-entity",
+      "/route/2-et-model/2-component-based-design",
+      "/route/2-et-model/3-single-thread-async",
+      "/route/2-et-model/4-event-system",
+      "/route/3-code-layout/",
+      "/route/3-code-layout/1-five-layers",
+      "/route/3-code-layout/2-package-and-assembly",
+      "/route/3-code-layout/3-package-dependencies",
+      "/route/3-code-layout/4-where-to-put-new-code",
+      "/route/4-communication/",
+      "/route/4-communication/1-proto-and-export",
+      "/route/4-communication/2-message-and-handler",
+      "/route/4-communication/3-netinner",
+      "/route/4-communication/4-router-and-service-discovery",
+      "/route/5-server-chain/",
+      "/route/5-server-chain/1-login-chain",
+      "/route/5-server-chain/2-scene-unit-actor",
+      "/route/5-server-chain/3-map-and-transfer",
+      "/route/5-server-chain/4-move-aoi-pathfinding",
+      "/route/5-server-chain/5-config-and-numeric",
+      "/route/6-yiui-ui/",
+      "/route/6-yiui-ui/1-what-is-yiui",
+      "/route/6-yiui-ui/2-panel-lifecycle",
+      "/route/6-yiui-ui/3-data-binding-and-event",
+      "/route/6-yiui-ui/4-dynamic-message",
+      "/route/6-yiui-ui/5-common-components",
+      "/route/6-yiui-ui/6-presentation",
+      "/route/7-toolchain/",
+      "/route/7-toolchain/1-compile-gate-and-f6",
+      "/route/7-toolchain/2-mcp-unity",
+      "/route/7-toolchain/3-mcp-ai-ui",
+      "/route/7-toolchain/4-yiuibt",
+      "/route/7-toolchain/5-skill-and-buff",
+      "/route/7-toolchain/6-test-loop"
+    ]
+  },
   {
     "id": "et9",
     "label": "ET9",
@@ -239,24 +293,13 @@ export const VERSIONS: VersionInfo[] = [
       "/start/quick-start/layer",
       "/start/quick-start/source"
     ]
-  },
-  {
-    "id": "et10",
-    "label": "ET10",
-    "prefix": "/et10/",
-    "released": false,
-    "frozen": false,
-    "note": "文档整理中",
-    "pages": [
-      "/"
-    ]
   }
 ]
 
-/** 默认版本：访问 / 或站内未带版本前缀的页面时，切换器高亮它 */
-export const DEFAULT_VERSION = 'et9'
+/** 默认版本：ET10 是主干。访问 / 或站内未带版本前缀的页面时，切换器高亮它 */
+export const DEFAULT_VERSION = 'et10'
 
-/** 最新版本：ET9 的冻结提示会引导到这里 */
+/** 最新版本：切换时若目标版本无同名页面，会退到它的落地页 */
 export const LATEST_VERSION = 'et10'
 
 /** 从 pathname 里解析出版本 id，解析不出返回 null */
@@ -280,7 +323,7 @@ export function slugWithin(pathname: string, v: VersionInfo): string {
 /**
  * 计算切到目标版本后应去的地址。
  * 目标版本存在同 slug 页面 → 保留路径；否则退到该版本的落地页。
- * ET10 尚未 released 时，始终退到落地页（占位页会说明情况）。
+ * 目标版本未 released 时，始终退到落地页。
  */
 export function switchUrl(pathname: string, target: VersionInfo): string {
   const from = VERSIONS.find((v) => versionOfPath(pathname) === v.id)

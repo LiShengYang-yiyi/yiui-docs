@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import et9Sidebar from './et9-sidebar'
+import et10Sidebar from './et10-sidebar'
 import { VERSIONS, DEFAULT_VERSION } from './versions'
 
 export default defineConfig({
@@ -28,7 +29,8 @@ export default defineConfig({
 
   themeConfig: {
     nav: [
-      { text: '文档', link: '/et9/' },
+      // ET10 是主干（versions.ts 里 DEFAULT_VERSION = et10），导航默认指向它。
+      { text: '文档', link: '/et10/route/' },
       { text: '更新日志', link: '/et9/changelog/' },
       {
         text: '相关链接',
@@ -39,10 +41,14 @@ export default defineConfig({
       }
     ],
 
-    // /et9/ 与 /et10/ 的侧边栏分别由 .workbuddy/tools/gen-site-modules.js 生成，
+    // /et9/ 的侧边栏由 .workbuddy/tools/gen-site-modules.js 生成，
     // 版本切换器读的是同一份 versions.ts，两处不会漂移。
+    //
+    // /et10/ 的侧边栏当前为手写（docs/.vitepress/et10-sidebar.ts）：
+    // ET10 是全新结构（阶段 / 小节），只有阶段 0 落地，先不接入生成器。
     sidebar: {
-      '/et9/': et9Sidebar
+      '/et9/': et9Sidebar,
+      '/et10/': et10Sidebar
     },
 
     socialLinks: [
@@ -96,8 +102,8 @@ export default defineConfig({
       message: `
         <span class="yiui-footer-col">
           <span class="yiui-footer-title">文档</span>
+          <a href="/et10/route/">ET10 学习路线</a>
           <a href="/et9/">ET9 文档</a>
-          <a href="/et9/start/quick-start/">快速入门</a>
           <a href="/et9/packages/">扩展包</a>
           <a href="/et9/changelog/">更新日志</a>
         </span>

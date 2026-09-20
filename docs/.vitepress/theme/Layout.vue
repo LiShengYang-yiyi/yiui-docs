@@ -3,7 +3,6 @@ import DefaultTheme from 'vitepress/theme'
 import { useData, useRoute } from 'vitepress'
 import { computed } from 'vue'
 import VersionSwitcher from './VersionSwitcher.vue'
-import VersionNotice from './VersionNotice.vue'
 
 const { Layout } = DefaultTheme
 const route = useRoute()
@@ -45,16 +44,18 @@ const trail = computed<string[]>(() => {
   const out: string[] = []
   const walk = (items: SidebarItem[], ancestors: string[]): boolean => {
     for (const item of items) {
-      if (item.items?.length) {
-        const next = item.text ? [...ancestors, item.text] : ancestors
-        if (walk(item.items, next)) return true
-        continue
-      }
       const link = item.link ? slug(item.link) : ''
+      // 分组项也可能自带落地页（sidebar 里同时写了 link 与 items）。
+      // 这种情况它本身就是当前页，必须先按叶子匹配再递归，
+      // 否则匹配不到、整条面包屑退化成「文档 › 页标题」。
       if (link && link === here) {
         out.push(...ancestors)
         if (item.text) out.push(item.text)
         return true
+      }
+      if (item.items?.length) {
+        const next = item.text ? [...ancestors, item.text] : ancestors
+        if (walk(item.items, next)) return true
       }
     }
     return false
@@ -74,7 +75,6 @@ const trail = computed<string[]>(() => {
     </template>
 
     <template #doc-before>
-      <VersionNotice />
       <nav v-if="trail.length" class="yiui-crumbs" aria-label="面包屑">
         <template v-for="(crumb, i) in trail" :key="i">
           <span v-if="i" class="yiui-crumbs-sep" aria-hidden="true">›</span>

@@ -12,10 +12,6 @@ const btn = ref<HTMLButtonElement | null>(null)
 
 const options = computed(() => VERSIONS)
 
-function label(v: VersionInfo) {
-  return v.frozen ? `${v.label}（已冻结）` : v.label
-}
-
 function choose(v: VersionInfo) {
   open.value = false
   if (v.id === current.value.id) {
@@ -71,11 +67,10 @@ onBeforeUnmount(() => {
           role="option"
           :aria-selected="v.id === current.id"
           class="yiui-ver-item"
-          :class="{ 'is-current': v.id === current.id, 'is-pending': !v.released }"
+          :class="{ 'is-current': v.id === current.id }"
           @click="choose(v)"
         >
-          <span class="yiui-ver-item-main">{{ label(v) }}</span>
-          <span class="yiui-ver-item-note">{{ v.released ? v.note : '尚未开放' }}</span>
+          {{ v.label }}
         </button>
       </li>
     </ul>

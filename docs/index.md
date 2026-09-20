@@ -7,8 +7,8 @@ aside: false
   <h1 class="yiui-hero-title">YIUI</h1>
   <div class="yiui-hero-lead">Unity 数据驱动 UI 框架</div>
   <div class="yiui-hero-actions">
-    <a class="yiui-btn yiui-btn--primary" href="/et9/start/quick-start/">快速开始</a>
-    <a class="yiui-btn" href="/et9/">进入 ET9 文档</a>
+    <a class="yiui-btn yiui-btn--primary" href="/et10/route/">开始学习 ET10</a>
+    <a class="yiui-btn" href="/et9/">ET9 文档</a>
   </div>
 </div>
 
@@ -23,10 +23,11 @@ aside: false
 
 ## 开始阅读
 
-1. [快速入门](/et9/start/quick-start/) —— 从安装包到打开第一个界面的完整流程。
-2. [接入](/et9/integration/) —— 把 YIUI 接进已有工程，含 ET9 与通用两条路径。
-3. [扩展包](/et9/packages/) —— 逐个说明官方包能做什么、怎么配。
-4. [示例仓库](https://github.com/LiShengYang-yiyi/YIUI) —— 完整可运行的工程，直接对照阅读。
+1. [ET10 学习路线](/et10/route/) —— 8 个阶段、34 个小节，从环境到工具链，按顺序读。侧边栏顺序就是学习顺序。
+2. [ET9 快速入门](/et9/start/quick-start/) —— 从安装包到打开第一个界面的完整流程。
+3. [ET9 接入](/et9/integration/) —— 把 YIUI 接进已有工程，含 ET9 与通用两条路径。
+4. [ET9 扩展包](/et9/packages/) —— 逐个说明官方包能做什么、怎么配。
+5. [示例仓库](https://github.com/LiShengYang-yiyi/YIUI) —— 完整可运行的工程，直接对照阅读。
 
 ## 官方资源
 
