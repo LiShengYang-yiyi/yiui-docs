@@ -27,7 +27,7 @@ title: 6.5 常用组件
 | 零 GC 字符串 | `cn.etetet.yiuizstring` | 高频拼接场景下的字符串优化 |
 | PSD 转 UI | `cn.etetet.yiuipsd2ui` | 从设计稿生成界面的辅助工具 |
 
-> **循环列表的版本变化**：早期用 `yiuiloopscrollrectasync` / `yiuiloopscrollrectsync` 两个包，当前推荐 `yiuisuperscroll`。替换方式是改主包 `package.json` 的依赖后重新生成 `MainPackage.txt`——流程见 [0.2](../0-environment/2-project-layout)。
+> **循环列表**：用 `cn.etetet.yiuisuperscroll`。替换方式是改主包 `package.json` 的依赖后重新生成 `MainPackage.txt`——流程见 [0.2](../0-environment/2-project-layout)。
 
 ## 三条共性
 
@@ -52,24 +52,21 @@ title: 6.5 常用组件
 
 ## 每个包的进一步资料
 
-| 主题 | 去哪 |
-|---|---|
-| 循环列表 | ET9 · [`infinite-scroll`](/et9/features/infinite-scroll/) · [`superscroll`](/et9/packages/superscroll) |
-| 红点 | ET9 · [`red-dot`](/et9/features/red-dot/) |
-| Tips | ET9 · [`tips`](/et9/features/tips) |
-| GM 命令 | ET9 · [`gm-command`](/et9/features/gm-command) |
-| 条件系统 | ET9 · [`condition`](/et9/packages/condition/) |
-| 对象池 / 音频 / 视频 / 伤害提示 | ET9 · [`packages`](/et9/packages/) 各页 |
-| 全部扩展包索引 | ET9 · [`扩展包`](/et9/packages/) |
+包内说明的落点就在包自己的目录里：
 
-## 真源
-
-| 文件 | 内容 |
+| 想看什么 | 打开 |
 |---|---|
-| `Packages/cn.etetet.yiuisuperscroll/README.md` 等各包 `README.md` | 各扩展包的能力与入口 |
-| `Packages/cn.etetet.harness/skills/index.md` | 任务路由索引（按任务找 skill） |
-| ET9 · [`扩展包`](/et9/packages/) | 各扩展包的完整文档（已整理好的 211 篇之一） |
-| `Packages/cn.etetet.harness/skills/et-code/SKILL.md` | 新增扩展包时的落点与依赖规则 |
+| 包的能力与入口 | `Packages/<包>/README.md` |
+| 包内专题文档 | `Packages/<包>/Desc/`（部分包有；红点包有 8 篇） |
+| 包级 AI 约定 | `Packages/<包>/AGENTS.md`（部分包有） |
+| 任务路由索引 | `Packages/cn.etetet.harness/skills/index.md` |
+| 新增扩展包的落点与依赖规则 | `Packages/cn.etetet.harness/skills/et-code/SKILL.md` |
+
+站内已展开的专题：
+
+| 主题 | 页面 |
+|---|---|
+| 红点 | [红点](/et10/features/red-dot/) |
 
 ## 源码落点
 

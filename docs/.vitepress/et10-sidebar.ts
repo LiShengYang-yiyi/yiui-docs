@@ -100,5 +100,181 @@ export default [
         ]
       }
     ]
+  },
+  {
+    text: '界面与配套能力',
+    link: '/et10/features/',
+    collapsed: true,
+    items: [
+      {
+        text: '红点',
+        link: '/et10/features/red-dot/',
+        collapsed: true,
+        items: [
+          { text: '系统定位', link: '/et10/features/red-dot/' },
+          { text: 'UI 绑定', link: '/et10/features/red-dot/binding' },
+          { text: '排查', link: '/et10/features/red-dot/troubleshooting' },
+          { text: '新增红点', link: '/et10/features/red-dot/ai-workflow' }
+        ]
+      },
+      {
+        text: '循环列表',
+        link: '/et10/features/superscroll/',
+        collapsed: true,
+        items: [
+          { text: '系统定位', link: '/et10/features/superscroll/' },
+          { text: '接入与刷新', link: '/et10/features/superscroll/usage' },
+          { text: '点击与选中', link: '/et10/features/superscroll/interaction' },
+          { text: '排查', link: '/et10/features/superscroll/troubleshooting' }
+        ]
+      },
+      {
+        text: '提示弹窗',
+        link: '/et10/features/tips/',
+        collapsed: true,
+        items: [
+          { text: '系统定位', link: '/et10/features/tips/' },
+          { text: '怎么调用', link: '/et10/features/tips/usage' },
+          { text: '排查', link: '/et10/features/tips/troubleshooting' }
+        ]
+      },
+      {
+        text: '对象池',
+        link: '/et10/features/gameobjectpool/',
+        collapsed: true,
+        items: [
+          { text: '系统定位', link: '/et10/features/gameobjectpool/' },
+          { text: '怎么用', link: '/et10/features/gameobjectpool/usage' },
+          { text: '排查', link: '/et10/features/gameobjectpool/troubleshooting' }
+        ]
+      },
+      {
+        text: '调用系统',
+        link: '/et10/features/invoke/',
+        collapsed: true,
+        items: [
+          { text: '系统定位', link: '/et10/features/invoke/' },
+          { text: '怎么写', link: '/et10/features/invoke/usage' },
+          { text: '排查', link: '/et10/features/invoke/troubleshooting' }
+        ]
+      },
+      {
+        text: '条件系统',
+        link: '/et10/features/condition/',
+        collapsed: true,
+        items: [
+          { text: '系统定位', link: '/et10/features/condition/' },
+          { text: '配置与规则', link: '/et10/features/condition/config' },
+          { text: '怎么写', link: '/et10/features/condition/usage' },
+          { text: '排查', link: '/et10/features/condition/troubleshooting' }
+        ]
+      },
+      {
+        text: '多语言',
+        link: '/et10/features/localization/',
+        collapsed: true,
+        items: [
+          { text: '系统定位', link: '/et10/features/localization/' },
+          { text: '取词与切语言', link: '/et10/features/localization/usage' },
+          { text: '源表与生成链', link: '/et10/features/localization/config' },
+          { text: '排查', link: '/et10/features/localization/troubleshooting' }
+        ]
+      },
+      {
+        text: '声音',
+        link: '/et10/features/audio/',
+        collapsed: true,
+        items: [
+          { text: '系统定位', link: '/et10/features/audio/' },
+          { text: '怎么播放', link: '/et10/features/audio/usage' },
+          { text: '排查', link: '/et10/features/audio/troubleshooting' }
+        ]
+      },
+      {
+        text: 'UGUI 特效',
+        link: '/et10/features/effect/',
+        collapsed: true,
+        items: [
+          { text: '系统定位', link: '/et10/features/effect/' },
+          { text: '怎么用', link: '/et10/features/effect/usage' },
+          { text: '排查', link: '/et10/features/effect/troubleshooting' }
+        ]
+      },
+      {
+        text: 'UI 挂点',
+        link: '/et10/features/mountpoint/',
+        collapsed: true,
+        items: [
+          { text: '系统定位', link: '/et10/features/mountpoint/' },
+          { text: '怎么用', link: '/et10/features/mountpoint/usage' },
+          { text: '排查', link: '/et10/features/mountpoint/troubleshooting' }
+        ]
+      },
+      {
+        text: 'GM 面板',
+        link: '/et10/features/gm/',
+        collapsed: true,
+        items: [
+          { text: '系统定位', link: '/et10/features/gm/' },
+          { text: '写一条命令', link: '/et10/features/gm/command' },
+          { text: '面板与执行', link: '/et10/features/gm/usage' },
+          { text: '排查', link: '/et10/features/gm/troubleshooting' }
+        ]
+      },
+      {
+        text: 'UI 内 3D',
+        link: '/et10/features/3ddisplay/',
+        collapsed: true,
+        items: [
+          { text: '系统定位', link: '/et10/features/3ddisplay/' },
+          { text: '显示一个模型', link: '/et10/features/3ddisplay/usage' },
+          { text: '层级与交互', link: '/et10/features/3ddisplay/interaction' },
+          { text: '排查', link: '/et10/features/3ddisplay/troubleshooting' }
+        ]
+      },
+      {
+        text: '伤害提示',
+        link: '/et10/features/damagetips/',
+        collapsed: true,
+        items: [
+          { text: '系统定位', link: '/et10/features/damagetips/' },
+          { text: '怎么调用', link: '/et10/features/damagetips/usage' },
+          { text: '排查', link: '/et10/features/damagetips/troubleshooting' }
+        ]
+      },
+      {
+        text: '资源接入 YooAssets',
+        link: '/et10/features/yooassets/',
+        collapsed: true,
+        items: [
+          { text: '系统定位', link: '/et10/features/yooassets/' },
+          { text: '加载与图集', link: '/et10/features/yooassets/usage' },
+          { text: '资源收集与构建', link: '/et10/features/yooassets/collect' },
+          { text: '排查', link: '/et10/features/yooassets/troubleshooting' }
+        ]
+      },
+      {
+        text: '数值系统',
+        link: '/et10/features/numeric/',
+        collapsed: true,
+        items: [
+          { text: '系统定位', link: '/et10/features/numeric/' },
+          { text: '读值与改值', link: '/et10/features/numeric/usage' },
+          { text: '配置与规则', link: '/et10/features/numeric/config' },
+          { text: '排查', link: '/et10/features/numeric/troubleshooting' }
+        ]
+      },
+      {
+        text: 'Luban 配置底座',
+        link: '/et10/features/luban/',
+        collapsed: true,
+        items: [
+          { text: '系统定位', link: '/et10/features/luban/' },
+          { text: '表定义与新增表', link: '/et10/features/luban/table' },
+          { text: '导出流程与产物', link: '/et10/features/luban/pipeline' },
+          { text: '排查', link: '/et10/features/luban/troubleshooting' }
+        ]
+      }
+    ]
   }
 ] satisfies DefaultTheme.SidebarItem[]
