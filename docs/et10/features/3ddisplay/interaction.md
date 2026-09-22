@@ -86,21 +86,17 @@ LayerMask.NameToLayer(层名) → -1 时直接报错「当前设定的UI层级�
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiui3ddisplay/Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Event.cs` | 拖拽与点击的实体侧实现 |
-| `Packages/cn.etetet.yiui3ddisplay/Scripts/ModelView/Client/Event/YIUI3DDisplayClick.cs` | 点击接口与基类 |
-| `Packages/cn.etetet.yiui3ddisplay/Scripts/ModelView/Client/Event/YIUI3DDisplayClickHelper.cs` | 点击实现查找与派发 |
-| `Packages/cn.etetet.yiui3ddisplay/Runtime/UI3DDisplayCamera.cs` | 层切换、层还原 |
+- **拖拽与点击的实体侧实现**<br>`Packages/cn.etetet.yiui3ddisplay/Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Event.cs`
+- **点击接口与基类**<br>`Packages/cn.etetet.yiui3ddisplay/Scripts/ModelView/Client/Event/YIUI3DDisplayClick.cs`
+- **点击实现查找与派发**<br>`Packages/cn.etetet.yiui3ddisplay/Scripts/ModelView/Client/Event/YIUI3DDisplayClickHelper.cs`
+- **层切换、层还原**<br>`Packages/cn.etetet.yiui3ddisplay/Runtime/UI3DDisplayCamera.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 指针事件派发的三个键 | `Runtime/UI3DDisplay.cs` 内的键常量 |
-| 相机参数与位姿同步 | `Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Sync.cs` |
-| 碰撞层自动设置 | `Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Base.cs` |
-| 多目标命中查找 | `Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Multiple.cs` |
+- **指针事件派发的三个键**<br>`Runtime/UI3DDisplay.cs` 内的键常量
+- **相机参数与位姿同步**<br>`Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Sync.cs`
+- **碰撞层自动设置**<br>`Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Base.cs`
+- **多目标命中查找**<br>`Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Multiple.cs`
 
 ## 下一步
 

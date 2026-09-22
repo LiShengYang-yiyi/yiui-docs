@@ -76,22 +76,18 @@ title: 资源收集与构建
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuiyooassets/Editor/YooAssetExtension/YIUIYooAssetExtension.cs` | 六个过滤规则 |
-| `Packages/cn.etetet.yiuiyooassets/Editor/YIUIEditor/YIUIAtlasModule.cs` | 图集生成与图集数据写出 |
-| `Packages/cn.etetet.statesync/Settings/AssetBundleCollectorSetting.asset` | 生效的收集器设置 |
-| `Packages/cn.etetet.yooassets/Resources/YooAssetSettings.asset` | 清单文件名与内容根目录 |
+- **六个过滤规则**<br>`Packages/cn.etetet.yiuiyooassets/Editor/YooAssetExtension/YIUIYooAssetExtension.cs`
+- **图集生成与图集数据写出**<br>`Packages/cn.etetet.yiuiyooassets/Editor/YIUIEditor/YIUIAtlasModule.cs`
+- **生效的收集器设置**<br>`Packages/cn.etetet.statesync/Settings/AssetBundleCollectorSetting.asset`
+- **清单文件名与内容根目录**<br>`Packages/cn.etetet.yooassets/Resources/YooAssetSettings.asset`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 图集数据结构 | `Packages/cn.etetet.yiuiyooassets/Runtime/Atlas/YIUIAtlasData.cs` |
-| 图集相关常量 | `Packages/cn.etetet.yiuiyooassets/Runtime/Atlas/YIUIConstAsset_Atlas.cs` |
-| 界面常量字段 | `Packages/cn.etetet.yiuiframework/Runtime/Core/YIUIBase/Asset/YIUIConstAsset.cs` |
-| 常量文件位置 | `Packages/cn.etetet.yiuiframework/Runtime/Core/YIUIBase/Asset/YIUIConstHelper.cs` |
-| 清单与包设置 | `Packages/cn.etetet.yooassets/Resources/` |
+- **图集数据结构**<br>`Packages/cn.etetet.yiuiyooassets/Runtime/Atlas/YIUIAtlasData.cs`
+- **图集相关常量**<br>`Packages/cn.etetet.yiuiyooassets/Runtime/Atlas/YIUIConstAsset_Atlas.cs`
+- **界面常量字段**<br>`Packages/cn.etetet.yiuiframework/Runtime/Core/YIUIBase/Asset/YIUIConstAsset.cs`
+- **常量文件位置**<br>`Packages/cn.etetet.yiuiframework/Runtime/Core/YIUIBase/Asset/YIUIConstHelper.cs`
+- **清单与包设置**<br>`Packages/cn.etetet.yooassets/Resources/`
 
 ## 下一步
 

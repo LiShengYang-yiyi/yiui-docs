@@ -67,21 +67,17 @@ title: 2.3 单线程异步
 
 ## 真源
 
-| 文件 | 内容 |
-|---|---|
-| `Book/2.1CSharp的协程.md` | 从线程阻塞讲到回调（问题起点） |
-| `Book/2.2更好的协程.md` | 用 `async` / `await` 改写回调 |
-| `Book/2.3单线程异步.md` | 单线程计时器实现，证明异步可以不开线程 |
-| `cn.etetet.harness/skills/et-async/SKILL.md` | ET 异步与 `EntityRef` 安全的完整规则 |
-| `cn.etetet.harness/skills/et-async/references/et-async-rules.md` | `EntityRef` 正误示例、并发等待、取消控制 |
+- **从线程阻塞讲到回调（问题起点）**<br>`Book/2.1CSharp的协程.md`
+- **用 `async` / `await` 改写回调**<br>`Book/2.2更好的协程.md`
+- **单线程计时器实现，证明异步可以不开线程**<br>`Book/2.3单线程异步.md`
+- **ET 异步与 `EntityRef` 安全的完整规则**<br>`cn.etetet.harness/skills/et-async/SKILL.md`
+- **`EntityRef` 正误示例、并发等待、取消控制**<br>`cn.etetet.harness/skills/et-async/references/et-async-rules.md`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| `ETTask` 实现 | `Packages/cn.etetet.core/Scripts/` |
-| `EntityRef<T>` 用法示例 | 各包 `Scripts/Hotfix/` 下的异步逻辑 |
-| 纤程与单线程调度 | `Packages/cn.etetet.core/Scripts/` |
+- **`ETTask` 实现**<br>`Packages/cn.etetet.core/Scripts/`
+- **`EntityRef<T>` 用法示例**<br>各包 `Scripts/Hotfix/` 下的异步逻辑
+- **纤程与单线程调度**<br>`Packages/cn.etetet.core/Scripts/`
 
 ## 读完能回答
 

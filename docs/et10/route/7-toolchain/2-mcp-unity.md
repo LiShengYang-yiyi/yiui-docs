@@ -83,23 +83,19 @@ UnityMCP 原子工具（Editor 内）
 
 ## 真源
 
-| 文件 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuimcp/README.md` | 包的整体结构与文档索引 |
-| `Packages/cn.etetet.yiuimcp/Docs/README.md` | 文档总索引与推荐阅读顺序 |
-| `Packages/cn.etetet.yiuimcp/Docs/Architecture/UTO与UnityMCP协作手册.md` | 角色划分、调用链路、端口规则、工具面清单 |
-| `Packages/cn.etetet.yiuimcp/Docs/Architecture/UTO-HTTP调用说明.md` | 端点、批量调用、推荐用法 |
-| `Packages/cn.etetet.yiuimcp/Docs/Guides/扩展Unity原子工具.md` | 新增工具的核心概念与模板 |
-| `Packages/cn.etetet.yiuimcp/Docs/Guides/UnityMCP异步编程指南.md` | 异步禁令、推荐模式、审查清单 |
+- **包的整体结构与文档索引**<br>`Packages/cn.etetet.yiuimcp/README.md`
+- **文档总索引与推荐阅读顺序**<br>`Packages/cn.etetet.yiuimcp/Docs/README.md`
+- **角色划分、调用链路、端口规则、工具面清单**<br>`Packages/cn.etetet.yiuimcp/Docs/Architecture/UTO与UnityMCP协作手册.md`
+- **端点、批量调用、推荐用法**<br>`Packages/cn.etetet.yiuimcp/Docs/Architecture/UTO-HTTP调用说明.md`
+- **新增工具的核心概念与模板**<br>`Packages/cn.etetet.yiuimcp/Docs/Guides/扩展Unity原子工具.md`
+- **异步禁令、推荐模式、审查清单**<br>`Packages/cn.etetet.yiuimcp/Docs/Guides/UnityMCP异步编程指南.md`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 原子工具实现 | `Packages/cn.etetet.yiuimcp/Editor/UnityMCP/` |
-| 编排层 | `Packages/cn.etetet.yiuimcp/UTO/` |
-| 执行脚本入口 | `Packages/cn.etetet.yiuimcp/Config/*.ps1` |
-| YIUI 侧的 MCP 工具 | `Packages/<能力包>/Editor/`（按 `[YIUIMCPTools]` 发现） |
+- **原子工具实现**<br>`Packages/cn.etetet.yiuimcp/Editor/UnityMCP/`
+- **编排层**<br>`Packages/cn.etetet.yiuimcp/UTO/`
+- **执行脚本入口**<br>`Packages/cn.etetet.yiuimcp/Config/*.ps1`
+- **YIUI 侧的 MCP 工具**<br>`Packages/<能力包>/Editor/`（按 `[YIUIMCPTools]` 发现）
 
 ## 读完能回答
 

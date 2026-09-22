@@ -118,23 +118,19 @@ public class XxxHandler : ConditionSystem<XxxCheckValue>
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuicondition/Scripts/Model/Share/Condition/Core/ConditionMgr.cs` | 执行者与三个内部表 |
-| `Packages/cn.etetet.yiuicondition/Scripts/Model/Share/Condition/Data/IConditionData.cs` | 运行时输入契约 |
-| `Packages/cn.etetet.yiuicondition/Scripts/Model/Share/Condition/Core/ConditionSystemSingleton.cs` | 注册中心与查找顺序 |
-| `Packages/cn.etetet.yiuicondition/Scripts/Model/Share/Condition/Core/ICondition.cs` | 接口与业务基类 |
-| `Packages/cn.etetet.yiuicondition/Scripts/Hotfix/Share/Condition/YIUIConditionHelper.cs` | 取值入口 |
+- **执行者与三个内部表**<br>`Packages/cn.etetet.yiuicondition/Scripts/Model/Share/Condition/Core/ConditionMgr.cs`
+- **运行时输入契约**<br>`Packages/cn.etetet.yiuicondition/Scripts/Model/Share/Condition/Data/IConditionData.cs`
+- **注册中心与查找顺序**<br>`Packages/cn.etetet.yiuicondition/Scripts/Model/Share/Condition/Core/ConditionSystemSingleton.cs`
+- **接口与业务基类**<br>`Packages/cn.etetet.yiuicondition/Scripts/Model/Share/Condition/Core/ICondition.cs`
+- **取值入口**<br>`Packages/cn.etetet.yiuicondition/Scripts/Hotfix/Share/Condition/YIUIConditionHelper.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 求值实现 | `Scripts/Hotfix/Share/Condition/Core/ConditionMgrSystem_Extend.cs` |
-| 监听与触发实现 | `Scripts/Hotfix/Share/Condition/Core/ConditionMgrSystem_Listener_Extend.cs` |
-| 单个监听器的生命周期 | `Scripts/Hotfix/Share/Condition/Core/ConditionMgrSystem_Info.cs` |
-| 条件事件类型 | `Scripts/Model/Share/Condition/Event/ConditionEventType.cs` |
-| 配置扩展层 | `Scripts/Model/Share/Condition/ConfigExtend/` |
+- **求值实现**<br>`Scripts/Hotfix/Share/Condition/Core/ConditionMgrSystem_Extend.cs`
+- **监听与触发实现**<br>`Scripts/Hotfix/Share/Condition/Core/ConditionMgrSystem_Listener_Extend.cs`
+- **单个监听器的生命周期**<br>`Scripts/Hotfix/Share/Condition/Core/ConditionMgrSystem_Info.cs`
+- **条件事件类型**<br>`Scripts/Model/Share/Condition/Event/ConditionEventType.cs`
+- **配置扩展层**<br>`Scripts/Model/Share/Condition/ConfigExtend/`
 
 ## 下一步
 

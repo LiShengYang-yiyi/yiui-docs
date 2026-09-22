@@ -117,22 +117,18 @@ public static partial class EGMType
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuigm/Scripts/ModelView/Client/GM/GMAttribute.cs` | 特性定义与参数说明 |
-| `Packages/cn.etetet.yiuigm/Scripts/ModelView/Client/GM/GMParamInfo.cs` | 参数描述 |
-| `Packages/cn.etetet.yiuigm/Scripts/ModelView/Client/GM/EGMParamType.cs` | 参数类型与转换 |
-| `Packages/cn.etetet.yiuigm/Scripts/HotfixView/Client/GM/GM_Command_Test.cs` | 官方示例模板 |
+- **特性定义与参数说明**<br>`Packages/cn.etetet.yiuigm/Scripts/ModelView/Client/GM/GMAttribute.cs`
+- **参数描述**<br>`Packages/cn.etetet.yiuigm/Scripts/ModelView/Client/GM/GMParamInfo.cs`
+- **参数类型与转换**<br>`Packages/cn.etetet.yiuigm/Scripts/ModelView/Client/GM/EGMParamType.cs`
+- **官方示例模板**<br>`Packages/cn.etetet.yiuigm/Scripts/HotfixView/Client/GM/GM_Command_Test.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 参数解析与执行 | `Scripts/HotfixView/Client/GM/GMCommandComponentSystem.cs` |
-| 分类常量基类 | `Scripts/ModelView/Client/GM/EGMType_GM.cs` |
-| 现成的命令样板 | `Packages/cn.etetet.yiuitips/Scripts/HotfixView/Client/GM/` |
-| 红点命令样板 | `Packages/cn.etetet.yiuireddot/Scripts/HotfixView/Client/GM/` |
-| 参数控件的交互回写 | `Scripts/HotfixView/Client/YIUISystem/GM/GMParamItemComponentSystem.cs` |
+- **参数解析与执行**<br>`Scripts/HotfixView/Client/GM/GMCommandComponentSystem.cs`
+- **分类常量基类**<br>`Scripts/ModelView/Client/GM/EGMType_GM.cs`
+- **现成的命令样板**<br>`Packages/cn.etetet.yiuitips/Scripts/HotfixView/Client/GM/`
+- **红点命令样板**<br>`Packages/cn.etetet.yiuireddot/Scripts/HotfixView/Client/GM/`
+- **参数控件的交互回写**<br>`Scripts/HotfixView/Client/YIUISystem/GM/GMParamItemComponentSystem.cs`
 
 ## 下一步
 

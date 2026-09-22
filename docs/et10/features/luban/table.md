@@ -130,23 +130,19 @@ title: 表定义与新增表
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuilubangen/Luban/Config/Base/luban.conf` | 分类配置与定义清单 |
-| `Packages/cn.etetet.map/Luban/Config/Base/Defines/Map.xml` | 标准 XML 定义样例 |
-| `Packages/cn.etetet.yiuiluban/Luban/Config/Base/Defines/UnityMathematicsFloat2.xml` | 外部类型映射样例 |
-| `Packages/cn.etetet.map/Scripts/Model/Share/MapConfig.cs` | 表的 partial 扩展样例 |
+- **分类配置与定义清单**<br>`Packages/cn.etetet.yiuilubangen/Luban/Config/Base/luban.conf`
+- **标准 XML 定义样例**<br>`Packages/cn.etetet.map/Luban/Config/Base/Defines/Map.xml`
+- **外部类型映射样例**<br>`Packages/cn.etetet.yiuiluban/Luban/Config/Base/Defines/UnityMathematicsFloat2.xml`
+- **表的 partial 扩展样例**<br>`Packages/cn.etetet.map/Scripts/Model/Share/MapConfig.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 多态 bean 样例 | `Packages/cn.etetet.yiuiunit/Luban/Config/Base/Defines/Unit.xml` |
-| 跨包引用定义 | `Packages/cn.etetet.yiuibattledemo/Luban/Config/Base/Defines/UIGraphTable.xml` |
-| 数据文件样例 | `Packages/cn.etetet.map/Luban/Config/Datas/Map/Map.yml` |
-| xlsx 结构定义样例 | `Packages/cn.etetet.yiuistartconfig/Luban/Localhost/Base/` |
-| 外部类型构造函数 | `Packages/cn.etetet.yiuiluban/CodeMode/Model/ClientServer/ConfigExtend/Util/ExternalTypeUtil.cs` |
-| 新建表的模板骨架 | `Packages/cn.etetet.yiuiluban/.Template/` |
+- **多态 bean 样例**<br>`Packages/cn.etetet.yiuiunit/Luban/Config/Base/Defines/Unit.xml`
+- **跨包引用定义**<br>`Packages/cn.etetet.yiuibattledemo/Luban/Config/Base/Defines/UIGraphTable.xml`
+- **数据文件样例**<br>`Packages/cn.etetet.map/Luban/Config/Datas/Map/Map.yml`
+- **xlsx 结构定义样例**<br>`Packages/cn.etetet.yiuistartconfig/Luban/Localhost/Base/`
+- **外部类型构造函数**<br>`Packages/cn.etetet.yiuiluban/CodeMode/Model/ClientServer/ConfigExtend/Util/ExternalTypeUtil.cs`
+- **新建表的模板骨架**<br>`Packages/cn.etetet.yiuiluban/.Template/`
 
 ## 下一步
 

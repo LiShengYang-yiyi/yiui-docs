@@ -92,23 +92,19 @@ title: UI 内 3D 显示
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiui3ddisplay/Runtime/UI3DDisplay.cs` | 显示组件与全部 Inspector 字段 |
-| `Packages/cn.etetet.yiui3ddisplay/Scripts/ModelView/Client/Display/YIUI3DDisplayChild.cs` | 实体与缓存字典 |
-| `Packages/cn.etetet.yiui3ddisplay/Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Async.cs` | 显示入口 `ShowAsync` |
-| `Packages/cn.etetet.yiui3ddisplay/Runtime/YIUIConstAsset_3DDisplay.cs` | 独立层名常量 |
+- **显示组件与全部 Inspector 字段**<br>`Packages/cn.etetet.yiui3ddisplay/Runtime/UI3DDisplay.cs`
+- **实体与缓存字典**<br>`Packages/cn.etetet.yiui3ddisplay/Scripts/ModelView/Client/Display/YIUI3DDisplayChild.cs`
+- **显示入口 `ShowAsync`**<br>`Packages/cn.etetet.yiui3ddisplay/Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Async.cs`
+- **独立层名常量**<br>`Packages/cn.etetet.yiui3ddisplay/Runtime/YIUIConstAsset_3DDisplay.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| RT 创建与相机参数拷贝 | `Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Base.cs` |
-| 隔离网格与生命周期 | `Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Mono.cs` |
-| 层切换与还原 | `Runtime/UI3DDisplayCamera.cs` |
-| 拖拽与射线点击 | `Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Event.cs` |
-| 多目标模式 | `Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Multiple.cs` |
-| 完整可跑示例 | `Scripts/HotfixView/Client/YIUISystem/ModelDisplay/` |
+- **RT 创建与相机参数拷贝**<br>`Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Base.cs`
+- **隔离网格与生命周期**<br>`Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Mono.cs`
+- **层切换与还原**<br>`Runtime/UI3DDisplayCamera.cs`
+- **拖拽与射线点击**<br>`Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Event.cs`
+- **多目标模式**<br>`Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Multiple.cs`
+- **完整可跑示例**<br>`Scripts/HotfixView/Client/YIUISystem/ModelDisplay/`
 
 ## 下一步
 

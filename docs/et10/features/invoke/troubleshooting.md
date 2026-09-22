@@ -127,21 +127,17 @@ if (EventSystem.Instance.CheckInvokeEntity<YIYUIInvokeEntity_Xxx>(...))
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuiinvoke/Scripts/Core/Share/EventSystem/EventSystem_Invoke_Entity.cs` | 通道 A 的异常分支 |
-| `Packages/cn.etetet.yiuiinvoke/Scripts/Core/Share/System/YIYUIInvokeSystem.cs` | 通道 B 的日志分支 |
-| `Packages/cn.etetet.yiuiinvoke/Scripts/Core/Share/System/YIYUIListenerInvokeSystem.cs` | 监听注册与插入逻辑 |
-| `Packages/cn.etetet.core/Scripts/Core/Share/World/EventSystem/EventSystem.cs` | core 侧注册与重复检测 |
+- **通道 A 的异常分支**<br>`Packages/cn.etetet.yiuiinvoke/Scripts/Core/Share/EventSystem/EventSystem_Invoke_Entity.cs`
+- **通道 B 的日志分支**<br>`Packages/cn.etetet.yiuiinvoke/Scripts/Core/Share/System/YIYUIInvokeSystem.cs`
+- **监听注册与插入逻辑**<br>`Packages/cn.etetet.yiuiinvoke/Scripts/Core/Share/System/YIYUIListenerInvokeSystem.cs`
+- **core 侧注册与重复检测**<br>`Packages/cn.etetet.core/Scripts/Core/Share/World/EventSystem/EventSystem.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 全部日志与异常文案 | 在包内搜 `Log.Error` / `throw new Exception` |
-| Safety 扩展的判空 | `Scripts/Core/Share/EventSystem/EventSystem_Invoke_Entity_Safety_Extend.cs` |
-| 探测接口 | `Scripts/Core/Share/EventSystem/EventSystem_Check_Invoke_Entity.cs` |
-| 唯一性分析器 | `Packages/cn.etetet.sourcegenerator/DotNet~/ET.SourceGenerator/Analyzer/UniqueIdAnalyzer.cs` |
+- **全部日志与异常文案**<br>在包内搜 `Log.Error` / `throw new Exception`
+- **Safety 扩展的判空**<br>`Scripts/Core/Share/EventSystem/EventSystem_Invoke_Entity_Safety_Extend.cs`
+- **探测接口**<br>`Scripts/Core/Share/EventSystem/EventSystem_Check_Invoke_Entity.cs`
+- **唯一性分析器**<br>`Packages/cn.etetet.sourcegenerator/DotNet~/ET.SourceGenerator/Analyzer/UniqueIdAnalyzer.cs`
 
 ## 下一步
 

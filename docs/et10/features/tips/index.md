@@ -100,22 +100,18 @@ title: 提示弹窗
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuitips/Scripts/ModelView/Client/YIUIComponent/Tips/TipsPanelComponent.cs` | 池、引用计数、回收入口 |
-| `Packages/cn.etetet.yiuitips/Scripts/ModelView/Client/YIUIComponent/Tips/TipsViewComponent.cs` | 被打开 View 的标记组件 |
-| `Packages/cn.etetet.yiuitips/Scripts/ModelView/Client/YIUIComponent/Tips/TipsMessageViewComponent.cs` | 确认弹窗的数据结构 |
-| `Packages/cn.etetet.yiuitips/Scripts/ModelView/Client/YIUIComponent/Tips/TipsTextViewQueueSingleton.cs` | 飘字队列模型 |
+- **池、引用计数、回收入口**<br>`Packages/cn.etetet.yiuitips/Scripts/ModelView/Client/YIUIComponent/Tips/TipsPanelComponent.cs`
+- **被打开 View 的标记组件**<br>`Packages/cn.etetet.yiuitips/Scripts/ModelView/Client/YIUIComponent/Tips/TipsViewComponent.cs`
+- **确认弹窗的数据结构**<br>`Packages/cn.etetet.yiuitips/Scripts/ModelView/Client/YIUIComponent/Tips/TipsMessageViewComponent.cs`
+- **飘字队列模型**<br>`Packages/cn.etetet.yiuitips/Scripts/ModelView/Client/YIUIComponent/Tips/TipsTextViewQueueSingleton.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| Panel 的打开与回收 | `Scripts/HotfixView/Client/YIUISystem/Tips/TipsPanelComponentSystem.cs` |
-| 三个 View 的表现逻辑 | `Scripts/HotfixView/Client/YIUISystem/Tips/Tips*ComponentSystem.cs` |
-| 队列消费循环 | `Scripts/HotfixView/Client/YIUISystem/Tips/TipsTextViewQueueSingletonSystem.cs` |
-| 队列单例的注册 | `Scripts/HotfixView/Client/Handler/OnYIUIEventInitializeAfter_AddTipsTextViewQueueSingleton_Handler.cs` |
-| 资源与动画 | `Assets/GameRes/YIUI/Tips/` |
+- **Panel 的打开与回收**<br>`Scripts/HotfixView/Client/YIUISystem/Tips/TipsPanelComponentSystem.cs`
+- **三个 View 的表现逻辑**<br>`Scripts/HotfixView/Client/YIUISystem/Tips/Tips*ComponentSystem.cs`
+- **队列消费循环**<br>`Scripts/HotfixView/Client/YIUISystem/Tips/TipsTextViewQueueSingletonSystem.cs`
+- **队列单例的注册**<br>`Scripts/HotfixView/Client/Handler/OnYIUIEventInitializeAfter_AddTipsTextViewQueueSingleton_Handler.cs`
+- **资源与动画**<br>`Assets/GameRes/YIUI/Tips/`
 
 ## 下一步
 

@@ -80,22 +80,18 @@ powershell -ExecutionPolicy Bypass -Command "& '<工程根>\Packages\cn.etetet.y
 
 ## 真源
 
-| 文件 | 内容 |
-|---|---|
-| `AGENTS.md`（工程根）→「C# 修改后的强制编译门禁」 | 门禁的权威定义与执行要求 |
-| `Packages/cn.etetet.yiuimcp/Docs/Flows/强制编译规则.md` | 门禁规则说明与触发时机清单 |
-| `docs/F6编译流程说明.md` | F6 完整流程、asmref 规则、6 个高频问题 |
-| `Packages/cn.etetet.harness/skills/et-build/SKILL.md` | 编译与导出的统一入口 |
-| `Packages/cn.etetet.yiuimcp/Config/compile-unity-flow.ps1` | 门禁脚本本体 |
+- **门禁的权威定义与执行要求**<br>`AGENTS.md`（工程根）→「C# 修改后的强制编译门禁」
+- **门禁规则说明与触发时机清单**<br>`Packages/cn.etetet.yiuimcp/Docs/Flows/强制编译规则.md`
+- **F6 完整流程、asmref 规则、6 个高频问题**<br>`docs/F6编译流程说明.md`
+- **编译与导出的统一入口**<br>`Packages/cn.etetet.harness/skills/et-build/SKILL.md`
+- **门禁脚本本体**<br>`Packages/cn.etetet.yiuimcp/Config/compile-unity-flow.ps1`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| F6 入口编排 | `Packages/cn.etetet.loader/Scripts/Editor/Share/AssemblyTool.cs` |
-| CodeMode 与 asmref 生成 | `Packages/com.etetet.init/DotNet~/CodeModeChangeHelper.cs` |
-| 主包 → MainPackage.txt | `Packages/com.etetet.init/Editor/MainPackageSelector.cs` |
-| 编译包清单 | `MainPackage.txt` |
+- **F6 入口编排**<br>`Packages/cn.etetet.loader/Scripts/Editor/Share/AssemblyTool.cs`
+- **CodeMode 与 asmref 生成**<br>`Packages/com.etetet.init/DotNet~/CodeModeChangeHelper.cs`
+- **主包 → MainPackage.txt**<br>`Packages/com.etetet.init/Editor/MainPackageSelector.cs`
+- **编译包清单**<br>`MainPackage.txt`
 
 ## 读完能回答
 

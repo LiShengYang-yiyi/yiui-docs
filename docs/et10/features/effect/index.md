@@ -75,23 +75,19 @@ title: UGUI 特效
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuieffect/Plugins/UIParticle/UIParticle.cs` | 粒子容器与对外 API |
-| `Packages/cn.etetet.yiuieffect/Plugins/UIParticle/UIParticleRenderer.cs` | 烘焙与网格提交 |
-| `Packages/cn.etetet.yiuieffect/Plugins/UIParticle/UIParticleUpdater.cs` | 每帧驱动 |
-| `Packages/cn.etetet.yiuieffect/Plugins/UIEffect/Runtime/UIEffect.cs` | 材质级特效 |
-| `Packages/cn.etetet.yiuieffect/Runtime/YIUIBind/Data/UIDataBindGray.cs` | 数据绑定置灰 |
+- **粒子容器与对外 API**<br>`Packages/cn.etetet.yiuieffect/Plugins/UIParticle/UIParticle.cs`
+- **烘焙与网格提交**<br>`Packages/cn.etetet.yiuieffect/Plugins/UIParticle/UIParticleRenderer.cs`
+- **每帧驱动**<br>`Packages/cn.etetet.yiuieffect/Plugins/UIParticle/UIParticleUpdater.cs`
+- **材质级特效**<br>`Packages/cn.etetet.yiuieffect/Plugins/UIEffect/Runtime/UIEffect.cs`
+- **数据绑定置灰**<br>`Packages/cn.etetet.yiuieffect/Runtime/YIUIBind/Data/UIDataBindGray.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 粒子排序工具 | `Plugins/UIParticle/Utilities/ParticleSystemExtensions.cs` |
-| 材质实例复用 | `Plugins/UIParticle/Internal/Utilities/MaterialRepository.cs` |
-| 工程级设置 | `Plugins/UIParticle/UIParticleProjectSettings.cs` · `Plugins/UIEffect/Runtime/UIEffectProjectSettings.cs` |
-| 编辑器面板 | `Editor/UIParticleEditor/` · `Editor/UIEffect/` |
-| 置灰的全量版 | `Runtime/YIUIBind/Data/UIDataBindGrayAll.cs` |
+- **粒子排序工具**<br>`Plugins/UIParticle/Utilities/ParticleSystemExtensions.cs`
+- **材质实例复用**<br>`Plugins/UIParticle/Internal/Utilities/MaterialRepository.cs`
+- **工程级设置**<br>`Plugins/UIParticle/UIParticleProjectSettings.cs` · `Plugins/UIEffect/Runtime/UIEffectProjectSettings.cs`
+- **编辑器面板**<br>`Editor/UIParticleEditor/` · `Editor/UIEffect/`
+- **置灰的全量版**<br>`Runtime/YIUIBind/Data/UIDataBindGrayAll.cs`
 
 ## 下一步
 

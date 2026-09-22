@@ -57,21 +57,17 @@ title: 2.4 事件机制
 
 ## 真源
 
-| 文件 | 内容 |
-|---|---|
-| `Book/3.4事件机制EventSystem.md` | 十类事件的完整列表与代码示例（中文） |
-| `Book/3.4EventSystem.md` | 同上，英文版 |
-| `AGENTS.md`（工程根） | UI 刷新与解耦的动态消息约定 |
+- **十类事件的完整列表与代码示例（中文）**<br>`Book/3.4事件机制EventSystem.md`
+- **同上，英文版**<br>`Book/3.4EventSystem.md`
+- **UI 刷新与解耦的动态消息约定**<br>`AGENTS.md`（工程根）
 
 > `Book/3.4` 示例中的写法较旧（如 `Game.EventSystem.Run`），当前工程的事件注册方式以代码为准，语义不变。
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 事件系统实现 | `Packages/cn.etetet.core/Scripts/` |
-| `MessageHandler` 实例 | 各包 `Scripts/Hotfix/` 下的 `*Handler.cs` |
-| 生命周期 System 实例 | 各包 `Scripts/Hotfix/` 下的 `*System.cs` |
+- **事件系统实现**<br>`Packages/cn.etetet.core/Scripts/`
+- **`MessageHandler` 实例**<br>各包 `Scripts/Hotfix/` 下的 `*Handler.cs`
+- **生命周期 System 实例**<br>各包 `Scripts/Hotfix/` 下的 `*System.cs`
 
 ## 读完能回答
 

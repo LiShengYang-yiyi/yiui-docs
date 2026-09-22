@@ -113,23 +113,19 @@ numeric.Set(ENumericType.NewType0, 100f);
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuinumericconfig/Luban/Config/Base/Defines/Numeric.xml` | 全部类型定义 |
-| `Packages/cn.etetet.yiuinumericconfig/Luban/Config/Datas/Numeric/` | 检查、上下限、影响、公式、显示数据 |
-| `Packages/cn.etetet.yiuinumericconfig/Luban/Config/Other/NumericType.xlsx` | 类型录入源表 |
-| `Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/Data/NumericCheck.cs` | 校验实现 |
+- **全部类型定义**<br>`Packages/cn.etetet.yiuinumericconfig/Luban/Config/Base/Defines/Numeric.xml`
+- **检查、上下限、影响、公式、显示数据**<br>`Packages/cn.etetet.yiuinumericconfig/Luban/Config/Datas/Numeric/`
+- **类型录入源表**<br>`Packages/cn.etetet.yiuinumericconfig/Luban/Config/Other/NumericType.xlsx`
+- **校验实现**<br>`Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/Data/NumericCheck.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 上下限读取 | `Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/Data/NumericDataExtend_Limit.cs` |
-| 影响唯一 id 生成 | `Packages/cn.etetet.yiuinumericconfig/Scripts/Model/Share/Config/NumericValueAffectConfig_Extend.cs` |
-| 影响公式实现 | `Packages/cn.etetet.yiuinumericconfig/Scripts/Hotfix/Share/Affect/NumericAffectSystem.cs` |
-| 公式生成产物 | `Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/Formula/On_Invoke_NumericFormula_Handler.cs` |
-| 类型创建窗口 | `Packages/cn.etetet.yiuinumeric/Editor/Window/CreateNumeric.cs` |
-| 数值工具菜单 | `Packages/cn.etetet.yiuinumeric/Editor/Window/NumericMenu.cs` |
+- **上下限读取**<br>`Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/Data/NumericDataExtend_Limit.cs`
+- **影响唯一 id 生成**<br>`Packages/cn.etetet.yiuinumericconfig/Scripts/Model/Share/Config/NumericValueAffectConfig_Extend.cs`
+- **影响公式实现**<br>`Packages/cn.etetet.yiuinumericconfig/Scripts/Hotfix/Share/Affect/NumericAffectSystem.cs`
+- **公式生成产物**<br>`Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/Formula/On_Invoke_NumericFormula_Handler.cs`
+- **类型创建窗口**<br>`Packages/cn.etetet.yiuinumeric/Editor/Window/CreateNumeric.cs`
+- **数值工具菜单**<br>`Packages/cn.etetet.yiuinumeric/Editor/Window/NumericMenu.cs`
 
 ## 下一步
 

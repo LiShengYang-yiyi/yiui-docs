@@ -75,19 +75,15 @@ if (self.InstanceId != instanceId) return;   // 对象已经换人了，必须�
 
 ## 真源
 
-| 文件 | 内容 |
-|---|---|
-| `Book/3.3一切皆实体.md` | 树状结构、组件创建 / 释放 / InstanceId 的完整讲解（中文） |
-| `Book/3.3Everything is Entity.md` | 同上，英文版 |
-| `AGENTS.md`（工程根） | 组件初始化、`GetOrAdd` 禁令、组件缺失的错误处理约定 |
+- **树状结构、组件创建 / 释放 / InstanceId 的完整讲解（中文）**<br>`Book/3.3一切皆实体.md`
+- **同上，英文版**<br>`Book/3.3Everything is Entity.md`
+- **组件初始化、`GetOrAdd` 禁令、组件缺失的错误处理约定**<br>`AGENTS.md`（工程根）
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| `Entity` / `Component` 基类定义 | `Packages/cn.etetet.core/Scripts/Model/` |
-| 组件工厂与对象池 | `Packages/cn.etetet.core/Scripts/` |
-| 组件生命周期 System 写法 | 任意包的 `Scripts/Hotfix/` 下的 `*System.cs` |
+- **`Entity` / `Component` 基类定义**<br>`Packages/cn.etetet.core/Scripts/Model/`
+- **组件工厂与对象池**<br>`Packages/cn.etetet.core/Scripts/`
+- **组件生命周期 System 写法**<br>任意包的 `Scripts/Hotfix/` 下的 `*System.cs`
 
 > 具体文件路径随版本变动，建议在 `Packages/cn.etetet.core/` 下按类型名检索。
 

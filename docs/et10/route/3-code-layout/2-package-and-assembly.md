@@ -67,22 +67,18 @@ title: 3.2 Package 与程序集
 
 ## 真源
 
-| 文件 | 内容 |
-|---|---|
-| `Book/8.1ET Package制作指南.md` | 包目录规范、asmdef/asmref 机制、付费包制作（**最完整**） |
-| `Book/8.2ET Package目录.md` | 官方包清单与一句话描述 |
-| `docs/F6编译流程说明.md` | asmref 生成规则、合法路径集合、MainPackage.txt 维护 |
-| `Packages/cn.etetet.harness/skills/et-code/SKILL.md` | 文件落点、`.meta` 处理、程序集检查 |
-| `Packages/cn.etetet.harness/skills/et-code/references/et-code-rules.md` | 包层级与文件放置细则 |
+- **包目录规范、asmdef/asmref 机制、付费包制作（最完整）**<br>`Book/8.1ET Package制作指南.md`
+- **官方包清单与一句话描述**<br>`Book/8.2ET Package目录.md`
+- **asmref 生成规则、合法路径集合、MainPackage.txt 维护**<br>`docs/F6编译流程说明.md`
+- **文件落点、`.meta` 处理、程序集检查**<br>`Packages/cn.etetet.harness/skills/et-code/SKILL.md`
+- **包层级与文件放置细则**<br>`Packages/cn.etetet.harness/skills/et-code/references/et-code-rules.md`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| asmref 生成逻辑 | `Packages/com.etetet.init/DotNet~/CodeModeChangeHelper.cs` |
-| 主包 → MainPackage.txt 推导 | `Packages/com.etetet.init/Editor/MainPackageSelector.cs` |
-| F6 入口编排 | `Packages/cn.etetet.loader/Scripts/Editor/Share/AssemblyTool.cs` |
-| 包元信息样例 | `Packages/cn.etetet.core/packagegit.json` |
+- **asmref 生成逻辑**<br>`Packages/com.etetet.init/DotNet~/CodeModeChangeHelper.cs`
+- **主包 → MainPackage.txt 推导**<br>`Packages/com.etetet.init/Editor/MainPackageSelector.cs`
+- **F6 入口编排**<br>`Packages/cn.etetet.loader/Scripts/Editor/Share/AssemblyTool.cs`
+- **包元信息样例**<br>`Packages/cn.etetet.core/packagegit.json`
 
 ## 读完能回答
 

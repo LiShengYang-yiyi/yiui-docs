@@ -91,22 +91,18 @@ title: 3.4 新增一个功能的完整落点
 
 ## 真源
 
-| 文件 | 内容 |
-|---|---|
-| `Packages/cn.etetet.harness/skills/et-code/SKILL.md` | 新建 / 修改 Entity、System、Handler、包依赖的完整入口 |
-| `Packages/cn.etetet.harness/skills/et-code/references/et-code-rules.md` | 文件落点、`.meta`、ECS 边界、组件契约 |
-| `Packages/cn.etetet.harness/skills/et-build/SKILL.md` | 编译与导出验证 |
-| `AGENTS.md`（工程根） | 「强制编译门禁」与各类禁令 |
-| `Packages/cn.etetet.yiuiskill/AGENTS.md` | 独立扩展包的边界写法样本（怎么固定边界） |
+- **新建 / 修改 Entity、System、Handler、包依赖的完整入口**<br>`Packages/cn.etetet.harness/skills/et-code/SKILL.md`
+- **文件落点、`.meta`、ECS 边界、组件契约**<br>`Packages/cn.etetet.harness/skills/et-code/references/et-code-rules.md`
+- **编译与导出验证**<br>`Packages/cn.etetet.harness/skills/et-build/SKILL.md`
+- **「强制编译门禁」与各类禁令**<br>`AGENTS.md`（工程根）
+- **独立扩展包的边界写法样本（怎么固定边界）**<br>`Packages/cn.etetet.yiuiskill/AGENTS.md`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 低层包范本 | `Packages/cn.etetet.map/` |
-| 中层玩法包范本 | `Packages/cn.etetet.mapplay/` |
-| 上层业务包范本 | `Packages/cn.etetet.transfer/` |
-| 独立扩展包范本 | `Packages/cn.etetet.yiuiskill/` |
+- **低层包范本**<br>`Packages/cn.etetet.map/`
+- **中层玩法包范本**<br>`Packages/cn.etetet.mapplay/`
+- **上层业务包范本**<br>`Packages/cn.etetet.transfer/`
+- **独立扩展包范本**<br>`Packages/cn.etetet.yiuiskill/`
 
 ## 读完能回答
 

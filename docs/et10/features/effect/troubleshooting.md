@@ -95,21 +95,17 @@ Too many vertices to render. index={0}, isTrail={1}, vertexCount={2}(>=65535)
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuieffect/Plugins/UIParticle/UIParticleRenderer.cs` | 早退条件、顶点数校验、裁剪判断 |
-| `Packages/cn.etetet.yiuieffect/Plugins/UIParticle/Utilities/ParticleSystemExtensions.cs` | 可烘焙判定与排序 |
-| `Packages/cn.etetet.yiuieffect/Editor/UIParticleEditor/UIParticleEditor.cs` | 编辑器警告文案 |
-| `Packages/cn.etetet.yiuieffect/Plugins/UIEffect/Runtime/UIEffectBase.cs` | 材质特效的材质替换 |
+- **早退条件、顶点数校验、裁剪判断**<br>`Packages/cn.etetet.yiuieffect/Plugins/UIParticle/UIParticleRenderer.cs`
+- **可烘焙判定与排序**<br>`Packages/cn.etetet.yiuieffect/Plugins/UIParticle/Utilities/ParticleSystemExtensions.cs`
+- **编辑器警告文案**<br>`Packages/cn.etetet.yiuieffect/Editor/UIParticleEditor/UIParticleEditor.cs`
+- **材质特效的材质替换**<br>`Packages/cn.etetet.yiuieffect/Plugins/UIEffect/Runtime/UIEffectBase.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 网格共享分组 | `Plugins/UIParticle/UIParticleUpdater.cs` |
-| 缩放自动补偿 | `Plugins/UIParticle/UIParticle.cs` 里的 `UpdateTransformScale` |
-| 世界空间分辨率补偿 | `Plugins/UIParticle/UIParticleRenderer.cs` |
-| 着色器变体处理 | `Editor/UIEffect/RemoveSoftMaskableVariantsIfNeeded.cs` |
+- **网格共享分组**<br>`Plugins/UIParticle/UIParticleUpdater.cs`
+- **缩放自动补偿**<br>`Plugins/UIParticle/UIParticle.cs` 里的 `UpdateTransformScale`
+- **世界空间分辨率补偿**<br>`Plugins/UIParticle/UIParticleRenderer.cs`
+- **着色器变体处理**<br>`Editor/UIEffect/RemoveSoftMaskableVariantsIfNeeded.cs`
 
 ## 下一步
 

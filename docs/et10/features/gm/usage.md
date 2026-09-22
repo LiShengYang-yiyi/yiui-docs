@@ -88,22 +88,18 @@ title: 面板与执行
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuigm/Scripts/HotfixView/Client/YIUISystem/GM/GMPanelComponentSystem.cs` | 按钮与快捷键入口 |
-| `Packages/cn.etetet.yiuigm/Scripts/HotfixView/Client/YIUISystem/GM/GMViewComponentSystem.cs` | 页签与列表 |
-| `Packages/cn.etetet.yiuigm/Scripts/HotfixView/Client/GM/GMCommandComponentSystem.cs` | 执行流程与层级锁 |
-| `Packages/cn.etetet.yiuigm/Scripts/HotfixView/Client/GM/GMHistoryComponentSystem.cs` | 历史读写 |
-| `Packages/cn.etetet.yiuigm/Scripts/ModelView/Client/GM/GMHistoryData.cs` | 历史数据结构与存储键 |
+- **按钮与快捷键入口**<br>`Packages/cn.etetet.yiuigm/Scripts/HotfixView/Client/YIUISystem/GM/GMPanelComponentSystem.cs`
+- **页签与列表**<br>`Packages/cn.etetet.yiuigm/Scripts/HotfixView/Client/YIUISystem/GM/GMViewComponentSystem.cs`
+- **执行流程与层级锁**<br>`Packages/cn.etetet.yiuigm/Scripts/HotfixView/Client/GM/GMCommandComponentSystem.cs`
+- **历史读写**<br>`Packages/cn.etetet.yiuigm/Scripts/HotfixView/Client/GM/GMHistoryComponentSystem.cs`
+- **历史数据结构与存储键**<br>`Packages/cn.etetet.yiuigm/Scripts/ModelView/Client/GM/GMHistoryData.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 条目的参数控件回写 | `Scripts/HotfixView/Client/YIUISystem/GM/GMParamItemComponentSystem.cs` |
-| 命令条目渲染 | `Scripts/HotfixView/Client/YIUISystem/GM/GMCommandItemComponentSystem.cs` |
-| 分类条目渲染 | `Scripts/HotfixView/Client/YIUISystem/GM/GMTypeItemComponentSystem.cs` |
-| 面板预制体 | `Assets/GameRes/YIUI/GM/Prefabs/GMPanel.prefab` |
+- **条目的参数控件回写**<br>`Scripts/HotfixView/Client/YIUISystem/GM/GMParamItemComponentSystem.cs`
+- **命令条目渲染**<br>`Scripts/HotfixView/Client/YIUISystem/GM/GMCommandItemComponentSystem.cs`
+- **分类条目渲染**<br>`Scripts/HotfixView/Client/YIUISystem/GM/GMTypeItemComponentSystem.cs`
+- **面板预制体**<br>`Assets/GameRes/YIUI/GM/Prefabs/GMPanel.prefab`
 
 ## 下一步
 

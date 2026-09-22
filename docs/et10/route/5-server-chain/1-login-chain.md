@@ -92,24 +92,20 @@ title: 5.1 Login → Realm → Gate → Map
 
 ## 真源
 
-| 文件 | 内容 |
-|---|---|
-| `docs/YIUIET10说明.md` | 登录进图的验收标准与链路保留范围 |
-| `Packages/cn.etetet.transfer/AGENTS.md` | `C2G_EnterMapHandler` 的归属与边界说明 |
-| `Packages/cn.etetet.login/AGENTS.md` | login 包职责 |
-| `Book/1.1运行指南.md` | 独立起服 + 客户端连接的操作顺序 |
+- **登录进图的验收标准与链路保留范围**<br>`docs/YIUIET10说明.md`
+- **`C2G_EnterMapHandler` 的归属与边界说明**<br>`Packages/cn.etetet.transfer/AGENTS.md`
+- **login 包职责**<br>`Packages/cn.etetet.login/AGENTS.md`
+- **独立起服 + 客户端连接的操作顺序**<br>`Book/1.1运行指南.md`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 客户端登录与进图 | `Packages/cn.etetet.login/Scripts/Hotfix/Client/` |
-| 客户端网络纤程 | `Packages/cn.etetet.login/Scripts/Hotfix/Client/NetClient/` |
-| 客户端拉路由 | `Packages/cn.etetet.login/Scripts/Hotfix/Client/NetClient/Router/` |
-| Realm 处理 | `Packages/cn.etetet.login/Scripts/Hotfix/Server/Realm/` |
-| Gate 处理 | `Packages/cn.etetet.login/Scripts/Hotfix/Server/Gate/` |
-| 协议定义 | `Packages/cn.etetet.login/Proto/Login_C_10000.proto` · `Login_S_20000.proto` |
-| 玩家与 Session 模型 | `Packages/cn.etetet.login/Scripts/Model/{Client,Server}/` |
+- **客户端登录与进图**<br>`Packages/cn.etetet.login/Scripts/Hotfix/Client/`
+- **客户端网络纤程**<br>`Packages/cn.etetet.login/Scripts/Hotfix/Client/NetClient/`
+- **客户端拉路由**<br>`Packages/cn.etetet.login/Scripts/Hotfix/Client/NetClient/Router/`
+- **Realm 处理**<br>`Packages/cn.etetet.login/Scripts/Hotfix/Server/Realm/`
+- **Gate 处理**<br>`Packages/cn.etetet.login/Scripts/Hotfix/Server/Gate/`
+- **协议定义**<br>`Packages/cn.etetet.login/Proto/Login_C_10000.proto` · `Login_S_20000.proto`
+- **玩家与 Session 模型**<br>`Packages/cn.etetet.login/Scripts/Model/{Client,Server}/`
 
 ## 读完能回答
 

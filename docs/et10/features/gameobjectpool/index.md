@@ -112,25 +112,21 @@ title: 对象池
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuigameobjectpool/Runtime/GameObjectPool/YIUIGameObjectPool.cs` | 单例、池表、取放入口 |
-| `Packages/cn.etetet.yiuigameobjectpool/Runtime/GameObjectPool/YIUIAutoRecycleAsyncObjectPool.cs` | 单资源池与三种回收 |
-| `Packages/cn.etetet.yiuigameobjectpool/Runtime/GameObjectPool/YIUIGameObjectPoolInfo.cs` | 挂在预制体上的配置组件 |
-| `Packages/cn.etetet.yiuigameobjectpool/Scripts/Core/Share/IYIUIGameObjectPoolSettingsConfig.cs` | 配置契约 |
-| `Packages/cn.etetet.yiuigameobjectpool/Luban/Config/Base/Defines/GameObjectPool.xml` | 表结构定义 |
-| `Packages/cn.etetet.yiuigameobjectpool/Luban/Config/Datas/GameObjectPool/GameObjectPoolSettings.yml` | 表数据 |
+- **单例、池表、取放入口**<br>`Packages/cn.etetet.yiuigameobjectpool/Runtime/GameObjectPool/YIUIGameObjectPool.cs`
+- **单资源池与三种回收**<br>`Packages/cn.etetet.yiuigameobjectpool/Runtime/GameObjectPool/YIUIAutoRecycleAsyncObjectPool.cs`
+- **挂在预制体上的配置组件**<br>`Packages/cn.etetet.yiuigameobjectpool/Runtime/GameObjectPool/YIUIGameObjectPoolInfo.cs`
+- **配置契约**<br>`Packages/cn.etetet.yiuigameobjectpool/Scripts/Core/Share/IYIUIGameObjectPoolSettingsConfig.cs`
+- **表结构定义**<br>`Packages/cn.etetet.yiuigameobjectpool/Luban/Config/Base/Defines/GameObjectPool.xml`
+- **表数据**<br>`Packages/cn.etetet.yiuigameobjectpool/Luban/Config/Datas/GameObjectPool/GameObjectPoolSettings.yml`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 取配置的 Invoke 出口 | `Runtime/GameObjectPool/YIUIGameObjectPool.cs` 的 `GetSettings` |
-| 池的取放与超时判定 | `Runtime/GameObjectPool/YIUIAutoRecycleAsyncObjectPool.cs` |
-| 被销毁时的兜底通知 | `Runtime/GameObjectPool/YIUIGameObjectPoolAutoRelease.cs` |
-| 挂点式的自动取放 | `Runtime/GameObjectPool/YIUIGameObjectPoolTrigger.cs` |
-| 配置查询的 Handler | `Scripts/HotfixView/Client/YIUIInvokeGetGameObjectPoolSettingsHandler.cs` |
-| 生成的配置类 | `CodeMode/Model/*/LubanGen/Config/GameObjectPoolSettingsConfig*.cs` |
+- **取配置的 Invoke 出口**<br>`Runtime/GameObjectPool/YIUIGameObjectPool.cs` 的 `GetSettings`
+- **池的取放与超时判定**<br>`Runtime/GameObjectPool/YIUIAutoRecycleAsyncObjectPool.cs`
+- **被销毁时的兜底通知**<br>`Runtime/GameObjectPool/YIUIGameObjectPoolAutoRelease.cs`
+- **挂点式的自动取放**<br>`Runtime/GameObjectPool/YIUIGameObjectPoolTrigger.cs`
+- **配置查询的 Handler**<br>`Scripts/HotfixView/Client/YIUIInvokeGetGameObjectPoolSettingsHandler.cs`
+- **生成的配置类**<br>`CodeMode/Model/*/LubanGen/Config/GameObjectPoolSettingsConfig*.cs`
 
 ## 下一步
 

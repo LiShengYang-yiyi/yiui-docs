@@ -114,23 +114,19 @@ dotnet <工具包>/.Tools/ET.YIUI.Luban.Export.dll --project ./ --collection Con
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuiluban/Editor/Window/LubanTools_Gen.cs` | 菜单、命令行、超时、结果解析 |
-| `Packages/cn.etetet.yiuilubangen/Luban/Config/Base/LubanGen1.ps1` | 客户端生成脚本 |
-| `Packages/cn.etetet.yiuiluban/DotNet~/ET.YIUI.Luban.Export/` | 导出编排器源码 |
-| `Packages/cn.etetet.yiuiluban/Scripts/Model/Share/Config/LubanHelper.cs` | 产物路径常量 |
+- **菜单、命令行、超时、结果解析**<br>`Packages/cn.etetet.yiuiluban/Editor/Window/LubanTools_Gen.cs`
+- **客户端生成脚本**<br>`Packages/cn.etetet.yiuilubangen/Luban/Config/Base/LubanGen1.ps1`
+- **导出编排器源码**<br>`Packages/cn.etetet.yiuiluban/DotNet~/ET.YIUI.Luban.Export/`
+- **产物路径常量**<br>`Packages/cn.etetet.yiuiluban/Scripts/Model/Share/Config/LubanHelper.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 配置工具窗口 | `Packages/cn.etetet.yiuiluban/Editor/Window/LubanToolsWindow.cs` |
-| 代码模板 | `Packages/cn.etetet.yiuiluban/.ToolsGen/Custom/` |
-| Luban 版本 | `Packages/cn.etetet.yiuiluban/LubanVersions.txt` |
-| 代码模式变更后的引用重建 | `Packages/cn.etetet.yiuiluban/Editor/Window/LubanTools_CodeModeChangeHelper.cs` |
-| 自动化导出工具 | `Packages/cn.etetet.yiuiluban/Editor/YIUIToolbar/YIUIMCPTools_LubanExport.cs` |
-| 启动配置的生成脚本 | `Packages/cn.etetet.yiuistartconfig/Luban/Localhost/Base/` |
+- **配置工具窗口**<br>`Packages/cn.etetet.yiuiluban/Editor/Window/LubanToolsWindow.cs`
+- **代码模板**<br>`Packages/cn.etetet.yiuiluban/.ToolsGen/Custom/`
+- **Luban 版本**<br>`Packages/cn.etetet.yiuiluban/LubanVersions.txt`
+- **代码模式变更后的引用重建**<br>`Packages/cn.etetet.yiuiluban/Editor/Window/LubanTools_CodeModeChangeHelper.cs`
+- **自动化导出工具**<br>`Packages/cn.etetet.yiuiluban/Editor/YIUIToolbar/YIUIMCPTools_LubanExport.cs`
+- **启动配置的生成脚本**<br>`Packages/cn.etetet.yiuistartconfig/Luban/Localhost/Base/`
 
 ## 下一步
 

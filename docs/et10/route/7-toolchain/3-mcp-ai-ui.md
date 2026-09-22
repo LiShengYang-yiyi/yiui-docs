@@ -101,24 +101,20 @@ title: 7.3 MCP 拼 UI
 
 ## 真源
 
-| 文件 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuimcp/Docs/AI-UI/AI拼UI技术方案.md` | 方案概述、问题分析、技术架构、工作流 |
-| `Packages/cn.etetet.yiuimcp/Docs/AI-UI/AI拼UI完整开发流程.md` | 完整流程与「UI 拆分先行」原则 |
-| `Packages/cn.etetet.yiuimcp/Docs/AI-UI/UIVision功能说明.md` | UI 结构查询的全部能力与输出模式 |
-| `Packages/cn.etetet.yiuimcp/Docs/AI-UI/ModifyUIPrefab-AI使用指南.md` | 修改预制体的操作指南 |
-| `Packages/cn.etetet.yiuimcp/Docs/Flows/P0-闭环验收标准.md` | 闭环「通过」的定义与失败分级 |
-| `Packages/cn.etetet.yiuimcp/Docs/Flows/LoginTestClick测试指南.md` | 从加按钮到「点击命中日志」的端到端实操 |
-| `Packages/cn.etetet.yiuimcp/Docs/AI-UI/YIUIMCP自动拼UI-Data化规范.md` | CDE / Data 化的规范 |
+- **方案概述、问题分析、技术架构、工作流**<br>`Packages/cn.etetet.yiuimcp/Docs/AI-UI/AI拼UI技术方案.md`
+- **完整流程与「UI 拆分先行」原则**<br>`Packages/cn.etetet.yiuimcp/Docs/AI-UI/AI拼UI完整开发流程.md`
+- **UI 结构查询的全部能力与输出模式**<br>`Packages/cn.etetet.yiuimcp/Docs/AI-UI/UIVision功能说明.md`
+- **修改预制体的操作指南**<br>`Packages/cn.etetet.yiuimcp/Docs/AI-UI/ModifyUIPrefab-AI使用指南.md`
+- **闭环「通过」的定义与失败分级**<br>`Packages/cn.etetet.yiuimcp/Docs/Flows/P0-闭环验收标准.md`
+- **从加按钮到「点击命中日志」的端到端实操**<br>`Packages/cn.etetet.yiuimcp/Docs/Flows/LoginTestClick测试指南.md`
+- **CDE / Data 化的规范**<br>`Packages/cn.etetet.yiuimcp/Docs/AI-UI/YIUIMCP自动拼UI-Data化规范.md`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| UIVision 实现 | `Packages/cn.etetet.yiuimcp/Editor/` |
-| 发布脚本 | `Packages/cn.etetet.yiuimcp/Config/yiui-publish-flow-en.ps1` |
-| 闭环验收脚本 | `Packages/cn.etetet.yiuimcp/Config/p0-closed-loop-verify.ps1` |
-| 生成的界面代码 | `Packages/<包>/Scripts/HotfixView/Client/YIUISystem/` |
+- **UIVision 实现**<br>`Packages/cn.etetet.yiuimcp/Editor/`
+- **发布脚本**<br>`Packages/cn.etetet.yiuimcp/Config/yiui-publish-flow-en.ps1`
+- **闭环验收脚本**<br>`Packages/cn.etetet.yiuimcp/Config/p0-closed-loop-verify.ps1`
+- **生成的界面代码**<br>`Packages/<包>/Scripts/HotfixView/Client/YIUISystem/`
 
 ## 读完能回答
 

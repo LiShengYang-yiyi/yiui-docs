@@ -125,23 +125,19 @@ public class NumericChange_Speed_xxx : NumericHandlerSystem<Unit>
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/System/NumericDataComponentSystem_Get.cs` | 读值方法族 |
-| `Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/Data/NumericDataExtend_Change.cs` | `Change` 实现 |
-| `Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/Data/NumericDataExtend_Set.cs` | `Set` 实现 |
-| `Packages/cn.etetet.yiuinumeric/Scripts/Model/Share/Numeric/Handler/NumericHandlerAttribute.cs` | 特性定义 |
+- **读值方法族**<br>`Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/System/NumericDataComponentSystem_Get.cs`
+- **`Change` 实现**<br>`Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/Data/NumericDataExtend_Change.cs`
+- **`Set` 实现**<br>`Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/Data/NumericDataExtend_Set.cs`
+- **特性定义**<br>`Packages/cn.etetet.yiuinumeric/Scripts/Model/Share/Numeric/Handler/NumericHandlerAttribute.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 监听器分发中心 | `Packages/cn.etetet.yiuinumeric/Scripts/Model/Share/Numeric/Handler/NumericHandlerComponent.cs` |
-| 动态监听基类 | `Packages/cn.etetet.yiuinumeric/Scripts/Model/Share/Numeric/Handler/INumericHandlerDynamic.cs` |
-| 变化事件的订阅者 | `Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/Handler/NumericChangeEvent_NotifyHandler.cs` |
-| 变化数据结构 | `Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/Data/NumericChange.cs` |
-| 工程内真实样例 | `Packages/cn.etetet.mapplay/Scripts/HotfixView/Client/Unit/NumericWatcher_Speed_ChangeMotionSpeed.cs` |
-| 批量操作 | `Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/System/NumericDataComponentSystem_Add.cs` |
+- **监听器分发中心**<br>`Packages/cn.etetet.yiuinumeric/Scripts/Model/Share/Numeric/Handler/NumericHandlerComponent.cs`
+- **动态监听基类**<br>`Packages/cn.etetet.yiuinumeric/Scripts/Model/Share/Numeric/Handler/INumericHandlerDynamic.cs`
+- **变化事件的订阅者**<br>`Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/Handler/NumericChangeEvent_NotifyHandler.cs`
+- **变化数据结构**<br>`Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/Data/NumericChange.cs`
+- **工程内真实样例**<br>`Packages/cn.etetet.mapplay/Scripts/HotfixView/Client/Unit/NumericWatcher_Speed_ChangeMotionSpeed.cs`
+- **批量操作**<br>`Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/System/NumericDataComponentSystem_Add.cs`
 
 ## 下一步
 

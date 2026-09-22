@@ -78,24 +78,20 @@ Handler 执行业务响应
 
 ## 真源
 
-| 文件 | 内容 |
-|---|---|
-| `Packages/cn.etetet.harness/skills/et-luban/SKILL.md` | Luban 导出的完整流程与前置条件 |
-| `Packages/cn.etetet.harness/skills/et-luban/references/et-luban-export.md` | 导出结果落点与常见失败排查 |
-| `Packages/cn.etetet.harness/skills/et-excel/SKILL.md` | 改表的入口（与导出分开） |
-| `docs/YIUIET10裁剪记录.md` | `numeric` → `yiuinumeric` 的完整取舍记录（**权威**） |
-| `Book/5.6数值组件设计.md` | 数值组件的设计思路（Key-Value 形式） |
-| `Packages/cn.etetet.yiuinumeric/README.md` | 数值包能力说明 |
+- **Luban 导出的完整流程与前置条件**<br>`Packages/cn.etetet.harness/skills/et-luban/SKILL.md`
+- **导出结果落点与常见失败排查**<br>`Packages/cn.etetet.harness/skills/et-luban/references/et-luban-export.md`
+- **改表的入口（与导出分开）**<br>`Packages/cn.etetet.harness/skills/et-excel/SKILL.md`
+- **`numeric` → `yiuinumeric` 的完整取舍记录（权威）**<br>`docs/YIUIET10裁剪记录.md`
+- **数值组件的设计思路（Key-Value 形式）**<br>`Book/5.6数值组件设计.md`
+- **数值包能力说明**<br>`Packages/cn.etetet.yiuinumeric/README.md`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 数值核心实现 | `Packages/cn.etetet.yiuinumeric/Scripts/` |
-| 数值配置与枚举 | `Packages/cn.etetet.yiuinumericconfig/` |
-| Luban 包与导出脚本 | `Packages/cn.etetet.yiuiluban/`（`Luban/` · `Editor/`） |
-| Unit 的配置体系 | `Packages/cn.etetet.yiuiunit/Luban/` |
-| 数值变化的业务响应 | `Packages/cn.etetet.mapplay/Scripts/` 下的 `NumericChange*` 文件 |
+- **数值核心实现**<br>`Packages/cn.etetet.yiuinumeric/Scripts/`
+- **数值配置与枚举**<br>`Packages/cn.etetet.yiuinumericconfig/`
+- **Luban 包与导出脚本**<br>`Packages/cn.etetet.yiuiluban/`（`Luban/` · `Editor/`）
+- **Unit 的配置体系**<br>`Packages/cn.etetet.yiuiunit/Luban/`
+- **数值变化的业务响应**<br>`Packages/cn.etetet.mapplay/Scripts/` 下的 `NumericChange*` 文件
 
 ## 读完能回答
 

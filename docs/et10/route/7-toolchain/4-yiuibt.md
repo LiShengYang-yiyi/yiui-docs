@@ -98,26 +98,22 @@ Profile、黑板历史、Inclusive/Self 统计、异步等待、暂停/单步/�
 
 ## 真源
 
-| 文件 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuibt/AGENTS.md` | 观察边界、回归入口、通用控制节点契约 |
-| `Packages/cn.etetet.yiuibt/README.md` | 包能力与用法 |
-| `AGENTS.md`（工程根）→「YIUIBT 常驻边界」 | 设计总纲索引（核心/扩展、Schema、运行域） |
-| `docs/YIUIBT/YIUIBT新技能系统AI开发总纲.md` | AI 开发总纲 |
-| `docs/YIUIBT/YIUIBT扩展包与TreeType节点隔离设计.md` | TreeType 与节点隔离 |
-| `docs/YIUIBT/YIUIBT运行域与资源管理设计.md` | 运行域与资源 |
-| `docs/YIUIBT/YIUIBT运行时观察调试与性能分析设计.md` | 观察与性能 |
-| `docs/YIUIBT/YIUIBT按需调试组件最小实现设计.md` | 调试组件 |
+- **观察边界、回归入口、通用控制节点契约**<br>`Packages/cn.etetet.yiuibt/AGENTS.md`
+- **包能力与用法**<br>`Packages/cn.etetet.yiuibt/README.md`
+- **设计总纲索引（核心/扩展、Schema、运行域）**<br>`AGENTS.md`（工程根）→「YIUIBT 常驻边界」
+- **AI 开发总纲**<br>`docs/YIUIBT/YIUIBT新技能系统AI开发总纲.md`
+- **TreeType 与节点隔离**<br>`docs/YIUIBT/YIUIBT扩展包与TreeType节点隔离设计.md`
+- **运行域与资源**<br>`docs/YIUIBT/YIUIBT运行域与资源管理设计.md`
+- **观察与性能**<br>`docs/YIUIBT/YIUIBT运行时观察调试与性能分析设计.md`
+- **调试组件**<br>`docs/YIUIBT/YIUIBT按需调试组件最小实现设计.md`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 行为树核心 | `Packages/cn.etetet.yiuibt/Scripts/` |
-| 行为树配置 | `Packages/cn.etetet.yiuibt/Config/` |
-| BT 资源源文件 | `Assets/GameRes/YIUIBT/` |
-| 编译产物 | `Assets/GameRes/YIUIBT/Generated/{Client,ClientServer,Server}/` |
-| 示例扩展 | `Packages/cn.etetet.yiuibtdemo/` |
+- **行为树核心**<br>`Packages/cn.etetet.yiuibt/Scripts/`
+- **行为树配置**<br>`Packages/cn.etetet.yiuibt/Config/`
+- **BT 资源源文件**<br>`Assets/GameRes/YIUIBT/`
+- **编译产物**<br>`Assets/GameRes/YIUIBT/Generated/{Client,ClientServer,Server}/`
+- **示例扩展**<br>`Packages/cn.etetet.yiuibtdemo/`
 
 ## 读完能回答
 

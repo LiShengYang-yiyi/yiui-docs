@@ -135,25 +135,21 @@ ET9 站上的 [`动态消息`](/et9/features/dynamic-message) 讲的是旧机制
 
 ## 真源
 
-| 文件 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuiframework/Scripts/Core/Share/Event/IDynamicEventSystem.cs` | 订阅侧接口 `IDynamicEvent<>` 与基类 `DynamicEventSystem<T,A>` |
-| `Packages/cn.etetet.yiuiframework/Scripts/Core/Share/Event/EntitySystem_Dynamic.cs` | 发送侧全部重载与场景过滤逻辑 |
-| `Packages/cn.etetet.yiuiframework/Scripts/Core/Share/Event/EntitySystem_PublishAndDynamic.cs` | 原生事件 + 动态消息一起发 |
-| `Packages/cn.etetet.core/Scripts/Core/Share/World/Fiber/EntitySystem.cs` | 订阅队列的注册（`RegisterSystem`）与轮转（`Publish`） |
-| `Packages/cn.etetet.yiuiframework/Scripts/HotfixView/Client/System/Event/Open/YIUIEventOpenHandler.cs` | UI 生命周期事件的「精准分发 + 广播」双通道 |
-| `Packages/cn.etetet.yiuiframework/Scripts/ModelView/Client/Component/Event/YIUIEventComponent.cs` | 按组件名分发的索引 |
-| `AGENTS.md`（工程根） | 「UI 刷新默认走动态消息」的边界规则 |
+- **订阅侧接口 `IDynamicEvent<>` 与基类 `DynamicEventSystem<T,A>`**<br>`Packages/cn.etetet.yiuiframework/Scripts/Core/Share/Event/IDynamicEventSystem.cs`
+- **发送侧全部重载与场景过滤逻辑**<br>`Packages/cn.etetet.yiuiframework/Scripts/Core/Share/Event/EntitySystem_Dynamic.cs`
+- **原生事件 + 动态消息一起发**<br>`Packages/cn.etetet.yiuiframework/Scripts/Core/Share/Event/EntitySystem_PublishAndDynamic.cs`
+- **订阅队列的注册（`RegisterSystem`）与轮转（`Publish`）**<br>`Packages/cn.etetet.core/Scripts/Core/Share/World/Fiber/EntitySystem.cs`
+- **UI 生命周期事件的「精准分发 + 广播」双通道**<br>`Packages/cn.etetet.yiuiframework/Scripts/HotfixView/Client/System/Event/Open/YIUIEventOpenHandler.cs`
+- **按组件名分发的索引**<br>`Packages/cn.etetet.yiuiframework/Scripts/ModelView/Client/Component/Event/YIUIEventComponent.cs`
+- **「UI 刷新默认走动态消息」的边界规则**<br>`AGENTS.md`（工程根）
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 订阅接口与基类 | `Packages/cn.etetet.yiuiframework/Scripts/Core/Share/Event/IDynamicEventSystem.cs` |
-| 发送实现 | `Packages/cn.etetet.yiuiframework/Scripts/Core/Share/Event/EntitySystem_Dynamic.cs` |
-| 订阅队列 | `Packages/cn.etetet.core/Scripts/Core/Share/World/Fiber/EntitySystem.cs` |
-| 框架内实际调用 | `Packages/cn.etetet.yiuigm/Scripts/HotfixView/Client/GM/GMHistoryComponentSystem.cs` |
-| 业务侧实际调用 | `Packages/cn.etetet.yiuibattledemo/Scripts/Hotfix/Client/YIUIBattleDemo/BattleDemoClientComponentSystem.cs` |
+- **订阅接口与基类**<br>`Packages/cn.etetet.yiuiframework/Scripts/Core/Share/Event/IDynamicEventSystem.cs`
+- **发送实现**<br>`Packages/cn.etetet.yiuiframework/Scripts/Core/Share/Event/EntitySystem_Dynamic.cs`
+- **订阅队列**<br>`Packages/cn.etetet.core/Scripts/Core/Share/World/Fiber/EntitySystem.cs`
+- **框架内实际调用**<br>`Packages/cn.etetet.yiuigm/Scripts/HotfixView/Client/GM/GMHistoryComponentSystem.cs`
+- **业务侧实际调用**<br>`Packages/cn.etetet.yiuibattledemo/Scripts/Hotfix/Client/YIUIBattleDemo/BattleDemoClientComponentSystem.cs`
 
 ## 读完能回答
 

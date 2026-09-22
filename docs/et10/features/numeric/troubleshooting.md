@@ -101,22 +101,18 @@ title: 排查
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/Data/NumericCheck.cs` | 全部校验与报错文案 |
-| `Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/Data/NumericDataExtend.cs` | 改值主流程、钳制、影响递归 |
-| `Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/Data/NumericDataExtend_Push.cs` | 派发与空归属分支 |
-| `Packages/cn.etetet.yiuinumeric/Scripts/Model/Share/Numeric/Handler/NumericHandlerComponent.cs` | 分发字典与全监听分支 |
+- **全部校验与报错文案**<br>`Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/Data/NumericCheck.cs`
+- **改值主流程、钳制、影响递归**<br>`Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/Data/NumericDataExtend.cs`
+- **派发与空归属分支**<br>`Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/Data/NumericDataExtend_Push.cs`
+- **分发字典与全监听分支**<br>`Packages/cn.etetet.yiuinumeric/Scripts/Model/Share/Numeric/Handler/NumericHandlerComponent.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 上下限取值实现 | `Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/Data/NumericDataExtend_Limit.cs` |
-| 定点换算点 | `Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/Data/NumericDataExtend_Change.cs` |
-| 变化事件派发 | `Packages/cn.etetet.yiuinumeric/Scripts/Model/Share/Numeric/Event/NumericEventType.cs` |
-| 动态监听分发 | `Packages/cn.etetet.yiuinumeric/Scripts/Model/Share/Numeric/Handler/NumericHandlerDynamicComponent.cs` |
-| 分析器诊断项 | `Packages/cn.etetet.yiuinumeric/DotNet~/SourceGenerator/Config/NumericDiagnosticDefinition.cs` |
+- **上下限取值实现**<br>`Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/Data/NumericDataExtend_Limit.cs`
+- **定点换算点**<br>`Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/Data/NumericDataExtend_Change.cs`
+- **变化事件派发**<br>`Packages/cn.etetet.yiuinumeric/Scripts/Model/Share/Numeric/Event/NumericEventType.cs`
+- **动态监听分发**<br>`Packages/cn.etetet.yiuinumeric/Scripts/Model/Share/Numeric/Handler/NumericHandlerDynamicComponent.cs`
+- **分析器诊断项**<br>`Packages/cn.etetet.yiuinumeric/DotNet~/SourceGenerator/Config/NumericDiagnosticDefinition.cs`
 
 ## 下一步
 

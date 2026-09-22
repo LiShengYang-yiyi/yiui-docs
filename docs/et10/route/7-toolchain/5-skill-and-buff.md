@@ -100,22 +100,18 @@ pwsh ./Scripts/Run-Test.ps1 -Name "SkillBuffNoActionIntegration" # 无 Action �
 
 ## 真源
 
-| 文件 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuiskill/AGENTS.md` | 固定边界、验证入口、Buff 契约、技能生命周期（**权威**） |
-| `Packages/cn.etetet.yiuiskill/README.md` | 包能力与用法 |
-| `Packages/cn.etetet.yiuibattledemo/AGENTS.md` | 战斗示例包的边界说明 |
-| `Packages/cn.etetet.yiuibt/AGENTS.md` | 行为树核心边界（技能是其扩展） |
-| `docs/YIUIET10裁剪记录.md` | 旧技能系统的取舍记录 |
+- **固定边界、验证入口、Buff 契约、技能生命周期（权威）**<br>`Packages/cn.etetet.yiuiskill/AGENTS.md`
+- **包能力与用法**<br>`Packages/cn.etetet.yiuiskill/README.md`
+- **战斗示例包的边界说明**<br>`Packages/cn.etetet.yiuibattledemo/AGENTS.md`
+- **行为树核心边界（技能是其扩展）**<br>`Packages/cn.etetet.yiuibt/AGENTS.md`
+- **旧技能系统的取舍记录**<br>`docs/YIUIET10裁剪记录.md`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 技能与 Buff 实现 | `Packages/cn.etetet.yiuiskill/Scripts/` |
-| 技能 / Buff 配置 | `Packages/cn.etetet.yiuiskill/Luban/` |
-| 战斗示例 | `Packages/cn.etetet.yiuibattledemo/` |
-| 技能 Action 扩展 | `Packages/cn.etetet.yiuiskill/`（依赖 `yiuibt` 的 Action 声明） |
+- **技能与 Buff 实现**<br>`Packages/cn.etetet.yiuiskill/Scripts/`
+- **技能 / Buff 配置**<br>`Packages/cn.etetet.yiuiskill/Luban/`
+- **战斗示例**<br>`Packages/cn.etetet.yiuibattledemo/`
+- **技能 Action 扩展**<br>`Packages/cn.etetet.yiuiskill/`（依赖 `yiuibt` 的 Action 声明）
 
 ## 读完能回答
 

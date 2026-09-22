@@ -158,22 +158,18 @@ public class XxxCondition : ConditionSystem<XxxCheckValue>
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuicondition/Scripts/Hotfix/Share/Condition/Core/ConditionMgrSystem_Extend.cs` | 求值 API |
-| `Packages/cn.etetet.yiuicondition/Scripts/Hotfix/Share/Condition/Core/ConditionMgrSystem_Listener_Extend.cs` | 监听与触发 API |
-| `Packages/cn.etetet.yiuicondition/Scripts/Hotfix/Share/Condition/Core/ConditionMgrSystem_Info.cs` | 回调派发与单监听器生命周期 |
-| `Packages/cn.etetet.yiuicondition/Scripts/Model/Share/Condition/ConfigExtend/ConditionCustomData.cs` | 代码构造的基类 |
+- **求值 API**<br>`Packages/cn.etetet.yiuicondition/Scripts/Hotfix/Share/Condition/Core/ConditionMgrSystem_Extend.cs`
+- **监听与触发 API**<br>`Packages/cn.etetet.yiuicondition/Scripts/Hotfix/Share/Condition/Core/ConditionMgrSystem_Listener_Extend.cs`
+- **回调派发与单监听器生命周期**<br>`Packages/cn.etetet.yiuicondition/Scripts/Hotfix/Share/Condition/Core/ConditionMgrSystem_Info.cs`
+- **代码构造的基类**<br>`Packages/cn.etetet.yiuicondition/Scripts/Model/Share/Condition/ConfigExtend/ConditionCustomData.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 回调是怎么派发的 | `ConditionMgrSystem_Info.cs` 的 `Trigger(result, errorTips)` |
-| 监听校验的前置条件 | `ConditionMgrSystem_Listener_Extend.cs` 的 `CheckCanListener` |
-| 条件实现基类 | `Scripts/Model/Share/Condition/Core/ICondition.cs` |
-| 判据接口 | `Scripts/Model/Share/Condition/Data/IConditionCheckValue.cs` |
-| 条件事件类型定义 | `Scripts/Model/Share/Condition/Event/ConditionEventType.cs` |
+- **回调是怎么派发的**<br>`ConditionMgrSystem_Info.cs` 的 `Trigger(result, errorTips)`
+- **监听校验的前置条件**<br>`ConditionMgrSystem_Listener_Extend.cs` 的 `CheckCanListener`
+- **条件实现基类**<br>`Scripts/Model/Share/Condition/Core/ICondition.cs`
+- **判据接口**<br>`Scripts/Model/Share/Condition/Data/IConditionCheckValue.cs`
+- **条件事件类型定义**<br>`Scripts/Model/Share/Condition/Event/ConditionEventType.cs`
 
 ## 下一步
 

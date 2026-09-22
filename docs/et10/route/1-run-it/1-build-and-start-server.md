@@ -63,21 +63,17 @@ dotnet build ET.sln
 
 ## 真源
 
-| 文件 | 内容 |
-|---|---|
-| `cn.etetet.harness/skills/et-build/SKILL.md` | 编译 / 导出 / 起服 / 发布的入口与前置条件 |
-| `cn.etetet.harness/skills/et-build/references/et-build-commands.md` | 命令细节、前置条件、常见排查 |
-| `docs/F6编译流程说明.md` | CodeMode 与编译流程（本工程实测整理） |
-| `Book/1.1运行指南.md` | 官方运行步骤（含独立启动服务器的原始说明） |
-| `AGENTS.md`（工程根） | 「强制编译门禁」「生成文件与构建入口」 |
+- **编译 / 导出 / 起服 / 发布的入口与前置条件**<br>`cn.etetet.harness/skills/et-build/SKILL.md`
+- **命令细节、前置条件、常见排查**<br>`cn.etetet.harness/skills/et-build/references/et-build-commands.md`
+- **CodeMode 与编译流程（本工程实测整理）**<br>`docs/F6编译流程说明.md`
+- **官方运行步骤（含独立启动服务器的原始说明）**<br>`Book/1.1运行指南.md`
+- **「强制编译门禁」「生成文件与构建入口」**<br>`AGENTS.md`（工程根）
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 服务端可执行产物 | `Bin/ET.App.dll` |
-| 客户端 / 服务端模式配置 | `Packages/com.etetet.init/Resources/GlobalConfig.asset` |
-| F6 编译入口编排 | `Packages/cn.etetet.loader/Scripts/Editor/Share/AssemblyTool.cs` |
+- **服务端可执行产物**<br>`Bin/ET.App.dll`
+- **客户端 / 服务端模式配置**<br>`Packages/com.etetet.init/Resources/GlobalConfig.asset`
+- **F6 编译入口编排**<br>`Packages/cn.etetet.loader/Scripts/Editor/Share/AssemblyTool.cs`
 
 ## 读完能回答
 

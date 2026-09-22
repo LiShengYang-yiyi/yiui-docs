@@ -465,6 +465,19 @@ body {
   vertical-align: top;
 }
 
+/* — 行内代码里的长路径必须能折行 —
+   工程路径普遍 60~110 字符且不含空格。浏览器默认不在词内断行，
+   表格自动布局按 min-content 分列宽时，这一串会把整列撑到超过正文栏，
+   另一列被压到极限宽度 —— 中文于是排成「一字一行」的竖排。
+   必须用 overflow-wrap:anywhere（它会参与 min-content 计算）；
+   break-word 不影响 min-content，对表格无效。
+   只作用于行内 code，代码块（pre > code）不受影响。 */
+
+.vp-doc :not(pre) > code {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
 .vp-doc th {
   font-weight: 700;
   color: var(--vp-c-text-1);

@@ -133,10 +133,8 @@ powershell -ExecutionPolicy Bypass -Command "& 'Packages/cn.etetet.yiuimcp/Confi
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuireddot/Desc/03-AI新增红点工作流.md` | 六步工作流、必答问题、合格例子 |
-| `Packages/cn.etetet.yiuireddot/Desc/04-红点配置边界与落地原则.md` | 只改配置的边界条件 |
+- **六步工作流、必答问题、合格例子**<br>`Packages/cn.etetet.yiuireddot/Desc/03-AI新增红点工作流.md`
+- **只改配置的边界条件**<br>`Packages/cn.etetet.yiuireddot/Desc/04-红点配置边界与落地原则.md`
 
 ## 下一步
 

@@ -136,22 +136,18 @@ GM 文件头部注明了：这两个文件用于在 GM 包上测功能，**不�
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuitips/Scripts/HotfixView/Client/YIUISystem/Helper/TipsHelper.cs` | 泛型入口 |
-| `Packages/cn.etetet.yiuitips/Scripts/HotfixView/Client/YIUISystem/Helper/TipsHelper_String.cs` | 资源名入口 |
-| `Packages/cn.etetet.yiuitips/Scripts/HotfixView/Client/YIUISystem/Helper/TipsHelper_Wait.cs` | 等待型入口 |
-| `Packages/cn.etetet.yiuiframework/Scripts/Model/Share/HashWait/EHashWaitError.cs` | 等待结果枚举 |
+- **泛型入口**<br>`Packages/cn.etetet.yiuitips/Scripts/HotfixView/Client/YIUISystem/Helper/TipsHelper.cs`
+- **资源名入口**<br>`Packages/cn.etetet.yiuitips/Scripts/HotfixView/Client/YIUISystem/Helper/TipsHelper_String.cs`
+- **等待型入口**<br>`Packages/cn.etetet.yiuitips/Scripts/HotfixView/Client/YIUISystem/Helper/TipsHelper_Wait.cs`
+- **等待结果枚举**<br>`Packages/cn.etetet.yiuiframework/Scripts/Model/Share/HashWait/EHashWaitError.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 打开参数如何拆进 `ParamVo` | `Scripts/HotfixView/Client/YIUISystem/Helper/TipsHelper.cs` 的 `OpenToParent` |
-| 确认弹窗的按钮逻辑 | `Scripts/HotfixView/Client/YIUISystem/Tips/TipsMessageViewComponentSystem.cs` |
-| 飘字动画与关闭时机 | `Scripts/HotfixView/Client/YIUISystem/Tips/TipsTextViewComponentSystem.cs` |
-| 等待型的 NotifyWait 出口 | 同上两个文件内的按钮回调 |
-| GM 命令示例 | `Scripts/HotfixView/Client/GM/GM_Command_Tips.cs` · `GM_Command_WaitTips.cs` |
+- **打开参数如何拆进 `ParamVo`**<br>`Scripts/HotfixView/Client/YIUISystem/Helper/TipsHelper.cs` 的 `OpenToParent`
+- **确认弹窗的按钮逻辑**<br>`Scripts/HotfixView/Client/YIUISystem/Tips/TipsMessageViewComponentSystem.cs`
+- **飘字动画与关闭时机**<br>`Scripts/HotfixView/Client/YIUISystem/Tips/TipsTextViewComponentSystem.cs`
+- **等待型的 NotifyWait 出口**<br>同上两个文件内的按钮回调
+- **GM 命令示例**<br>`Scripts/HotfixView/Client/GM/GM_Command_Tips.cs` · `GM_Command_WaitTips.cs`
 
 ## 下一步
 

@@ -89,22 +89,18 @@ title: 排查
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuiluban/Editor/Window/LubanTools_Gen.cs` | 导出编排与全部失败文案 |
-| `Packages/cn.etetet.yiuiluban/DotNet~/ET.YIUI.Luban.Export/` | 扫描、重写、备份回滚 |
-| `Packages/cn.etetet.yiuiluban/Scripts/Model/Share/Config/LubanConfigLoader.cs` | 加载与注册分支 |
-| `Packages/cn.etetet.yiuiluban/Scripts/Model/Share/Config/LubanLog.cs` | 读表错误日志 |
+- **导出编排与全部失败文案**<br>`Packages/cn.etetet.yiuiluban/Editor/Window/LubanTools_Gen.cs`
+- **扫描、重写、备份回滚**<br>`Packages/cn.etetet.yiuiluban/DotNet~/ET.YIUI.Luban.Export/`
+- **加载与注册分支**<br>`Packages/cn.etetet.yiuiluban/Scripts/Model/Share/Config/LubanConfigLoader.cs`
+- **读表错误日志**<br>`Packages/cn.etetet.yiuiluban/Scripts/Model/Share/Config/LubanLog.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 客户端字节来源 | `Packages/cn.etetet.yiuilubangen/Scripts/HotfixView/Client/LubanClientLoaderInvoker.cs` |
-| 服务端字节来源 | `Packages/cn.etetet.yiuilubangen/Scripts/Hotfix/Server/LubanServerLoaderInvoker.cs` |
-| 编辑器只读助手 | `Packages/cn.etetet.yiuiluban/Scripts/Model/Share/Config/LubanEditorHelper.cs` |
-| 重载命令 | `Packages/cn.etetet.console/Scripts/Hotfix/Server/ReloadConfigConsoleHandler.cs` |
-| 导出的路径常量 | `Packages/cn.etetet.yiuiluban/Scripts/Model/Share/Config/LubanHelper.cs` |
+- **客户端字节来源**<br>`Packages/cn.etetet.yiuilubangen/Scripts/HotfixView/Client/LubanClientLoaderInvoker.cs`
+- **服务端字节来源**<br>`Packages/cn.etetet.yiuilubangen/Scripts/Hotfix/Server/LubanServerLoaderInvoker.cs`
+- **编辑器只读助手**<br>`Packages/cn.etetet.yiuiluban/Scripts/Model/Share/Config/LubanEditorHelper.cs`
+- **重载命令**<br>`Packages/cn.etetet.console/Scripts/Hotfix/Server/ReloadConfigConsoleHandler.cs`
+- **导出的路径常量**<br>`Packages/cn.etetet.yiuiluban/Scripts/Model/Share/Config/LubanHelper.cs`
 
 ## 下一步
 

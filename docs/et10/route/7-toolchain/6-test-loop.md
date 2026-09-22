@@ -109,25 +109,21 @@ pwsh ./Scripts/Run-Test.ps1 -Name "YIUIBT_WaitUntilStopped"
 
 ## 真源
 
-| 文件 | 内容 |
-|---|---|
-| `Packages/cn.etetet.test/AGENTS.md` | 测试包机制、核心类、三个测试 skill 的分流 |
-| `Packages/cn.etetet.test/skills/et-tdd/SKILL.md` | TDD 完整流程 |
-| `Packages/cn.etetet.test/skills/et-test-write/SKILL.md` | 编写测试用例 |
-| `Packages/cn.etetet.test/skills/et-test-run/SKILL.md` | 执行与失败分析 |
-| `Packages/cn.etetet.harness/skills/et-build/SKILL.md` | 编译与测试入口 |
-| `Packages/cn.etetet.yiuimcp/Docs/Flows/P0-闭环验收标准.md` | UI 闭环的强制条件与失败分级 |
-| `AGENTS.md`（工程根） | 测试入口与强制编译门禁 |
+- **测试包机制、核心类、三个测试 skill 的分流**<br>`Packages/cn.etetet.test/AGENTS.md`
+- **TDD 完整流程**<br>`Packages/cn.etetet.test/skills/et-tdd/SKILL.md`
+- **编写测试用例**<br>`Packages/cn.etetet.test/skills/et-test-write/SKILL.md`
+- **执行与失败分析**<br>`Packages/cn.etetet.test/skills/et-test-run/SKILL.md`
+- **编译与测试入口**<br>`Packages/cn.etetet.harness/skills/et-build/SKILL.md`
+- **UI 闭环的强制条件与失败分级**<br>`Packages/cn.etetet.yiuimcp/Docs/Flows/P0-闭环验收标准.md`
+- **测试入口与强制编译门禁**<br>`AGENTS.md`（工程根）
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 测试执行入口 | `Scripts/Run-Test.ps1` · `Scripts/Run-UnityTest.ps1` |
-| 测试框架 | `Packages/cn.etetet.test/Scripts/` |
-| 用例隔离机制 | `Packages/cn.etetet.test/Scripts/` 下的 `FiberInit_TestCase` |
-| 实际用例示例 | 各包 `Scripts/Hotfix/Test/` 与 `Scripts/{Model,Hotfix}/Test/` |
-| UI 闭环脚本 | `Packages/cn.etetet.yiuimcp/Config/p0-closed-loop-verify.ps1` |
+- **测试执行入口**<br>`Scripts/Run-Test.ps1` · `Scripts/Run-UnityTest.ps1`
+- **测试框架**<br>`Packages/cn.etetet.test/Scripts/`
+- **用例隔离机制**<br>`Packages/cn.etetet.test/Scripts/` 下的 `FiberInit_TestCase`
+- **实际用例示例**<br>各包 `Scripts/Hotfix/Test/` 与 `Scripts/{Model,Hotfix}/Test/`
+- **UI 闭环脚本**<br>`Packages/cn.etetet.yiuimcp/Config/p0-closed-loop-verify.ps1`
 
 ## 读完能回答
 

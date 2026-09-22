@@ -146,23 +146,19 @@ title: 红点
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuireddot/Desc/01-红点系统总览.md` | 系统目标与资源分工 |
-| `Packages/cn.etetet.yiuireddot/Desc/02-红点Key与ID规则.md` | 编码规则与描述命名规则 |
-| `Packages/cn.etetet.yiuireddot/Desc/04-红点配置边界与落地原则.md` | 只改配置的边界、叶子与聚合原则 |
-| `Packages/cn.etetet.yiuireddot/Desc/05-红点基础规则与职责边界.md` | 职责划分与任务系统示例 |
+- **系统目标与资源分工**<br>`Packages/cn.etetet.yiuireddot/Desc/01-红点系统总览.md`
+- **编码规则与描述命名规则**<br>`Packages/cn.etetet.yiuireddot/Desc/02-红点Key与ID规则.md`
+- **只改配置的边界、叶子与聚合原则**<br>`Packages/cn.etetet.yiuireddot/Desc/04-红点配置边界与落地原则.md`
+- **职责划分与任务系统示例**<br>`Packages/cn.etetet.yiuireddot/Desc/05-红点基础规则与职责边界.md`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| key 定义（工具生成，勿手改） | `Packages/cn.etetet.yiuireddot/Scripts/Model/Share/ERedDotKeyType.cs` |
-| 事件定义 | `Packages/cn.etetet.yiuireddot/Scripts/Model/Share/RedDotEventType.cs` |
-| 红点管理器 | `Packages/cn.etetet.yiuireddot/Runtime/Mgr/RedDotMgr*.cs` |
-| 绑定组件 | `Packages/cn.etetet.yiuireddot/Runtime/Bind/*.cs` |
-| 运行时数据与堆栈 | `Packages/cn.etetet.yiuireddot/Runtime/Data/*.cs` |
-| 三个配置资源 | `Packages/cn.etetet.yiuireddot/Assets/GameRes/RedDot/*.asset` |
+- **key 定义（工具生成，勿手改）**<br>`Packages/cn.etetet.yiuireddot/Scripts/Model/Share/ERedDotKeyType.cs`
+- **事件定义**<br>`Packages/cn.etetet.yiuireddot/Scripts/Model/Share/RedDotEventType.cs`
+- **红点管理器**<br>`Packages/cn.etetet.yiuireddot/Runtime/Mgr/RedDotMgr*.cs`
+- **绑定组件**<br>`Packages/cn.etetet.yiuireddot/Runtime/Bind/*.cs`
+- **运行时数据与堆栈**<br>`Packages/cn.etetet.yiuireddot/Runtime/Data/*.cs`
+- **三个配置资源**<br>`Packages/cn.etetet.yiuireddot/Assets/GameRes/RedDot/*.asset`
 
 ## 下一步
 

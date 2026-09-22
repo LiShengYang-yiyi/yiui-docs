@@ -56,21 +56,17 @@ title: 1.2 登录 → 进地图
 
 ## 真源
 
-| 文件 | 内容 |
-|---|---|
-| `docs/YIUIET10说明.md` | 本工程目标与**验收标准**（最小成功标准的定义在这里） |
-| `Packages/cn.etetet.yiuimcp/Docs/Flows/LoginTestClick测试指南.md` | 从加按钮到「点击命中日志」的完整实操 |
-| `Packages/cn.etetet.yiuimcp/Docs/Flows/P0-闭环验收标准.md` | 闭环「通过」的定义与失败分级 |
-| `Book/1.1运行指南.md` | 官方运行步骤原文 |
+- **本工程目标与验收标准（最小成功标准的定义在这里）**<br>`docs/YIUIET10说明.md`
+- **从加按钮到「点击命中日志」的完整实操**<br>`Packages/cn.etetet.yiuimcp/Docs/Flows/LoginTestClick测试指南.md`
+- **闭环「通过」的定义与失败分级**<br>`Packages/cn.etetet.yiuimcp/Docs/Flows/P0-闭环验收标准.md`
+- **官方运行步骤原文**<br>`Book/1.1运行指南.md`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 登录流程前后端实现 | `Packages/cn.etetet.login/` |
-| 客户端模式配置 | `Packages/com.etetet.init/Resources/GlobalConfig.asset` |
-| 启动场景 | `Packages/cn.etetet.statesync/Scenes/Init` |
-| 服务端日志 | `Logs/` |
+- **登录流程前后端实现**<br>`Packages/cn.etetet.login/`
+- **客户端模式配置**<br>`Packages/com.etetet.init/Resources/GlobalConfig.asset`
+- **启动场景**<br>`Packages/cn.etetet.statesync/Scenes/Init`
+- **服务端日志**<br>`Logs/`
 
 ## 读完能回答
 

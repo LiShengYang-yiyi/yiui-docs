@@ -73,25 +73,21 @@ Map 进程处理
 
 ## 真源
 
-| 文件 | 内容 |
-|---|---|
-| `Book/4.1组件式设计.md` | LoginServer / BattleServer 挂载不同网络组件的原始说明 |
-| `Book/8.2ET Package目录.md` | `netinner`「内网消息模块」的定位 |
-| `Packages/cn.etetet.harness/skills/et-code/SKILL.md` | 消息与 Handler 的编写规范 |
-| `AGENTS.md`（工程根） | 客户端与服务端的运行时边界 |
+- **LoginServer / BattleServer 挂载不同网络组件的原始说明**<br>`Book/4.1组件式设计.md`
+- **`netinner`「内网消息模块」的定位**<br>`Book/8.2ET Package目录.md`
+- **消息与 Handler 的编写规范**<br>`Packages/cn.etetet.harness/skills/et-code/SKILL.md`
+- **客户端与服务端的运行时边界**<br>`AGENTS.md`（工程根）
 
 > `netinner` 包当前**没有 `AGENTS.md`**，所以这一节的部分结论来自代码事实与官方教程，不是包内约定。看代码时以实际实现为准。
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 内网消息处理器 | `Packages/cn.etetet.netinner/Scripts/Hotfix/Server/A2NetInner_MessageHandler.cs` |
-| 内网请求处理器 | `Packages/cn.etetet.netinner/Scripts/Hotfix/Server/A2NetInner_RequestHandler.cs` |
-| 消息发送器 | `Packages/cn.etetet.netinner/Scripts/Hotfix/Server/MessageSenderSystem.cs` |
-| 纤程初始化 | `Packages/cn.etetet.netinner/Scripts/Hotfix/Server/FiberInit_NetInner.cs` |
-| 纤程与场景类型定义 | `Packages/cn.etetet.netinner/Scripts/Model/Share/` |
-| 客户端侧网络纤程 | `Packages/cn.etetet.login/Scripts/Hotfix/Client/NetClient/` |
+- **内网消息处理器**<br>`Packages/cn.etetet.netinner/Scripts/Hotfix/Server/A2NetInner_MessageHandler.cs`
+- **内网请求处理器**<br>`Packages/cn.etetet.netinner/Scripts/Hotfix/Server/A2NetInner_RequestHandler.cs`
+- **消息发送器**<br>`Packages/cn.etetet.netinner/Scripts/Hotfix/Server/MessageSenderSystem.cs`
+- **纤程初始化**<br>`Packages/cn.etetet.netinner/Scripts/Hotfix/Server/FiberInit_NetInner.cs`
+- **纤程与场景类型定义**<br>`Packages/cn.etetet.netinner/Scripts/Model/Share/`
+- **客户端侧网络纤程**<br>`Packages/cn.etetet.login/Scripts/Hotfix/Client/NetClient/`
 
 ## 读完能回答
 

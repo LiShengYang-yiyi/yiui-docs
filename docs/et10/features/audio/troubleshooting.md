@@ -80,21 +80,17 @@ title: 排查
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuiaudio/Runtime/Audio/AudioEmitterController.cs` | 前置校验与状态机日志 |
-| `Packages/cn.etetet.yiuiaudio/Runtime/Audio/AudioClipController.cs` | 引用计数与延迟释放 |
-| `Packages/cn.etetet.yiuiaudio/Runtime/Audio/AudioDataParams.cs` | 参数重置逻辑 |
-| `Packages/cn.etetet.yiuiaudio/Runtime/Audio/AudioMgr.cs` | 返回 0 的分支与配置覆盖 |
+- **前置校验与状态机日志**<br>`Packages/cn.etetet.yiuiaudio/Runtime/Audio/AudioEmitterController.cs`
+- **引用计数与延迟释放**<br>`Packages/cn.etetet.yiuiaudio/Runtime/Audio/AudioClipController.cs`
+- **参数重置逻辑**<br>`Packages/cn.etetet.yiuiaudio/Runtime/Audio/AudioDataParams.cs`
+- **返回 0 的分支与配置覆盖**<br>`Packages/cn.etetet.yiuiaudio/Runtime/Audio/AudioMgr.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 资源加载失败处理 | `Runtime/Audio/AudioClipLoader.cs` |
-| 编辑器资源校验 | `Scripts/HotfixView/Client/YIUIInvokeLoadAudioClipHandler.cs` |
-| 配置分支的宏判断 | `Scripts/HotfixView/Client/YIUIInvokeGetAudioConfigHandler.cs` |
-| 界面绑定组件的收尾 | `Runtime/Bind/Music/UIDataBindBGM.cs` · `UIDataBindMusic.cs` |
+- **资源加载失败处理**<br>`Runtime/Audio/AudioClipLoader.cs`
+- **编辑器资源校验**<br>`Scripts/HotfixView/Client/YIUIInvokeLoadAudioClipHandler.cs`
+- **配置分支的宏判断**<br>`Scripts/HotfixView/Client/YIUIInvokeGetAudioConfigHandler.cs`
+- **界面绑定组件的收尾**<br>`Runtime/Bind/Music/UIDataBindBGM.cs` · `UIDataBindMusic.cs`
 
 ## 下一步
 

@@ -108,21 +108,17 @@ DamageTipsHelper.ShowUIByScreenPoint(clientScene, prefabName, screenPoint, damag
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuidamagetips/Scripts/HotfixView/Client/Damage/DamageTipsHelper.cs` | 六个入口与坐标换算 |
-| `Packages/cn.etetet.yiuidamagetips/Scripts/HotfixView/Client/GM/GM_Command_DamageTips.cs` | 两类飘字的真实调用写法 |
-| `Packages/cn.etetet.yiuidamagetips/Assets/GameRes/Damage/3D/Damage_3D_SawNeon.prefab` | 3D 飘字配置项全貌 |
-| `Packages/cn.etetet.yiuidamagetips/Assets/GameRes/Damage/UI/Damage_UI_PixelHeal.prefab` | UI 飘字配置项全貌 |
+- **六个入口与坐标换算**<br>`Packages/cn.etetet.yiuidamagetips/Scripts/HotfixView/Client/Damage/DamageTipsHelper.cs`
+- **两类飘字的真实调用写法**<br>`Packages/cn.etetet.yiuidamagetips/Scripts/HotfixView/Client/GM/GM_Command_DamageTips.cs`
+- **3D 飘字配置项全貌**<br>`Packages/cn.etetet.yiuidamagetips/Assets/GameRes/Damage/3D/Damage_3D_SawNeon.prefab`
+- **UI 飘字配置项全貌**<br>`Packages/cn.etetet.yiuidamagetips/Assets/GameRes/Damage/UI/Damage_UI_PixelHeal.prefab`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 池的创建与并发锁 | `Scripts/HotfixView/Client/YIUISystem/DamageTips/DamageTipsPanelComponentSystem.cs` |
-| 面板懒打开逻辑 | `Scripts/HotfixView/Client/Damage/DamageTipsHelper.cs` |
-| 飘字脚本本体 | `Plugins/DamageNumbersPro/Scripts/Internal/DamageNumber.cs` |
-| 数字格式与文本合成 | `Plugins/DamageNumbersPro/Scripts/Internal/DamageNumber_Extend.cs` |
+- **池的创建与并发锁**<br>`Scripts/HotfixView/Client/YIUISystem/DamageTips/DamageTipsPanelComponentSystem.cs`
+- **面板懒打开逻辑**<br>`Scripts/HotfixView/Client/Damage/DamageTipsHelper.cs`
+- **飘字脚本本体**<br>`Plugins/DamageNumbersPro/Scripts/Internal/DamageNumber.cs`
+- **数字格式与文本合成**<br>`Plugins/DamageNumbersPro/Scripts/Internal/DamageNumber_Extend.cs`
 
 ## 下一步
 

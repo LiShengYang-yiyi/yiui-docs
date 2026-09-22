@@ -124,23 +124,19 @@ YIUI 没有独立的表系统。与界面相关的那几张表（例如界面功
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuilubangen/Luban/Config/Base/luban.conf` | 导出配置与定义文件清单 |
-| `Packages/cn.etetet.yiuiluban/Scripts/Model/Share/Config/LubanConfigLoader.cs` | 运行时加载框架 |
-| `Packages/cn.etetet.yiuiluban/Scripts/Model/Share/Config/LubanHelper.cs` | 生成产物的路径常量 |
-| `Packages/cn.etetet.yiuilubangen/Scripts/HotfixView/Client/LubanClientLoaderInvoker.cs` | 客户端字节来源 |
+- **导出配置与定义文件清单**<br>`Packages/cn.etetet.yiuilubangen/Luban/Config/Base/luban.conf`
+- **运行时加载框架**<br>`Packages/cn.etetet.yiuiluban/Scripts/Model/Share/Config/LubanConfigLoader.cs`
+- **生成产物的路径常量**<br>`Packages/cn.etetet.yiuiluban/Scripts/Model/Share/Config/LubanHelper.cs`
+- **客户端字节来源**<br>`Packages/cn.etetet.yiuilubangen/Scripts/HotfixView/Client/LubanClientLoaderInvoker.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 导出菜单与超时 | `Packages/cn.etetet.yiuiluban/Editor/Window/LubanTools_Gen.cs` |
-| 表编辑器窗口 | `Packages/cn.etetet.yiuiluban/Editor/Window/LubanToolsWindow.cs` |
-| 导出器源码 | `Packages/cn.etetet.yiuiluban/DotNet~/ET.YIUI.Luban.Export/` |
-| 加载时机 | `Packages/cn.etetet.statesync/Scripts/Hotfix/Share/Entry.cs` |
-| 反序列化实现 | `Packages/cn.etetet.yiuilubangen/Scripts/Hotfix/Share/LubanConfigDeserialize.cs` |
-| 服务端重载命令 | `Packages/cn.etetet.console/Scripts/Hotfix/Server/ReloadConfigConsoleHandler.cs` |
+- **导出菜单与超时**<br>`Packages/cn.etetet.yiuiluban/Editor/Window/LubanTools_Gen.cs`
+- **表编辑器窗口**<br>`Packages/cn.etetet.yiuiluban/Editor/Window/LubanToolsWindow.cs`
+- **导出器源码**<br>`Packages/cn.etetet.yiuiluban/DotNet~/ET.YIUI.Luban.Export/`
+- **加载时机**<br>`Packages/cn.etetet.statesync/Scripts/Hotfix/Share/Entry.cs`
+- **反序列化实现**<br>`Packages/cn.etetet.yiuilubangen/Scripts/Hotfix/Share/LubanConfigDeserialize.cs`
+- **服务端重载命令**<br>`Packages/cn.etetet.console/Scripts/Hotfix/Server/ReloadConfigConsoleHandler.cs`
 
 ## 下一步
 

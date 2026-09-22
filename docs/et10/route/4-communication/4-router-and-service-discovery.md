@@ -89,23 +89,19 @@ title: 4.4 Router 与 ServiceDiscovery
 
 ## 真源
 
-| 文件 | 内容 |
-|---|---|
-| `Packages/cn.etetet.servicediscovery/AGENTS.md` | 包职责、目录划分（Model / Hotfix 各放什么） |
-| `Book/8.2ET Package目录.md` | router 的官方一句话定位 |
-| `docs/YIUIET10说明.md` | 无数据库也能启动的取舍与验收标准 |
-| `Packages/cn.etetet.harness/skills/et-code/SKILL.md` | 消息与 Handler 的编写规范 |
+- **包职责、目录划分（Model / Hotfix 各放什么）**<br>`Packages/cn.etetet.servicediscovery/AGENTS.md`
+- **router 的官方一句话定位**<br>`Book/8.2ET Package目录.md`
+- **无数据库也能启动的取舍与验收标准**<br>`docs/YIUIET10说明.md`
+- **消息与 Handler 的编写规范**<br>`Packages/cn.etetet.harness/skills/et-code/SKILL.md`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 路由组件与节点 | `Packages/cn.etetet.router/Scripts/Model/Server/` |
-| 路由逻辑与 HTTP 接口 | `Packages/cn.etetet.router/Scripts/Hotfix/Server/` |
-| 服务发现组件与状态 | `Packages/cn.etetet.servicediscovery/Scripts/Model/Server/` |
-| 注册 / 查询 / 心跳实现 | `Packages/cn.etetet.servicediscovery/Scripts/Hotfix/Server/` |
-| 客户端拉路由表 | `Packages/cn.etetet.login/Scripts/Hotfix/Client/NetClient/Router/` |
-| 服务发现协议 | `Packages/cn.etetet.servicediscovery/Proto/ServiceDiscovery_S_20500.proto` |
+- **路由组件与节点**<br>`Packages/cn.etetet.router/Scripts/Model/Server/`
+- **路由逻辑与 HTTP 接口**<br>`Packages/cn.etetet.router/Scripts/Hotfix/Server/`
+- **服务发现组件与状态**<br>`Packages/cn.etetet.servicediscovery/Scripts/Model/Server/`
+- **注册 / 查询 / 心跳实现**<br>`Packages/cn.etetet.servicediscovery/Scripts/Hotfix/Server/`
+- **客户端拉路由表**<br>`Packages/cn.etetet.login/Scripts/Hotfix/Client/NetClient/Router/`
+- **服务发现协议**<br>`Packages/cn.etetet.servicediscovery/Proto/ServiceDiscovery_S_20500.proto`
 
 ## 读完能回答
 

@@ -127,20 +127,16 @@ title: 配置与规则
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuiconditionconfig/Luban/Config/Base/Defines/Condition.xml` | 表与枚举的唯一事实源 |
-| `Packages/cn.etetet.yiuicondition/Scripts/Model/Share/Condition/ConfigExtend/ConditionCheckData_Extend.cs` | 检查数据如何变成 `IConditionData` |
-| `Packages/cn.etetet.yiuicondition/Scripts/Hotfix/Share/Condition/Core/ConditionMgrSystem_Extend.cs` | 多条件校验与折叠 |
+- **表与枚举的唯一事实源**<br>`Packages/cn.etetet.yiuiconditionconfig/Luban/Config/Base/Defines/Condition.xml`
+- **检查数据如何变成 `IConditionData`**<br>`Packages/cn.etetet.yiuicondition/Scripts/Model/Share/Condition/ConfigExtend/ConditionCheckData_Extend.cs`
+- **多条件校验与折叠**<br>`Packages/cn.etetet.yiuicondition/Scripts/Hotfix/Share/Condition/Core/ConditionMgrSystem_Extend.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 多条件的校验规则 | `ConditionMgrSystem_Extend.cs` 的 `CheckConditionDataListCanRun` |
-| 折叠算法 | 同文件的 `CalculateConditionCheckResults` |
-| 判据多态反序列化 | 生成的 `ConditionCheckValue.cs` |
-| 判据类型扩展 | `Packages/cn.etetet.yiuiconditionconfig/CodeMode/Model/*/LubanGen/Config/ConditionCheckDemo.cs` |
+- **多条件的校验规则**<br>`ConditionMgrSystem_Extend.cs` 的 `CheckConditionDataListCanRun`
+- **折叠算法**<br>同文件的 `CalculateConditionCheckResults`
+- **判据多态反序列化**<br>生成的 `ConditionCheckValue.cs`
+- **判据类型扩展**<br>`Packages/cn.etetet.yiuiconditionconfig/CodeMode/Model/*/LubanGen/Config/ConditionCheckDemo.cs`
 
 ## 下一步
 

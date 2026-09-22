@@ -76,21 +76,17 @@ title: 排查
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuilocalizationpro/Runtime/Manager/LocalizationManager_Translation.cs` | 取词与缺 Key 判定 |
-| `Packages/cn.etetet.yiuilocalizationpro/Runtime/LanguageSource/LanguageSourceData_Import_CSV.cs` | 语言数据导入 |
-| `Packages/cn.etetet.yiuilocalizationpro/Runtime/YIUI/I2/UIDataBindTextI2Base.cs` | 缓存逻辑所在 |
-| `Packages/cn.etetet.yiuilocalizationpro/Runtime/I2LocalizeMgr.cs` | 加载与切换的错误日志 |
+- **取词与缺 Key 判定**<br>`Packages/cn.etetet.yiuilocalizationpro/Runtime/Manager/LocalizationManager_Translation.cs`
+- **语言数据导入**<br>`Packages/cn.etetet.yiuilocalizationpro/Runtime/LanguageSource/LanguageSourceData_Import_CSV.cs`
+- **缓存逻辑所在**<br>`Packages/cn.etetet.yiuilocalizationpro/Runtime/YIUI/I2/UIDataBindTextI2Base.cs`
+- **加载与切换的错误日志**<br>`Packages/cn.etetet.yiuilocalizationpro/Runtime/I2LocalizeMgr.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| `Localize` 组件的刷新判定 | `Runtime/Localize.cs` |
-| 字体切换细节 | `Runtime/Targets/LocalizeTarget_TextMeshPro_Label.cs` |
-| 资产查找与字典构建 | `Runtime/LanguageSource/LanguageSourceData_Assets.cs` |
-| 编辑器期的 Key 校验工具 | `Editor/Localization/` |
+- **`Localize` 组件的刷新判定**<br>`Runtime/Localize.cs`
+- **字体切换细节**<br>`Runtime/Targets/LocalizeTarget_TextMeshPro_Label.cs`
+- **资产查找与字典构建**<br>`Runtime/LanguageSource/LanguageSourceData_Assets.cs`
+- **编辑器期的 Key 校验工具**<br>`Editor/Localization/`
 
 ## 下一步
 

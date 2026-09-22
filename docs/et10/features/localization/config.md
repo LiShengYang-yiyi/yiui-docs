@@ -95,21 +95,17 @@ Key 不总是合法 C# 标识符，生成时会做转换：
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuilocalizationpro/Luban/Config/Base/Defines/Localization.xml` | 三张表的定义 |
-| `Packages/cn.etetet.yiuilocalizationpro/DotNet~/LubanExport/LocalizationLubanPreprocessor.cs` | 导出预处理与全部校验 |
-| `Packages/cn.etetet.yiuilocalizationpro/Runtime/YIUI/YIUIConstAsset_I2.cs` | 开关的 C# 侧声明 |
-| `Packages/cn.etetet.yiuilocalizationpro/Luban/Config/Datas/I2_AllSource.xlsx` | 唯一手工维护的源表 |
+- **三张表的定义**<br>`Packages/cn.etetet.yiuilocalizationpro/Luban/Config/Base/Defines/Localization.xml`
+- **导出预处理与全部校验**<br>`Packages/cn.etetet.yiuilocalizationpro/DotNet~/LubanExport/LocalizationLubanPreprocessor.cs`
+- **开关的 C# 侧声明**<br>`Packages/cn.etetet.yiuilocalizationpro/Runtime/YIUI/YIUIConstAsset_I2.cs`
+- **唯一手工维护的源表**<br>`Packages/cn.etetet.yiuilocalizationpro/Luban/Config/Datas/I2_AllSource.xlsx`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 生成的 Luban 配置类 | `CodeMode/Model/Client/LubanGen/Config/` |
-| 导出的 JSON | `Assets/Editor/Luban/Datas/LocalizationCheck.json` |
-| 编辑器工具模块 | `Editor/YIUIAutoTool/UII2Localization/UII2LocalizationModule.cs` |
-| 生成代码的结构模板 | `Editor/Localization/LocalizationEditor_Tools_Script.cs` |
+- **生成的 Luban 配置类**<br>`CodeMode/Model/Client/LubanGen/Config/`
+- **导出的 JSON**<br>`Assets/Editor/Luban/Datas/LocalizationCheck.json`
+- **编辑器工具模块**<br>`Editor/YIUIAutoTool/UII2Localization/UII2LocalizationModule.cs`
+- **生成代码的结构模板**<br>`Editor/Localization/LocalizationEditor_Tools_Script.cs`
 
 ## 下一步
 

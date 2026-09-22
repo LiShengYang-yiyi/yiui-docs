@@ -116,23 +116,19 @@ if (!collector.TryGet(key, out var mountPoint, false)) { /* 真的取不到 */ }
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuimountpoint/Runtime/MountPoint/MountPointCollector.cs` | 键表、查找与全部错误日志 |
-| `Packages/cn.etetet.yiuimountpoint/Runtime/MountPoint/MountPointMark.cs` | 标记登记逻辑 |
-| `Packages/cn.etetet.yiuimountpoint/Runtime/MountPoint/MountPointPresetCatalog.cs` | 预置目录与代码生成 |
-| `Packages/cn.etetet.yiuimountpoint/Scripts/HotfixView/Client/MountPointCollectorComponentSystem.cs` | 实体侧扩展方法 |
-| `Packages/cn.etetet.yiuimountpoint/Scripts/ModelView/Client/MountPointCollectorComponent.cs` | 实体侧组件 |
+- **键表、查找与全部错误日志**<br>`Packages/cn.etetet.yiuimountpoint/Runtime/MountPoint/MountPointCollector.cs`
+- **标记登记逻辑**<br>`Packages/cn.etetet.yiuimountpoint/Runtime/MountPoint/MountPointMark.cs`
+- **预置目录与代码生成**<br>`Packages/cn.etetet.yiuimountpoint/Runtime/MountPoint/MountPointPresetCatalog.cs`
+- **实体侧扩展方法**<br>`Packages/cn.etetet.yiuimountpoint/Scripts/HotfixView/Client/MountPointCollectorComponentSystem.cs`
+- **实体侧组件**<br>`Packages/cn.etetet.yiuimountpoint/Scripts/ModelView/Client/MountPointCollectorComponent.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 键的归一化规则 | `Runtime/MountPoint/MountPointCollector.cs` 里的 `KeyToLower` |
-| 预设键的拼装 | `Runtime/MountPoint/MountPointPresetCatalog.cs` 里的索引重建 |
-| 生成代码的落点 | 生成目录固定为 `Scripts/ModelView/Client/Generated/MountPoint/` |
-| 编辑器工具入口 | `Editor/YIUIAutoTool/UIMountPointModule.cs` |
-| 键字段的 Inspector 绘制 | `Editor/MountPoint/MountPointKeyAttributeDrawer.cs` |
+- **键的归一化规则**<br>`Runtime/MountPoint/MountPointCollector.cs` 里的 `KeyToLower`
+- **预设键的拼装**<br>`Runtime/MountPoint/MountPointPresetCatalog.cs` 里的索引重建
+- **生成代码的落点**<br>生成目录固定为 `Scripts/ModelView/Client/Generated/MountPoint/`
+- **编辑器工具入口**<br>`Editor/YIUIAutoTool/UIMountPointModule.cs`
+- **键字段的 Inspector 绘制**<br>`Editor/MountPoint/MountPointKeyAttributeDrawer.cs`
 
 ## 下一步
 

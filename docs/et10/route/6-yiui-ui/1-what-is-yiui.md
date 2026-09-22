@@ -92,22 +92,18 @@ YIUI 的 Panel / View 在 ET 眼里就是客户端表现层的实体——它们
 
 ## 真源
 
-| 文件 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuiframework/README.md` | YIUI 框架包索引与文档入口 |
-| `AGENTS.md`（工程根）→「ET 分层与客户端边界」 | UI 边界的权威规则 |
-| ET9 · [`CDE Table`](/et9/cde-table/) | CDE 的设计目的原文（数据与 UI 分离、一对多） |
-| ET9 · [`通用接入`](/et9/integration/general) | YIUI 接入的完整流程 |
+- **YIUI 框架包索引与文档入口**<br>`Packages/cn.etetet.yiuiframework/README.md`
+- **UI 边界的权威规则**<br>`AGENTS.md`（工程根）→「ET 分层与客户端边界」
+- **CDE 的设计目的原文（数据与 UI 分离、一对多）**<br>ET9 · [`CDE Table`](/et9/cde-table/)
+- **YIUI 接入的完整流程**<br>ET9 · [`通用接入`](/et9/integration/general)
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| YIUI 框架本体 | `Packages/cn.etetet.yiuiframework/`（`Scripts/` · `Runtime/` · `Editor/`） |
-| 框架入口（空壳） | `Packages/cn.etetet.yiui/` |
-| 生成器 | `Packages/cn.etetet.yiuiframework/YIUI.BindSourceGenerator.dll` |
-| 界面预制体 | `Packages/<包>/Assets/GameRes/YIUI/` |
-| 业务逻辑落点 | `Packages/<包>/Scripts/HotfixView/Client/YIUISystem/` |
+- **YIUI 框架本体**<br>`Packages/cn.etetet.yiuiframework/`（`Scripts/` · `Runtime/` · `Editor/`）
+- **框架入口（空壳）**<br>`Packages/cn.etetet.yiui/`
+- **生成器**<br>`Packages/cn.etetet.yiuiframework/YIUI.BindSourceGenerator.dll`
+- **界面预制体**<br>`Packages/<包>/Assets/GameRes/YIUI/`
+- **业务逻辑落点**<br>`Packages/<包>/Scripts/HotfixView/Client/YIUISystem/`
 
 ## 读完能回答
 

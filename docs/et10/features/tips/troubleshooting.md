@@ -99,20 +99,16 @@ Panel 按类型记录最后使用时间，超过阈值才清该类型的池。�
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuitips/Scripts/HotfixView/Client/YIUISystem/Tips/TipsPanelComponentSystem.cs` | 打开与回收的全部校验分支 |
-| `Packages/cn.etetet.yiuitips/Scripts/HotfixView/Client/YIUISystem/Tips/TipsViewComponentSystem.cs` | 关闭后触发回收的时机 |
-| `Packages/cn.etetet.yiuitips/Scripts/HotfixView/Client/YIUISystem/Tips/TipsTextViewQueueSingletonSystem.cs` | 队列消费与异常分支 |
+- **打开与回收的全部校验分支**<br>`Packages/cn.etetet.yiuitips/Scripts/HotfixView/Client/YIUISystem/Tips/TipsPanelComponentSystem.cs`
+- **关闭后触发回收的时机**<br>`Packages/cn.etetet.yiuitips/Scripts/HotfixView/Client/YIUISystem/Tips/TipsViewComponentSystem.cs`
+- **队列消费与异常分支**<br>`Packages/cn.etetet.yiuitips/Scripts/HotfixView/Client/YIUISystem/Tips/TipsTextViewQueueSingletonSystem.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 全部 Error 文案 | 在包内搜 `Log.Error` / `Debug.LogError` |
-| 引用计数的加减 | `Scripts/HotfixView/Client/YIUISystem/Tips/TipsPanelComponentSystem.cs` 的 `OpenTips` / `PutTips` |
-| 等待型的异常出口 | `Scripts/HotfixView/Client/YIUISystem/Tips/TipsMessageViewComponentSystem.cs` |
-| 现成用例 | `Scripts/HotfixView/Client/GM/GM_Command_Tips.cs` |
+- **全部 Error 文案**<br>在包内搜 `Log.Error` / `Debug.LogError`
+- **引用计数的加减**<br>`Scripts/HotfixView/Client/YIUISystem/Tips/TipsPanelComponentSystem.cs` 的 `OpenTips` / `PutTips`
+- **等待型的异常出口**<br>`Scripts/HotfixView/Client/YIUISystem/Tips/TipsMessageViewComponentSystem.cs`
+- **现成用例**<br>`Scripts/HotfixView/Client/GM/GM_Command_Tips.cs`
 
 ## 下一步
 

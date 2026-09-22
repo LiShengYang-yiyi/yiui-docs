@@ -163,22 +163,18 @@ YIYUIInvokeSystem.Instance?.Invoke(handler, invokeName, self.InstanceId, result,
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuiinvoke/Scripts/Core/Share/EventSystem/EventSystem_Invoke_Entity.cs` | 通道 A 的真实签名与异常文案 |
-| `Packages/cn.etetet.yiuiinvoke/Scripts/Core/Share/EventSystem/EventSystem_Invoke_Entity_Extend.cs` | `YIYUIInvokeEntity*` 系列 |
-| `Packages/cn.etetet.yiuiinvoke/Scripts/Core/Share/System/YIYUIInvokeSystem_Void.cs` | 通道 B 的调用顺序（before → 主 → after） |
-| `Packages/cn.etetet.yiuiframework/Runtime/Event/YIYUIInvokeEvent.cs` | 框架预置的参数结构体 |
+- **通道 A 的真实签名与异常文案**<br>`Packages/cn.etetet.yiuiinvoke/Scripts/Core/Share/EventSystem/EventSystem_Invoke_Entity.cs`
+- **`YIYUIInvokeEntity*` 系列**<br>`Packages/cn.etetet.yiuiinvoke/Scripts/Core/Share/EventSystem/EventSystem_Invoke_Entity_Extend.cs`
+- **通道 B 的调用顺序（before → 主 → after）**<br>`Packages/cn.etetet.yiuiinvoke/Scripts/Core/Share/System/YIYUIInvokeSystem_Void.cs`
+- **框架预置的参数结构体**<br>`Packages/cn.etetet.yiuiframework/Runtime/Event/YIYUIInvokeEvent.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| Handler 抽象层 | `Scripts/Core/Share/Handler/` |
-| 单元类与注册 | `Scripts/Core/Share/System/YIYUIInvokeSystem.cs` |
-| 监听注册与排序 | `Scripts/Core/Share/System/YIYUIListenerInvokeSystem.cs` |
-| 调用标识约定 | `Scripts/Core/Share/EventSystem/EYIYUIInvokeType.cs` |
-| 事件回调里的调用点 | `Packages/cn.etetet.yiuiframework/Runtime/Core/YIUIBind/Code/Event/Code/Genericity/EventHandle/` |
+- **Handler 抽象层**<br>`Scripts/Core/Share/Handler/`
+- **单元类与注册**<br>`Scripts/Core/Share/System/YIYUIInvokeSystem.cs`
+- **监听注册与排序**<br>`Scripts/Core/Share/System/YIYUIListenerInvokeSystem.cs`
+- **调用标识约定**<br>`Scripts/Core/Share/EventSystem/EYIYUIInvokeType.cs`
+- **事件回调里的调用点**<br>`Packages/cn.etetet.yiuiframework/Runtime/Core/YIUIBind/Code/Event/Code/Genericity/EventHandle/`
 
 ## 下一步
 

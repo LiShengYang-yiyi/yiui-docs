@@ -80,21 +80,17 @@ public class C2G_LoginGateHandler : AMRpcHandler<C2G_LoginGate, G2C_LoginGate>
 
 ## 真源
 
-| 文件 | 内容 |
-|---|---|
-| `Packages/cn.etetet.harness/skills/et-code/SKILL.md` | Handler 规范、文件落点、ECS 边界 |
-| `Packages/cn.etetet.harness/skills/et-code/references/et-code-rules.md` | Handler `Run` 规范细则 |
-| `Book/3.4事件机制EventSystem.md` | 第 9 类「消息事件」与 `MessageHandler` 示例 |
-| `AGENTS.md`（工程根）→「服务器协议错误提示」 | 协议错误码的统一处理约定 |
+- **Handler 规范、文件落点、ECS 边界**<br>`Packages/cn.etetet.harness/skills/et-code/SKILL.md`
+- **Handler `Run` 规范细则**<br>`Packages/cn.etetet.harness/skills/et-code/references/et-code-rules.md`
+- **第 9 类「消息事件」与 `MessageHandler` 示例**<br>`Book/3.4事件机制EventSystem.md`
+- **协议错误码的统一处理约定**<br>`AGENTS.md`（工程根）→「服务器协议错误提示」
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 客户端消息处理 | `Packages/cn.etetet.login/Scripts/Hotfix/Client/` |
-| 服务端消息处理 | `Packages/cn.etetet.login/Scripts/Hotfix/Server/{Realm,Gate}/` |
-| 纤程间消息处理 | `Packages/cn.etetet.netinner/Scripts/Hotfix/Server/` |
-| 消息与 Session 基础设施 | `Packages/cn.etetet.core/Scripts/` |
+- **客户端消息处理**<br>`Packages/cn.etetet.login/Scripts/Hotfix/Client/`
+- **服务端消息处理**<br>`Packages/cn.etetet.login/Scripts/Hotfix/Server/{Realm,Gate}/`
+- **纤程间消息处理**<br>`Packages/cn.etetet.netinner/Scripts/Hotfix/Server/`
+- **消息与 Session 基础设施**<br>`Packages/cn.etetet.core/Scripts/`
 
 ## 读完能回答
 

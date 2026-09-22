@@ -75,23 +75,19 @@ YIUI 初始化完成后，由框架的初始化完成事件触发创建。
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuigm/Scripts/ModelView/Client/GM/GMAttribute.cs` | 命令与分组特性 |
-| `Packages/cn.etetet.yiuigm/Scripts/ModelView/Client/GM/IGMCommand.cs` | 命令接口 |
-| `Packages/cn.etetet.yiuigm/Scripts/ModelView/Client/GM/GMCommandComponent.cs` | 命令表组件 |
-| `Packages/cn.etetet.yiuigm/Scripts/HotfixView/Client/GM/GMCommandComponentSystem.cs` | 注册与执行 |
-| `Packages/cn.etetet.yiuigm/Scripts/YIUIFramework/YIUIConstAsset_GM.cs` | 工程侧开关 |
+- **命令与分组特性**<br>`Packages/cn.etetet.yiuigm/Scripts/ModelView/Client/GM/GMAttribute.cs`
+- **命令接口**<br>`Packages/cn.etetet.yiuigm/Scripts/ModelView/Client/GM/IGMCommand.cs`
+- **命令表组件**<br>`Packages/cn.etetet.yiuigm/Scripts/ModelView/Client/GM/GMCommandComponent.cs`
+- **注册与执行**<br>`Packages/cn.etetet.yiuigm/Scripts/HotfixView/Client/GM/GMCommandComponentSystem.cs`
+- **工程侧开关**<br>`Packages/cn.etetet.yiuigm/Scripts/YIUIFramework/YIUIConstAsset_GM.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 面板与视图逻辑 | `Scripts/HotfixView/Client/YIUISystem/GM/` |
-| 自动生成的绑定代码 | `Scripts/ModelView/Client/YIUIGen/GM/` · `Scripts/HotfixView/Client/YIUIGen/GM/` |
-| 面板预制体 | `Assets/GameRes/YIUI/GM/Prefabs/` |
-| 分类页签的反射工具 | `Scripts/ModelView/Client/GM/GMKeyHelper.cs` |
-| 模块挂载时机 | `Scripts/HotfixView/Client/GM/YIUIEventInitializeAfterGMHandler.cs` |
+- **面板与视图逻辑**<br>`Scripts/HotfixView/Client/YIUISystem/GM/`
+- **自动生成的绑定代码**<br>`Scripts/ModelView/Client/YIUIGen/GM/` · `Scripts/HotfixView/Client/YIUIGen/GM/`
+- **面板预制体**<br>`Assets/GameRes/YIUI/GM/Prefabs/`
+- **分类页签的反射工具**<br>`Scripts/ModelView/Client/GM/GMKeyHelper.cs`
+- **模块挂载时机**<br>`Scripts/HotfixView/Client/GM/YIUIEventInitializeAfterGMHandler.cs`
 
 ## 下一步
 

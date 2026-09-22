@@ -93,22 +93,18 @@ self.m_Display.RemoveMultipleTarget(go1);
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiui3ddisplay/Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Async.cs` | `ShowAsync` |
-| `Packages/cn.etetet.yiui3ddisplay/Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_API.cs` | 缩放 / 朝向 / 偏移 / 分辨率 / 清除 |
-| `Packages/cn.etetet.yiui3ddisplay/Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Multiple.cs` | 多目标模式 |
-| `Packages/cn.etetet.yiui3ddisplay/Scripts/HotfixView/Client/YIUISystem/ModelDisplay/ModelDisplayDemoViewComponentSystem.cs` | 可直接抄的最小用法 |
+- **`ShowAsync`**<br>`Packages/cn.etetet.yiui3ddisplay/Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Async.cs`
+- **缩放 / 朝向 / 偏移 / 分辨率 / 清除**<br>`Packages/cn.etetet.yiui3ddisplay/Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_API.cs`
+- **多目标模式**<br>`Packages/cn.etetet.yiui3ddisplay/Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Multiple.cs`
+- **可直接抄的最小用法**<br>`Packages/cn.etetet.yiui3ddisplay/Scripts/HotfixView/Client/YIUISystem/ModelDisplay/ModelDisplayDemoViewComponentSystem.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 组件上的全部可配字段 | `Runtime/UI3DDisplay.cs` |
-| 换模型时的回收与复用 | `Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Base.cs` |
-| 相机参数同步与阴影镜面 | `Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Sync.cs` |
-| 模板预制体与创建菜单 | `Editor/TemplatePrefabs/YIUI3DDisplay.prefab` · `Editor/MenuItem/` |
-| 示例模型与界面预制体 | `Assets/GameRes/YIUI/ModelDisplay/` |
+- **组件上的全部可配字段**<br>`Runtime/UI3DDisplay.cs`
+- **换模型时的回收与复用**<br>`Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Base.cs`
+- **相机参数同步与阴影镜面**<br>`Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Sync.cs`
+- **模板预制体与创建菜单**<br>`Editor/TemplatePrefabs/YIUI3DDisplay.prefab` · `Editor/MenuItem/`
+- **示例模型与界面预制体**<br>`Assets/GameRes/YIUI/ModelDisplay/`
 
 ## 下一步
 

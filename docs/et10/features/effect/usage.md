@@ -109,23 +109,19 @@ uieffect.toneIntensity = 1f;   // 取值范围 0~1，内部自动钳制
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuieffect/Plugins/UIParticle/UIParticle.cs` | 粒子 API 与刷新 |
-| `Packages/cn.etetet.yiuieffect/Plugins/UIParticle/UIParticleAttractor.cs` | 吸附效果 |
-| `Packages/cn.etetet.yiuieffect/Plugins/UIEffect/Runtime/UIEffect.cs` | 材质特效参数 |
-| `Packages/cn.etetet.yiuieffect/Runtime/YIUIBind/Data/UIDataBindGray.cs` | 置灰绑定 |
-| `Packages/cn.etetet.yiuieffect/Plugins/UIEffect/Runtime/UIEffectProjectSettings.cs` | 预设与着色器注册 |
+- **粒子 API 与刷新**<br>`Packages/cn.etetet.yiuieffect/Plugins/UIParticle/UIParticle.cs`
+- **吸附效果**<br>`Packages/cn.etetet.yiuieffect/Plugins/UIParticle/UIParticleAttractor.cs`
+- **材质特效参数**<br>`Packages/cn.etetet.yiuieffect/Plugins/UIEffect/Runtime/UIEffect.cs`
+- **置灰绑定**<br>`Packages/cn.etetet.yiuieffect/Runtime/YIUIBind/Data/UIDataBindGray.cs`
+- **预设与着色器注册**<br>`Packages/cn.etetet.yiuieffect/Plugins/UIEffect/Runtime/UIEffectProjectSettings.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 网格合并与包围盒 | `Plugins/UIParticle/UIParticleRenderer.cs` |
-| 网格共享与分组 | `Plugins/UIParticle/UIParticle.cs` 里的 `useMeshSharing` 与 `groupId` |
-| 材质缓存 | `Plugins/UIParticle/Internal/Utilities/` |
-| 预设资源 | `Plugins/UIEffect/UIEffectPresets/` |
-| 着色器 | `Plugins/UIParticle/Shaders/UIAdditive.shader` · `Plugins/UIEffect/Shaders/UIEffect.shader` |
+- **网格合并与包围盒**<br>`Plugins/UIParticle/UIParticleRenderer.cs`
+- **网格共享与分组**<br>`Plugins/UIParticle/UIParticle.cs` 里的 `useMeshSharing` 与 `groupId`
+- **材质缓存**<br>`Plugins/UIParticle/Internal/Utilities/`
+- **预设资源**<br>`Plugins/UIEffect/UIEffectPresets/`
+- **着色器**<br>`Plugins/UIParticle/Shaders/UIAdditive.shader` · `Plugins/UIEffect/Shaders/UIEffect.shader`
 
 ## 下一步
 

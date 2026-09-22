@@ -108,22 +108,18 @@ int key = AudioMgr.Inst.PlaySoundByParams(p);
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuiaudio/Runtime/Audio/AudioMgr.cs` | 全部对外播放 API |
-| `Packages/cn.etetet.yiuiaudio/Runtime/Audio/AudioDataParams.cs` | 参数字段与回收 |
-| `Packages/cn.etetet.yiuiaudio/Scripts/HotfixView/Client/YIUIInvokeGetAudioConfigHandler.cs` | 配置查询 Handler |
-| `Packages/cn.etetet.yiuiaudio/CodeMode/Model/Client/ConfigExtend/AudioConfig_Extend.cs` | 配置到接口的适配 |
-| `Packages/cn.etetet.yiuiaudio/Luban/Config/Datas/Audio/Audio.yml` | 音频表数据 |
+- **全部对外播放 API**<br>`Packages/cn.etetet.yiuiaudio/Runtime/Audio/AudioMgr.cs`
+- **参数字段与回收**<br>`Packages/cn.etetet.yiuiaudio/Runtime/Audio/AudioDataParams.cs`
+- **配置查询 Handler**<br>`Packages/cn.etetet.yiuiaudio/Scripts/HotfixView/Client/YIUIInvokeGetAudioConfigHandler.cs`
+- **配置到接口的适配**<br>`Packages/cn.etetet.yiuiaudio/CodeMode/Model/Client/ConfigExtend/AudioConfig_Extend.cs`
+- **音频表数据**<br>`Packages/cn.etetet.yiuiaudio/Luban/Config/Datas/Audio/Audio.yml`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 参数默认值与配置覆盖 | `Runtime/Audio/AudioMgr.cs` 里的 `SetSoundDataParamsByConfig` |
-| 随机取片段 | `Runtime/Audio/AudioMgr.cs` 里的 `RandomList` |
-| 界面绑定组件实现 | `Runtime/Bind/Music/` |
-| 音频事件结构体 | `Runtime/Audio/AudioEvent.cs` |
+- **参数默认值与配置覆盖**<br>`Runtime/Audio/AudioMgr.cs` 里的 `SetSoundDataParamsByConfig`
+- **随机取片段**<br>`Runtime/Audio/AudioMgr.cs` 里的 `RandomList`
+- **界面绑定组件实现**<br>`Runtime/Bind/Music/`
+- **音频事件结构体**<br>`Runtime/Audio/AudioEvent.cs`
 
 ## 下一步
 

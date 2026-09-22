@@ -76,20 +76,16 @@ UI 飘字的位置完全由「父矩形 + 屏幕点」决定，所以**先确认
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuidamagetips/Scripts/HotfixView/Client/Damage/DamageTipsHelper.cs` | 参数校验与错误分支 |
-| `Packages/cn.etetet.yiuidamagetips/Scripts/HotfixView/Client/YIUISystem/DamageTips/DamageTipsPanelComponentSystem.cs` | 池创建、父节点选择、编辑器重取分支 |
-| `Packages/cn.etetet.yiuidamagetips/Plugins/DamageNumbersPro/Scripts/Internal/DamageNumber.cs` | 跟随与寿命判定 |
+- **参数校验与错误分支**<br>`Packages/cn.etetet.yiuidamagetips/Scripts/HotfixView/Client/Damage/DamageTipsHelper.cs`
+- **池创建、父节点选择、编辑器重取分支**<br>`Packages/cn.etetet.yiuidamagetips/Scripts/HotfixView/Client/YIUISystem/DamageTips/DamageTipsPanelComponentSystem.cs`
+- **跟随与寿命判定**<br>`Packages/cn.etetet.yiuidamagetips/Plugins/DamageNumbersPro/Scripts/Internal/DamageNumber.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 目标校验与错误文案 | `Scripts/HotfixView/Client/Damage/DamageTipsHelper.cs` |
-| 面板绑定节点 | `Assets/GameRes/YIUI/DamageTips/Prefabs/DamageTipsPanel.prefab` |
-| 插件更新器 | `Plugins/DamageNumbersPro/Scripts/Internal/DNPUpdater.cs` |
-| GM 命令入口 | `Scripts/HotfixView/Client/GM/GM_Command_DamageTips.cs` |
+- **目标校验与错误文案**<br>`Scripts/HotfixView/Client/Damage/DamageTipsHelper.cs`
+- **面板绑定节点**<br>`Assets/GameRes/YIUI/DamageTips/Prefabs/DamageTipsPanel.prefab`
+- **插件更新器**<br>`Plugins/DamageNumbersPro/Scripts/Internal/DNPUpdater.cs`
+- **GM 命令入口**<br>`Scripts/HotfixView/Client/GM/GM_Command_DamageTips.cs`
 
 ## 下一步
 

@@ -62,20 +62,16 @@ ET 的 SourceGenerator 会在编译时校验包之间的依赖与分层。两个
 
 ## 真源
 
-| 文件 | 内容 |
-|---|---|
-| `docs/ET分析器修复建议.md` | `ET0105` 的成因与完整排查步骤 |
-| `docs/F6编译流程说明.md` | 「常见问题与解决方案」：6 个高频编译问题 |
-| `Packages/cn.etetet.yiuimcp/Docs/Flows/闭环测试指导文档.md` | 闭环测试与日志断言的操作说明 |
-| `Packages/cn.etetet.test/skills/et-test-run/SKILL.md` | 测试执行入口（怎么跑、怎么定位失败） |
+- **`ET0105` 的成因与完整排查步骤**<br>`docs/ET分析器修复建议.md`
+- **「常见问题与解决方案」：6 个高频编译问题**<br>`docs/F6编译流程说明.md`
+- **闭环测试与日志断言的操作说明**<br>`Packages/cn.etetet.yiuimcp/Docs/Flows/闭环测试指导文档.md`
+- **测试执行入口（怎么跑、怎么定位失败）**<br>`Packages/cn.etetet.test/skills/et-test-run/SKILL.md`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 服务端日志输出目录 | `Logs/` |
-| 分析器与包规则 | `Packages/cn.etetet.sourcegenerator/` |
-| 测试执行脚本 | `Scripts/Run-Test.ps1` · `Scripts/Run-UnityTest.ps1` |
+- **服务端日志输出目录**<br>`Logs/`
+- **分析器与包规则**<br>`Packages/cn.etetet.sourcegenerator/`
+- **测试执行脚本**<br>`Scripts/Run-Test.ps1` · `Scripts/Run-UnityTest.ps1`
 
 ## 读完能回答
 

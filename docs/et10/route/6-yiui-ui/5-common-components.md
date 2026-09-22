@@ -70,12 +70,10 @@ title: 6.5 常用组件
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 各扩展包实现 | `Packages/cn.etetet.yiui<功能>/Scripts/` |
-| 循环列表示例 | `Packages/cn.etetet.yiuisuperscrolldemo/` |
-| 红点配置 | `Packages/cn.etetet.yiuireddot/` |
-| 条件配置 | `Packages/cn.etetet.yiuiconditionconfig/` |
+- **各扩展包实现**<br>`Packages/cn.etetet.yiui<功能>/Scripts/`
+- **循环列表示例**<br>`Packages/cn.etetet.yiuisuperscrolldemo/`
+- **红点配置**<br>`Packages/cn.etetet.yiuireddot/`
+- **条件配置**<br>`Packages/cn.etetet.yiuiconditionconfig/`
 
 ## 读完能回答
 

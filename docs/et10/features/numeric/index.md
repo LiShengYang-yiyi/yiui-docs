@@ -97,23 +97,19 @@ title: 数值系统
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuinumeric/Scripts/Model/Share/Numeric/Core/NumericConst.cs` | 倍率与范围常量 |
-| `Packages/cn.etetet.yiuinumeric/Scripts/Model/Share/Numeric/Core/NumericData.cs` | 数据体 |
-| `Packages/cn.etetet.yiuinumeric/Scripts/Model/Share/Numeric/Core/NumericDataComponent.cs` | 组件定义 |
-| `Packages/cn.etetet.yiuinumericconfig/CodeMode/Model/ClientServer/LubanGen/Config/ENumericType.cs` | 数值类型枚举 |
+- **倍率与范围常量**<br>`Packages/cn.etetet.yiuinumeric/Scripts/Model/Share/Numeric/Core/NumericConst.cs`
+- **数据体**<br>`Packages/cn.etetet.yiuinumeric/Scripts/Model/Share/Numeric/Core/NumericData.cs`
+- **组件定义**<br>`Packages/cn.etetet.yiuinumeric/Scripts/Model/Share/Numeric/Core/NumericDataComponent.cs`
+- **数值类型枚举**<br>`Packages/cn.etetet.yiuinumericconfig/CodeMode/Model/ClientServer/LubanGen/Config/ENumericType.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 改值主流程 | `Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/Data/NumericDataExtend.cs` |
-| 校验规则 | `Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/Data/NumericCheck.cs` |
-| 对外 API 门面 | `Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/System/` |
-| 单例直取属性 | `Packages/cn.etetet.yiuinumeric/Scripts/Model/Share/Numeric/Core/Unit_Numeric_Extend.cs` |
-| 显示与本地化 | `Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/Localization/NumericLocalization.cs` |
-| 配置包 | `Packages/cn.etetet.yiuinumericconfig/` |
+- **改值主流程**<br>`Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/Data/NumericDataExtend.cs`
+- **校验规则**<br>`Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/Data/NumericCheck.cs`
+- **对外 API 门面**<br>`Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/System/`
+- **单例直取属性**<br>`Packages/cn.etetet.yiuinumeric/Scripts/Model/Share/Numeric/Core/Unit_Numeric_Extend.cs`
+- **显示与本地化**<br>`Packages/cn.etetet.yiuinumeric/Scripts/Hotfix/Share/Localization/NumericLocalization.cs`
+- **配置包**<br>`Packages/cn.etetet.yiuinumericconfig/`
 
 ## 下一步
 

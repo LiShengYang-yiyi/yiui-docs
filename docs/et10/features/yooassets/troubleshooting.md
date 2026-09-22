@@ -88,21 +88,17 @@ title: 排查
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuiyooassets/Scripts/HotfixView/Client/System/YIUIYooAssetsLoadComponentSystem.cs` | 初始化失败分支、句柄登记与释放 |
-| `Packages/cn.etetet.yiuiyooassets/Scripts/HotfixView/Client/System/YIUIYooAssetsSpriteComponentSystem.cs` | 图集四类错误日志 |
-| `Packages/cn.etetet.yooassets/Runtime/ET/ResourcesComponent.cs` | 建包与模式分支 |
-| `Packages/cn.etetet.yooassets/Runtime/ResourcePackage/ResourcePackage.cs` | 初始化断言与异常文案 |
+- **初始化失败分支、句柄登记与释放**<br>`Packages/cn.etetet.yiuiyooassets/Scripts/HotfixView/Client/System/YIUIYooAssetsLoadComponentSystem.cs`
+- **图集四类错误日志**<br>`Packages/cn.etetet.yiuiyooassets/Scripts/HotfixView/Client/System/YIUIYooAssetsSpriteComponentSystem.cs`
+- **建包与模式分支**<br>`Packages/cn.etetet.yooassets/Runtime/ET/ResourcesComponent.cs`
+- **初始化断言与异常文案**<br>`Packages/cn.etetet.yooassets/Runtime/ResourcePackage/ResourcePackage.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 有效性校验（编辑器限定） | `Scripts/HotfixView/Client/System/YIUIYooAssetsLoadComponentSystem.cs` |
-| 上层句柄计数 | `Packages/cn.etetet.yiuiframework/Scripts/ModelView/Client/YIUILoad/` |
-| 包与句柄基类 | `Packages/cn.etetet.yooassets/Runtime/ResourcePackage/Operation/` |
-| 常量资源路径 | `Packages/cn.etetet.yiuiyooassets/Runtime/Atlas/YIUIConstAsset_Atlas.cs` |
+- **有效性校验（编辑器限定）**<br>`Scripts/HotfixView/Client/System/YIUIYooAssetsLoadComponentSystem.cs`
+- **上层句柄计数**<br>`Packages/cn.etetet.yiuiframework/Scripts/ModelView/Client/YIUILoad/`
+- **包与句柄基类**<br>`Packages/cn.etetet.yooassets/Runtime/ResourcePackage/Operation/`
+- **常量资源路径**<br>`Packages/cn.etetet.yiuiyooassets/Runtime/Atlas/YIUIConstAsset_Atlas.cs`
 
 ## 下一步
 

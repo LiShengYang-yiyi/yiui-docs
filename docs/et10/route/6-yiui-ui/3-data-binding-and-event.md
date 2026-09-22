@@ -111,21 +111,17 @@ C / D / E 三张表配好之后，由 **UIBind** 生成代码，产物是四个�
 
 ## 真源
 
-| 文件 | 内容 |
-|---|---|
-| ET9 · [`Data Table`](/et9/cde-table/data) | 数据表的定义、命名、能力与 UIData API |
-| ET9 · [`Event Table`](/et9/cde-table/event) | 事件表的定义、命名、各控件事件与同步/异步区别 |
-| ET9 · [`UIBind 自动生成`](/et9/features/uibind) | 生成的四个文件、SGDLL、`.meta` 要求与报错 |
-| `AGENTS.md`（工程根） | UI 刷新、协议错误、请求节流的边界规则 |
+- **数据表的定义、命名、能力与 UIData API**<br>ET9 · [`Data Table`](/et9/cde-table/data)
+- **事件表的定义、命名、各控件事件与同步/异步区别**<br>ET9 · [`Event Table`](/et9/cde-table/event)
+- **生成的四个文件、SGDLL、`.meta` 要求与报错**<br>ET9 · [`UIBind 自动生成`](/et9/features/uibind)
+- **UI 刷新、协议错误、请求节流的边界规则**<br>`AGENTS.md`（工程根）
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 绑定与数据实现 | `Packages/cn.etetet.yiuiframework/Scripts/` |
-| 生成器 | `Packages/cn.etetet.yiuiframework/YIUI.BindSourceGenerator.dll` |
-| 手写业务逻辑 | `Packages/<包>/Scripts/HotfixView/Client/YIUISystem/` |
-| 完整实例（含事件绑定） | `Packages/cn.etetet.yiuimcp/Docs/Flows/ModifyUIPrefab完整指南-添加按钮事件绑定.md` |
+- **绑定与数据实现**<br>`Packages/cn.etetet.yiuiframework/Scripts/`
+- **生成器**<br>`Packages/cn.etetet.yiuiframework/YIUI.BindSourceGenerator.dll`
+- **手写业务逻辑**<br>`Packages/<包>/Scripts/HotfixView/Client/YIUISystem/`
+- **完整实例（含事件绑定）**<br>`Packages/cn.etetet.yiuimcp/Docs/Flows/ModifyUIPrefab完整指南-添加按钮事件绑定.md`
 
 ## 读完能回答
 

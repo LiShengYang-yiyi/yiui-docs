@@ -109,22 +109,18 @@ public class EventView_ChangeLanguage_Handler : IDynamicEvent<EventView_ChangeLa
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuilocalizationpro/Scripts/HotfixView/Client/YIUIInvokeI2Localization.cs` | 取词 Handler 与切语言事件 |
-| `Packages/cn.etetet.yiuilocalizationpro/Runtime/YIUI/I2/UIDataBindTextI2Base.cs` | 文本绑定组件基类 |
-| `Packages/cn.etetet.yiuilocalizationpro/Runtime/YIUI/I2/UIDataBindImageI2.cs` | 图片绑定组件 |
-| `Packages/cn.etetet.yiuilocalizationpro/Runtime/Targets/LocalizeTarget_TextMeshPro_Label.cs` | 字体切换实现 |
-| `Packages/cn.etetet.yiuilocalizationpro/Runtime/Localize.cs` | 界面上的多语言组件 |
+- **取词 Handler 与切语言事件**<br>`Packages/cn.etetet.yiuilocalizationpro/Scripts/HotfixView/Client/YIUIInvokeI2Localization.cs`
+- **文本绑定组件基类**<br>`Packages/cn.etetet.yiuilocalizationpro/Runtime/YIUI/I2/UIDataBindTextI2Base.cs`
+- **图片绑定组件**<br>`Packages/cn.etetet.yiuilocalizationpro/Runtime/YIUI/I2/UIDataBindImageI2.cs`
+- **字体切换实现**<br>`Packages/cn.etetet.yiuilocalizationpro/Runtime/Targets/LocalizeTarget_TextMeshPro_Label.cs`
+- **界面上的多语言组件**<br>`Packages/cn.etetet.yiuilocalizationpro/Runtime/Localize.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| ET 侧与 Client 侧两份扩展方法 | `Scripts/Hotfix/Share/I2_Extend.cs` · `Scripts/HotfixView/Client/I2_Extend.cs` |
-| 带参数的取词重载 | `Runtime/Manager/LocalizationManager_Format.cs` |
-| Sprite 查找与缓存 | `Runtime/LanguageSource/LanguageSourceData_Assets.cs` |
-| 语言列表与切换底层 | `Runtime/Manager/LocalizationManager_Language.cs` |
+- **ET 侧与 Client 侧两份扩展方法**<br>`Scripts/Hotfix/Share/I2_Extend.cs` · `Scripts/HotfixView/Client/I2_Extend.cs`
+- **带参数的取词重载**<br>`Runtime/Manager/LocalizationManager_Format.cs`
+- **Sprite 查找与缓存**<br>`Runtime/LanguageSource/LanguageSourceData_Assets.cs`
+- **语言列表与切换底层**<br>`Runtime/Manager/LocalizationManager_Language.cs`
 
 ## 下一步
 

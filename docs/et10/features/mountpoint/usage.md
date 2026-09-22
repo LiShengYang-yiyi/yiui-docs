@@ -101,21 +101,17 @@ collector.ResetMountPoint(newRoot);
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuimountpoint/Runtime/MountPoint/MountPointMark.cs` | 标记与键的读写 |
-| `Packages/cn.etetet.yiuimountpoint/Runtime/MountPoint/MountPointCollector.cs` | 收集与查找 |
-| `Packages/cn.etetet.yiuimountpoint/Runtime/MountPoint/MountPointPresetCatalog.cs` | 目录资产与代码生成 |
-| `Packages/cn.etetet.yiuimountpoint/Scripts/HotfixView/Client/MountPointCollectorComponentSystem.cs` | 实体侧三个扩展方法 |
+- **标记与键的读写**<br>`Packages/cn.etetet.yiuimountpoint/Runtime/MountPoint/MountPointMark.cs`
+- **收集与查找**<br>`Packages/cn.etetet.yiuimountpoint/Runtime/MountPoint/MountPointCollector.cs`
+- **目录资产与代码生成**<br>`Packages/cn.etetet.yiuimountpoint/Runtime/MountPoint/MountPointPresetCatalog.cs`
+- **实体侧三个扩展方法**<br>`Packages/cn.etetet.yiuimountpoint/Scripts/HotfixView/Client/MountPointCollectorComponentSystem.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 一套真实的挂点配置 | `Assets/GameRes/LOLHero/LOL_Hero_001.prefab` 起的几个角色预制体 |
-| 真实调用链 | `Packages/cn.etetet.statesync/Scripts/HotfixView/Client/YIUIBTSkill/Presentation/YIUIBTSkillEffectTransformHelper.cs` |
-| 挂点枚举常量 | `Packages/cn.etetet.statesync/Scripts/ModelView/Client/YIUIBTSkill/Action/Presentation/YIUIBTSkillEffectCreateAction.cs` |
-| 键字段的特性定义 | `Scripts/Core/Share/MountPointKeyAttribute.cs` |
+- **一套真实的挂点配置**<br>`Assets/GameRes/LOLHero/LOL_Hero_001.prefab` 起的几个角色预制体
+- **真实调用链**<br>`Packages/cn.etetet.statesync/Scripts/HotfixView/Client/YIUIBTSkill/Presentation/YIUIBTSkillEffectTransformHelper.cs`
+- **挂点枚举常量**<br>`Packages/cn.etetet.statesync/Scripts/ModelView/Client/YIUIBTSkill/Action/Presentation/YIUIBTSkillEffectCreateAction.cs`
+- **键字段的特性定义**<br>`Scripts/Core/Share/MountPointKeyAttribute.cs`
 
 ## 下一步
 

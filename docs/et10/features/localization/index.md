@@ -70,23 +70,19 @@ title: 多语言
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuilocalizationpro/Runtime/I2LocalizeMgr.cs` | 单例管理器、语言加载与切换 |
-| `Packages/cn.etetet.yiuilocalizationpro/Scripts/Model/Share/I2LocalizeHelper.cs` | ET 侧取词入口 |
-| `Packages/cn.etetet.yiuilocalizationpro/Runtime/Manager/LocalizationManager_Translation.cs` | 取词与缺 Key 判定 |
-| `Packages/cn.etetet.yiuilocalizationpro/Runtime/LanguageSource/LanguageSourceData.cs` | 术语表数据主体 |
-| `Packages/cn.etetet.yiuilocalizationpro/Runtime/YIUI/YIUIConstAsset_I2.cs` | 工程侧多语言开关 |
+- **单例管理器、语言加载与切换**<br>`Packages/cn.etetet.yiuilocalizationpro/Runtime/I2LocalizeMgr.cs`
+- **ET 侧取词入口**<br>`Packages/cn.etetet.yiuilocalizationpro/Scripts/Model/Share/I2LocalizeHelper.cs`
+- **取词与缺 Key 判定**<br>`Packages/cn.etetet.yiuilocalizationpro/Runtime/Manager/LocalizationManager_Translation.cs`
+- **术语表数据主体**<br>`Packages/cn.etetet.yiuilocalizationpro/Runtime/LanguageSource/LanguageSourceData.cs`
+- **工程侧多语言开关**<br>`Packages/cn.etetet.yiuilocalizationpro/Runtime/YIUI/YIUIConstAsset_I2.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 界面自动刷新的组件 | `Runtime/Localize.cs` · `Runtime/Targets/` |
-| YIUI 数据绑定多语言组件 | `Runtime/YIUI/I2/` |
-| 资源加载与缓存 | `Runtime/Utils/ResourceManager.cs` |
-| 场景上的挂载预制体 | `Runtime/I2LocalizationSourceManager.prefab` |
-| 编辑器工具入口 | `Editor/Toolbar/YIUILocalizationExcelToolBar.cs` |
+- **界面自动刷新的组件**<br>`Runtime/Localize.cs` · `Runtime/Targets/`
+- **YIUI 数据绑定多语言组件**<br>`Runtime/YIUI/I2/`
+- **资源加载与缓存**<br>`Runtime/Utils/ResourceManager.cs`
+- **场景上的挂载预制体**<br>`Runtime/I2LocalizationSourceManager.prefab`
+- **编辑器工具入口**<br>`Editor/Toolbar/YIUILocalizationExcelToolBar.cs`
 
 ## 下一步
 

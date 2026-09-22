@@ -93,22 +93,18 @@ title: 伤害提示
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuidamagetips/Scripts/HotfixView/Client/Damage/DamageTipsHelper.cs` | 静态调用入口 |
-| `Packages/cn.etetet.yiuidamagetips/Scripts/HotfixView/Client/YIUISystem/DamageTips/DamageTipsPanelComponentSystem.cs` | 面板池与创建回收 |
-| `Packages/cn.etetet.yiuidamagetips/Scripts/ModelView/Client/YIUIComponent/DamageTips/DamageTipsPanelComponent.cs` | 面板数据字段 |
-| `Packages/cn.etetet.yiuidamagetips/Assets/GameRes/YIUI/DamageTips/Prefabs/DamageTipsPanel.prefab` | 面板预制体与池父节点绑定 |
+- **静态调用入口**<br>`Packages/cn.etetet.yiuidamagetips/Scripts/HotfixView/Client/Damage/DamageTipsHelper.cs`
+- **面板池与创建回收**<br>`Packages/cn.etetet.yiuidamagetips/Scripts/HotfixView/Client/YIUISystem/DamageTips/DamageTipsPanelComponentSystem.cs`
+- **面板数据字段**<br>`Packages/cn.etetet.yiuidamagetips/Scripts/ModelView/Client/YIUIComponent/DamageTips/DamageTipsPanelComponent.cs`
+- **面板预制体与池父节点绑定**<br>`Packages/cn.etetet.yiuidamagetips/Assets/GameRes/YIUI/DamageTips/Prefabs/DamageTipsPanel.prefab`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 3D 与 UI 飘字的分支判定 | `Scripts/HotfixView/Client/YIUISystem/DamageTips/DamageTipsPanelComponentSystem.cs` |
-| 示例 3D 飘字 | `Assets/GameRes/Damage/3D/Damage_3D_SawNeon.prefab` |
-| 示例 UI 飘字 | `Assets/GameRes/Damage/UI/Damage_UI_PixelHeal.prefab` |
-| 飘字插件本体 | `Plugins/DamageNumbersPro/Scripts/` |
-| GM 验证命令 | `Scripts/HotfixView/Client/GM/GM_Command_DamageTips.cs` |
+- **3D 与 UI 飘字的分支判定**<br>`Scripts/HotfixView/Client/YIUISystem/DamageTips/DamageTipsPanelComponentSystem.cs`
+- **示例 3D 飘字**<br>`Assets/GameRes/Damage/3D/Damage_3D_SawNeon.prefab`
+- **示例 UI 飘字**<br>`Assets/GameRes/Damage/UI/Damage_UI_PixelHeal.prefab`
+- **飘字插件本体**<br>`Plugins/DamageNumbersPro/Scripts/`
+- **GM 验证命令**<br>`Scripts/HotfixView/Client/GM/GM_Command_DamageTips.cs`
 
 ## 下一步
 

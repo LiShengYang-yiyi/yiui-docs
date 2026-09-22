@@ -288,20 +288,16 @@ public interface IDynamicRedDotControl
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuireddot/Desc/06-红点UI绑定与预制体规范.md` | 三个参考预制体、ChangeBind 行为、落地方式 |
-| `Packages/cn.etetet.yiuireddot/Desc/07-动态红点绑定.md` | 动态绑定完整 API、锚点、选型对比 |
+- **三个参考预制体、ChangeBind 行为、落地方式**<br>`Packages/cn.etetet.yiuireddot/Desc/06-红点UI绑定与预制体规范.md`
+- **动态绑定完整 API、锚点、选型对比**<br>`Packages/cn.etetet.yiuireddot/Desc/07-动态红点绑定.md`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 三个绑定脚本 | `Packages/cn.etetet.yiuireddot/Runtime/Bind/*.cs` |
-| 动态绑定 API | `Packages/cn.etetet.yiuireddot/Runtime/Mgr/RedDotMgr_Dynamic.cs` |
-| 管理入口 | `Packages/cn.etetet.yiuireddot/Runtime/Mgr/RedDotMgr.cs` |
-| 显示类型枚举与锚点 | `Packages/cn.etetet.yiuireddot/Runtime/Data/ERadDotShowType.cs` · `ERedDotAnchor.cs` |
-| 参考预制体 | `Packages/cn.etetet.yiuireddot/Assets/GameRes/YIUI/RedDot/Bind/*.prefab` |
+- **三个绑定脚本**<br>`Packages/cn.etetet.yiuireddot/Runtime/Bind/*.cs`
+- **动态绑定 API**<br>`Packages/cn.etetet.yiuireddot/Runtime/Mgr/RedDotMgr_Dynamic.cs`
+- **管理入口**<br>`Packages/cn.etetet.yiuireddot/Runtime/Mgr/RedDotMgr.cs`
+- **显示类型枚举与锚点**<br>`Packages/cn.etetet.yiuireddot/Runtime/Data/ERadDotShowType.cs` · `ERedDotAnchor.cs`
+- **参考预制体**<br>`Packages/cn.etetet.yiuireddot/Assets/GameRes/YIUI/RedDot/Bind/*.prefab`
 
 ## 下一步
 

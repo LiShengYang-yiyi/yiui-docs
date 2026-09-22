@@ -110,22 +110,18 @@ Item 侧被追加的 YIUI 成员（都在 `Runtime/RuntimeExtend/**/*_Extend.cs`
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuisuperscroll/Runtime/Common/CommonDefine.cs` | 排列类型、行列对等公共定义 |
-| `Packages/cn.etetet.yiuisuperscroll/Runtime/RuntimeExtend/ListView/LoopListView2_Extend.cs` | 列表侧的 YIUI 扩展 |
-| `Packages/cn.etetet.yiuisuperscroll/Scripts/ModelView/Client/SuperScroll/List/` | 列表组件与接口定义 |
-| `Packages/cn.etetet.yiuisuperscroll/Scripts/HotfixView/Client/SuperScroll/List/` | 列表系统分片（API / Event / OnClick） |
+- **排列类型、行列对等公共定义**<br>`Packages/cn.etetet.yiuisuperscroll/Runtime/Common/CommonDefine.cs`
+- **列表侧的 YIUI 扩展**<br>`Packages/cn.etetet.yiuisuperscroll/Runtime/RuntimeExtend/ListView/LoopListView2_Extend.cs`
+- **列表组件与接口定义**<br>`Packages/cn.etetet.yiuisuperscroll/Scripts/ModelView/Client/SuperScroll/List/`
+- **列表系统分片（API / Event / OnClick）**<br>`Packages/cn.etetet.yiuisuperscroll/Scripts/HotfixView/Client/SuperScroll/List/`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 上游三套控件本体 | `Runtime/ListView/` · `Runtime/GridView/` · `Runtime/StaggeredGridView/` |
-| YIUI 扩展层 | `Runtime/RuntimeExtend/` |
-| 动态取实现的 Helper | `Scripts/HotfixView/Client/SuperScroll/*/` 下的 `*Helper.cs` |
-| 编辑器与模板预制体 | `Editor/` · `Editor/TemplatePrefabs/` |
-| 完整用法示例 | `Packages/cn.etetet.yiuisuperscrolldemo/` |
+- **上游三套控件本体**<br>`Runtime/ListView/` · `Runtime/GridView/` · `Runtime/StaggeredGridView/`
+- **YIUI 扩展层**<br>`Runtime/RuntimeExtend/`
+- **动态取实现的 Helper**<br>`Scripts/HotfixView/Client/SuperScroll/*/` 下的 `*Helper.cs`
+- **编辑器与模板预制体**<br>`Editor/` · `Editor/TemplatePrefabs/`
+- **完整用法示例**<br>`Packages/cn.etetet.yiuisuperscrolldemo/`
 
 ## 下一步
 

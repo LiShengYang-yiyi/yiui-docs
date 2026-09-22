@@ -115,21 +115,17 @@ private static void YIUISuperScrollListRenderer(
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuisuperscroll/Scripts/HotfixView/Client/SuperScroll/List/*ComponentSystem_API.cs` | 全部对外 API 的真实签名 |
-| `Packages/cn.etetet.yiuisuperscroll/Scripts/ModelView/Client/Event/` | 业务需要实现的接口定义 |
-| `Packages/cn.etetet.yiuisuperscroll/Runtime/RuntimeExtend/ListView/LoopListView2_Extend.cs` | `SetListItemCountAndRefreshAllShownItem` 等底层入口 |
+- **全部对外 API 的真实签名**<br>`Packages/cn.etetet.yiuisuperscroll/Scripts/HotfixView/Client/SuperScroll/List/*ComponentSystem_API.cs`
+- **业务需要实现的接口定义**<br>`Packages/cn.etetet.yiuisuperscroll/Scripts/ModelView/Client/Event/`
+- **`SetListItemCountAndRefreshAllShownItem` 等底层入口**<br>`Packages/cn.etetet.yiuisuperscroll/Runtime/RuntimeExtend/ListView/LoopListView2_Extend.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 列表 API | `Scripts/HotfixView/Client/SuperScroll/List/YIUISuperScrollListComponentSystem_API.cs` |
-| 网格 API | `Scripts/HotfixView/Client/SuperScroll/Grid/YIUISuperScrollGridComponentSystem_API.cs` |
-| 错列网格 API | `Scripts/HotfixView/Client/SuperScroll/StaggeredGrid/YIUISuperScrollStaggeredGridComponentSystem_API.cs` |
-| 组件 Awake（读预制体配置） | `Scripts/HotfixView/Client/SuperScroll/*/YIUISuperScroll*ComponentSystem.cs` |
-| 可取用的现成示例 | `Packages/cn.etetet.yiuisuperscrolldemo/Scripts/` |
+- **列表 API**<br>`Scripts/HotfixView/Client/SuperScroll/List/YIUISuperScrollListComponentSystem_API.cs`
+- **网格 API**<br>`Scripts/HotfixView/Client/SuperScroll/Grid/YIUISuperScrollGridComponentSystem_API.cs`
+- **错列网格 API**<br>`Scripts/HotfixView/Client/SuperScroll/StaggeredGrid/YIUISuperScrollStaggeredGridComponentSystem_API.cs`
+- **组件 Awake（读预制体配置）**<br>`Scripts/HotfixView/Client/SuperScroll/*/YIUISuperScroll*ComponentSystem.cs`
+- **可取用的现成示例**<br>`Packages/cn.etetet.yiuisuperscrolldemo/Scripts/`
 
 ## 下一步
 

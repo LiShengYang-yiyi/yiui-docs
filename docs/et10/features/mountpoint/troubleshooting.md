@@ -90,20 +90,16 @@ if (collector.TryGet(key, out var t, false)) { /* 真的取到了 */ }
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuimountpoint/Runtime/MountPoint/MountPointCollector.cs` | 查找失败与重复键的全部日志 |
-| `Packages/cn.etetet.yiuimountpoint/Runtime/MountPoint/MountPointMark.cs` | 标记注册与绑定冲突 |
-| `Packages/cn.etetet.yiuimountpoint/Runtime/MountPoint/MountPointPresetCatalog.cs` | 目录校验与生成失败 |
-| `Packages/cn.etetet.yiuimountpoint/Scripts/HotfixView/Client/MountPointCollectorComponentSystem.cs` | 实体侧刷新失败处理 |
+- **查找失败与重复键的全部日志**<br>`Packages/cn.etetet.yiuimountpoint/Runtime/MountPoint/MountPointCollector.cs`
+- **标记注册与绑定冲突**<br>`Packages/cn.etetet.yiuimountpoint/Runtime/MountPoint/MountPointMark.cs`
+- **目录校验与生成失败**<br>`Packages/cn.etetet.yiuimountpoint/Runtime/MountPoint/MountPointPresetCatalog.cs`
+- **实体侧刷新失败处理**<br>`Packages/cn.etetet.yiuimountpoint/Scripts/HotfixView/Client/MountPointCollectorComponentSystem.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 键的归一化规则 | `Runtime/MountPoint/MountPointCollector.cs` |
-| 收集器重建键表的时机 | `Runtime/MountPoint/MountPointCollector.cs` 里的 `RefreshMark` |
-| 实体侧组件的生命周期 | `Scripts/ModelView/Client/MountPointCollectorComponent.cs` |
+- **键的归一化规则**<br>`Runtime/MountPoint/MountPointCollector.cs`
+- **收集器重建键表的时机**<br>`Runtime/MountPoint/MountPointCollector.cs` 里的 `RefreshMark`
+- **实体侧组件的生命周期**<br>`Scripts/ModelView/Client/MountPointCollectorComponent.cs`
 
 ## 下一步
 

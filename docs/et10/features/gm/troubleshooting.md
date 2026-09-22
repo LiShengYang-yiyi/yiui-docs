@@ -100,21 +100,17 @@ title: 排查
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuigm/Scripts/HotfixView/Client/GM/GMCommandComponentSystem.cs` | 执行与异常捕获 |
-| `Packages/cn.etetet.yiuigm/Scripts/ModelView/Client/GM/GMKeyHelper.cs` | 分类反射与重复检测 |
-| `Packages/cn.etetet.yiuigm/Scripts/ModelView/Client/GM/EGMParamType.cs` | 参数类型转换 |
-| `Packages/cn.etetet.yiuigm/Scripts/HotfixView/Client/GM/GMHistoryComponentSystem.cs` | 历史失效判定 |
+- **执行与异常捕获**<br>`Packages/cn.etetet.yiuigm/Scripts/HotfixView/Client/GM/GMCommandComponentSystem.cs`
+- **分类反射与重复检测**<br>`Packages/cn.etetet.yiuigm/Scripts/ModelView/Client/GM/GMKeyHelper.cs`
+- **参数类型转换**<br>`Packages/cn.etetet.yiuigm/Scripts/ModelView/Client/GM/EGMParamType.cs`
+- **历史失效判定**<br>`Packages/cn.etetet.yiuigm/Scripts/HotfixView/Client/GM/GMHistoryComponentSystem.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 面板开关判断 | `Scripts/HotfixView/Client/GM/YIUIEventInitializeAfterGMHandler.cs` |
-| 层级锁实现 | `Scripts/HotfixView/Client/GM/GMCommandComponentSystem.cs` |
-| 参数控件渲染分支 | `Scripts/HotfixView/Client/YIUISystem/GM/GMParamItemComponentSystem.cs` |
-| 历史结构版本 | `Scripts/ModelView/Client/GM/GMHistoryData.cs` |
+- **面板开关判断**<br>`Scripts/HotfixView/Client/GM/YIUIEventInitializeAfterGMHandler.cs`
+- **层级锁实现**<br>`Scripts/HotfixView/Client/GM/GMCommandComponentSystem.cs`
+- **参数控件渲染分支**<br>`Scripts/HotfixView/Client/YIUISystem/GM/GMParamItemComponentSystem.cs`
+- **历史结构版本**<br>`Scripts/ModelView/Client/GM/GMHistoryData.cs`
 
 ## 下一步
 

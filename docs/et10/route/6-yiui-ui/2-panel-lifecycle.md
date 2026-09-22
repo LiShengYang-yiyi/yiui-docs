@@ -113,20 +113,16 @@ XxxComponent / XxxComponentSystem（不覆盖的手写文件）
 
 ## 真源
 
-| 文件 | 内容 |
-|---|---|
-| ET9 · [`YIUI事件 生命周期`](/et9/features/event-lifecycle) | 全部钩子的清单与触发时机（**最完整**） |
-| ET9 · [`Component Table`](/et9/cde-table/component) | 界面组件的定义、命名、创建与关联 |
-| `Packages/cn.etetet.yiuiframework/README.md` | 框架包索引 |
-| `AGENTS.md`（工程根） | UI 刷新用动态消息解耦的约定 |
+- **全部钩子的清单与触发时机（最完整）**<br>ET9 · [`YIUI事件 生命周期`](/et9/features/event-lifecycle)
+- **界面组件的定义、命名、创建与关联**<br>ET9 · [`Component Table`](/et9/cde-table/component)
+- **框架包索引**<br>`Packages/cn.etetet.yiuiframework/README.md`
+- **UI 刷新用动态消息解耦的约定**<br>`AGENTS.md`（工程根）
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 框架本体的生命周期实现 | `Packages/cn.etetet.yiuiframework/Scripts/` |
-| 界面组件生成物 | 各包 `Assets/GameRes/YIUI/` 对应预制体旁 |
-| 手写业务逻辑 | `Packages/<包>/Scripts/HotfixView/Client/YIUISystem/` |
+- **框架本体的生命周期实现**<br>`Packages/cn.etetet.yiuiframework/Scripts/`
+- **界面组件生成物**<br>各包 `Assets/GameRes/YIUI/` 对应预制体旁
+- **手写业务逻辑**<br>`Packages/<包>/Scripts/HotfixView/Client/YIUISystem/`
 
 ## 读完能回答
 

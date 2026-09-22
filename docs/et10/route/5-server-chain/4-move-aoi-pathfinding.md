@@ -82,25 +82,21 @@ AOI 计算进出视野（aoi）
 
 ## 真源
 
-| 文件 | 内容 |
-|---|---|
-| `Packages/cn.etetet.move/AGENTS.md` | move 的职责、依赖方向、opcode 兼容要求 |
-| `Packages/cn.etetet.recast/AGENTS.md` | recast 的目录约定与开发约束 |
-| `Book/5.5Actor Location-ZH.md` | 位置与路由的配合 |
-| `docs/YIUIET10裁剪记录.md` | `NumericWatcher` → `NumericHandler` 的迁移记录 |
-| `Book/8.2ET Package目录.md` | aoi / recast / move 的官方一句话定位 |
+- **move 的职责、依赖方向、opcode 兼容要求**<br>`Packages/cn.etetet.move/AGENTS.md`
+- **recast 的目录约定与开发约束**<br>`Packages/cn.etetet.recast/AGENTS.md`
+- **位置与路由的配合**<br>`Book/5.5Actor Location-ZH.md`
+- **`NumericWatcher` → `NumericHandler` 的迁移记录**<br>`docs/YIUIET10裁剪记录.md`
+- **aoi / recast / move 的官方一句话定位**<br>`Book/8.2ET Package目录.md`
 
 > `aoi` 包当前**没有 `AGENTS.md`**，本节关于 AOI 的说明来自代码结构与官方描述，不是包内约定。
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 移动组件与系统 | `Packages/cn.etetet.move/Scripts/` |
-| 移动协议 | `Packages/cn.etetet.move/Proto/Move_C_10300.proto` |
-| AOI 格子与计算 | `Packages/cn.etetet.aoi/Scripts/{Model,Hotfix}/Server/` |
-| 寻路实现 | `Packages/cn.etetet.recast/Scripts/` |
-| AOI 与地图的联动 | `Packages/cn.etetet.map/Scripts/`（位置变化 → 通知 AOI） |
+- **移动组件与系统**<br>`Packages/cn.etetet.move/Scripts/`
+- **移动协议**<br>`Packages/cn.etetet.move/Proto/Move_C_10300.proto`
+- **AOI 格子与计算**<br>`Packages/cn.etetet.aoi/Scripts/{Model,Hotfix}/Server/`
+- **寻路实现**<br>`Packages/cn.etetet.recast/Scripts/`
+- **AOI 与地图的联动**<br>`Packages/cn.etetet.map/Scripts/`（位置变化 → 通知 AOI）
 
 ## 读完能回答
 

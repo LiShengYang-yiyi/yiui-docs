@@ -78,22 +78,18 @@ dotnet ./Bin/ET.Proto2CS.dll
 
 ## 真源
 
-| 文件 | 内容 |
-|---|---|
-| `Packages/cn.etetet.proto/AGENTS.md` | proto 包的目录约定与开发约束 |
-| `Packages/cn.etetet.harness/skills/et-build/SKILL.md` | Proto 导出命令与前置条件 |
-| `Packages/cn.etetet.harness/skills/et-build/references/et-build-commands.md` | 命令细节与常见排查 |
-| `Packages/cn.etetet.move/AGENTS.md` | 「优先保持既有 opcode 兼容」的原始约定 |
-| `AGENTS.md`（工程根） | 生成文件禁令（含 proto2cs 产物） |
+- **proto 包的目录约定与开发约束**<br>`Packages/cn.etetet.proto/AGENTS.md`
+- **Proto 导出命令与前置条件**<br>`Packages/cn.etetet.harness/skills/et-build/SKILL.md`
+- **命令细节与常见排查**<br>`Packages/cn.etetet.harness/skills/et-build/references/et-build-commands.md`
+- **「优先保持既有 opcode 兼容」的原始约定**<br>`Packages/cn.etetet.move/AGENTS.md`
+- **生成文件禁令（含 proto2cs 产物）**<br>`AGENTS.md`（工程根）
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 各包协议定义 | `Packages/<包>/Proto/*.proto` |
-| 导出产物 | `Packages/cn.etetet.proto/CodeMode/Model/` |
-| 导出工具 | `Bin/ET.Proto2CS.dll` |
-| 导出工具源码 | `Packages/cn.etetet.proto/Scripts/Editor/` |
+- **各包协议定义**<br>`Packages/<包>/Proto/*.proto`
+- **导出产物**<br>`Packages/cn.etetet.proto/CodeMode/Model/`
+- **导出工具**<br>`Bin/ET.Proto2CS.dll`
+- **导出工具源码**<br>`Packages/cn.etetet.proto/Scripts/Editor/`
 
 ## 读完能回答
 

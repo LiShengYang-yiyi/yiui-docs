@@ -132,21 +132,17 @@ title: 排查
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuicondition/Scripts/Hotfix/Share/Condition/Core/ConditionMgrSystem_Listener_Extend.cs` | 登记校验与触发分发 |
-| `Packages/cn.etetet.yiuicondition/Scripts/Hotfix/Share/Condition/Core/ConditionMgrSystem_Info.cs` | 回调派发与失败摘除 |
-| `Packages/cn.etetet.yiuicondition/Scripts/Model/Share/Condition/Core/ConditionSystemSingleton.cs` | 注册期校验 |
-| `Packages/cn.etetet.yiuicondition/Scripts/Model/Share/Condition/Core/ConditionInfo.cs` | 求值异常的处理 |
+- **登记校验与触发分发**<br>`Packages/cn.etetet.yiuicondition/Scripts/Hotfix/Share/Condition/Core/ConditionMgrSystem_Listener_Extend.cs`
+- **回调派发与失败摘除**<br>`Packages/cn.etetet.yiuicondition/Scripts/Hotfix/Share/Condition/Core/ConditionMgrSystem_Info.cs`
+- **注册期校验**<br>`Packages/cn.etetet.yiuicondition/Scripts/Model/Share/Condition/Core/ConditionSystemSingleton.cs`
+- **求值异常的处理**<br>`Packages/cn.etetet.yiuicondition/Scripts/Model/Share/Condition/Core/ConditionInfo.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 全部日志文案 | 在包内搜 `Log.Error` |
-| 监听的前置校验 | `ConditionMgrSystem_Listener_Extend.cs` 的 `CheckCanListener` |
-| 触发入口的分支 | 同文件的 `TriggerListenerEnter` 与 `TriggerListenerByType` |
-| 求值异常分支 | `ConditionInfo.cs` 的 `Check` |
+- **全部日志文案**<br>在包内搜 `Log.Error`
+- **监听的前置校验**<br>`ConditionMgrSystem_Listener_Extend.cs` 的 `CheckCanListener`
+- **触发入口的分支**<br>同文件的 `TriggerListenerEnter` 与 `TriggerListenerByType`
+- **求值异常分支**<br>`ConditionInfo.cs` 的 `Check`
 
 ## 下一步
 

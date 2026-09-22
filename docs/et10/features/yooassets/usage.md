@@ -113,22 +113,18 @@ self = selfRef;                       // await 之后重取
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuiyooassets/Scripts/HotfixView/Client/System/YIUIYooAssetsSpriteComponentSystem.cs` | 图集与精灵逻辑 |
-| `Packages/cn.etetet.yiuiyooassets/Scripts/HotfixView/Client/Event/YIUIInvokeLoadHandler.cs` | 加载类 Handler |
-| `Packages/cn.etetet.yiuiyooassets/Scripts/HotfixView/Client/Helper/YIUIFactory_YooAsset.cs` | 预制体实例化入口 |
-| `Packages/cn.etetet.yiuiframework/Scripts/HotfixView/Client/YIUILoad/` | 框架加载门面与句柄计数 |
+- **图集与精灵逻辑**<br>`Packages/cn.etetet.yiuiyooassets/Scripts/HotfixView/Client/System/YIUIYooAssetsSpriteComponentSystem.cs`
+- **加载类 Handler**<br>`Packages/cn.etetet.yiuiyooassets/Scripts/HotfixView/Client/Event/YIUIInvokeLoadHandler.cs`
+- **预制体实例化入口**<br>`Packages/cn.etetet.yiuiyooassets/Scripts/HotfixView/Client/Helper/YIUIFactory_YooAsset.cs`
+- **框架加载门面与句柄计数**<br>`Packages/cn.etetet.yiuiframework/Scripts/HotfixView/Client/YIUILoad/`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 加载主流程与句柄登记 | `Scripts/HotfixView/Client/System/YIUIYooAssetsLoadComponentSystem.cs` |
-| 图集数据结构 | `Runtime/Atlas/YIUIAtlasData.cs` |
-| 图集常量 | `Runtime/Atlas/YIUIConstAsset_Atlas.cs` |
-| 释放 Handler | `Scripts/HotfixView/Client/Event/YIUIInvokeReleaseHandler.cs` |
-| 单名重载 | `Scripts/HotfixView/Client/System/YIUILoadComponentSystem_YooAsset.cs` |
+- **加载主流程与句柄登记**<br>`Scripts/HotfixView/Client/System/YIUIYooAssetsLoadComponentSystem.cs`
+- **图集数据结构**<br>`Runtime/Atlas/YIUIAtlasData.cs`
+- **图集常量**<br>`Runtime/Atlas/YIUIConstAsset_Atlas.cs`
+- **释放 Handler**<br>`Scripts/HotfixView/Client/Event/YIUIInvokeReleaseHandler.cs`
+- **单名重载**<br>`Scripts/HotfixView/Client/System/YIUILoadComponentSystem_YooAsset.cs`
 
 ## 下一步
 

@@ -80,22 +80,18 @@ move          移动（依赖 map，map 不反向依赖 move）
 
 ## 真源
 
-| 文件 | 内容 |
-|---|---|
-| `docs/ET分析器修复建议.md` | `ET0105` 的成因、修复与快速排查 |
-| `Packages/cn.etetet.harness/skills/et-code/SKILL.md` | 包依赖、程序集、Module analyzer 的处理入口 |
-| `Packages/cn.etetet.harness/skills/et-code/references/et-code-rules.md` | 包落点、ECS 边界、组件契约、analyzer 细节 |
-| `Packages/cn.etetet.{map,move,mapplay,transfer}/AGENTS.md` | 真实依赖约束（最好的范本） |
-| `Packages/cn.etetet.sourcegenerator/AGENTS.md` | 分析器与诊断规则的维护位置 |
+- **`ET0105` 的成因、修复与快速排查**<br>`docs/ET分析器修复建议.md`
+- **包依赖、程序集、Module analyzer 的处理入口**<br>`Packages/cn.etetet.harness/skills/et-code/SKILL.md`
+- **包落点、ECS 边界、组件契约、analyzer 细节**<br>`Packages/cn.etetet.harness/skills/et-code/references/et-code-rules.md`
+- **真实依赖约束（最好的范本）**<br>`Packages/cn.etetet.{map,move,mapplay,transfer}/AGENTS.md`
+- **分析器与诊断规则的维护位置**<br>`Packages/cn.etetet.sourcegenerator/AGENTS.md`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 某包的依赖声明 | `Packages/<包>/package.json` |
-| 分析器诊断定义 | `Packages/cn.etetet.sourcegenerator/Config/DiagnosticIds.cs` |
-| 分析器规则 | `Packages/cn.etetet.sourcegenerator/Config/DiagnosticRules.cs` |
-| 主包与编译包列表 | `MainPackage.txt`（自动生成） |
+- **某包的依赖声明**<br>`Packages/<包>/package.json`
+- **分析器诊断定义**<br>`Packages/cn.etetet.sourcegenerator/Config/DiagnosticIds.cs`
+- **分析器规则**<br>`Packages/cn.etetet.sourcegenerator/Config/DiagnosticRules.cs`
+- **主包与编译包列表**<br>`MainPackage.txt`（自动生成）
 
 ## 读完能回答
 

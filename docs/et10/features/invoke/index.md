@@ -102,23 +102,19 @@ title: 调用系统
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuiinvoke/Scripts/Core/Share/Attribute/` | 四个特性定义 |
-| `Packages/cn.etetet.yiuiinvoke/Scripts/Core/Share/EventSystem/IInvokeEntity.cs` | `AInvokeEntityHandler` 定义 |
-| `Packages/cn.etetet.yiuiinvoke/Scripts/Core/Share/System/YIYUIInvokeSystem.cs` | 通道 B 的注册表 |
-| `Packages/cn.etetet.yiuiinvoke/Scripts/Core/Share/System/YIYUIListenerInvokeSystem.cs` | 监听注册与排序 |
+- **四个特性定义**<br>`Packages/cn.etetet.yiuiinvoke/Scripts/Core/Share/Attribute/`
+- **`AInvokeEntityHandler` 定义**<br>`Packages/cn.etetet.yiuiinvoke/Scripts/Core/Share/EventSystem/IInvokeEntity.cs`
+- **通道 B 的注册表**<br>`Packages/cn.etetet.yiuiinvoke/Scripts/Core/Share/System/YIYUIInvokeSystem.cs`
+- **监听注册与排序**<br>`Packages/cn.etetet.yiuiinvoke/Scripts/Core/Share/System/YIYUIListenerInvokeSystem.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 通道 A 的调用入口 | `Scripts/Core/Share/EventSystem/EventSystem_Invoke_Entity.cs` |
-| 通道 A 的便捷扩展 | `Scripts/Core/Share/EventSystem/EventSystem_Invoke_Entity_Extend.cs` |
-| 通道 A 的兜底扩展 | `Scripts/Core/Share/EventSystem/EventSystem_Invoke_Entity_Safety_Extend.cs` |
-| 通道 B 的分片 | `Scripts/Core/Share/System/YIYUIInvokeSystem_*.cs` |
-| 调用标识约定 | `Scripts/Core/Share/EventSystem/EYIYUIInvokeType.cs` |
-| core 侧的注册机制 | `Packages/cn.etetet.core/Scripts/Core/Share/World/EventSystem/EventSystem.cs` |
+- **通道 A 的调用入口**<br>`Scripts/Core/Share/EventSystem/EventSystem_Invoke_Entity.cs`
+- **通道 A 的便捷扩展**<br>`Scripts/Core/Share/EventSystem/EventSystem_Invoke_Entity_Extend.cs`
+- **通道 A 的兜底扩展**<br>`Scripts/Core/Share/EventSystem/EventSystem_Invoke_Entity_Safety_Extend.cs`
+- **通道 B 的分片**<br>`Scripts/Core/Share/System/YIYUIInvokeSystem_*.cs`
+- **调用标识约定**<br>`Scripts/Core/Share/EventSystem/EYIYUIInvokeType.cs`
+- **core 侧的注册机制**<br>`Packages/cn.etetet.core/Scripts/Core/Share/World/EventSystem/EventSystem.cs`
 
 ## 下一步
 

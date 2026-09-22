@@ -116,21 +116,17 @@ YIUIGameObjectPool.Inst?.Put(go);
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuigameobjectpool/Runtime/GameObjectPool/YIUIGameObjectPool.cs` | `Get` / `Put` 实现 |
-| `Packages/cn.etetet.yiuigameobjectpool/Runtime/GameObjectPool/YIUIGameObjectPoolTrigger.cs` | 组件式取放 |
-| `Packages/cn.etetet.yiuigameobjectpool/Runtime/GameObjectPool/YIUIGameObjectPoolAutoRelease.cs` | 销毁兜底 |
+- **`Get` / `Put` 实现**<br>`Packages/cn.etetet.yiuigameobjectpool/Runtime/GameObjectPool/YIUIGameObjectPool.cs`
+- **组件式取放**<br>`Packages/cn.etetet.yiuigameobjectpool/Runtime/GameObjectPool/YIUIGameObjectPoolTrigger.cs`
+- **销毁兜底**<br>`Packages/cn.etetet.yiuigameobjectpool/Runtime/GameObjectPool/YIUIGameObjectPoolAutoRelease.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 取对象的完整分支 | `Runtime/GameObjectPool/YIUIAutoRecycleAsyncObjectPool.cs` 的 `Get` |
-| 归还的三种结果 | 同文件的 `Put` |
-| 红点的真实调用 | `Packages/cn.etetet.yiuireddot/Runtime/Mgr/RedDotMgr_Dynamic.cs` |
-| 技能特效的真实调用 | `Packages/cn.etetet.statesync/Scripts/HotfixView/Client/YIUIBTSkill/Presentation/` |
-| 配置生成类 | `CodeMode/Model/Client/LubanGen/Config/GameObjectPoolSettingsConfig.cs` |
+- **取对象的完整分支**<br>`Runtime/GameObjectPool/YIUIAutoRecycleAsyncObjectPool.cs` 的 `Get`
+- **归还的三种结果**<br>同文件的 `Put`
+- **红点的真实调用**<br>`Packages/cn.etetet.yiuireddot/Runtime/Mgr/RedDotMgr_Dynamic.cs`
+- **技能特效的真实调用**<br>`Packages/cn.etetet.statesync/Scripts/HotfixView/Client/YIUIBTSkill/Presentation/`
+- **配置生成类**<br>`CodeMode/Model/Client/LubanGen/Config/GameObjectPoolSettingsConfig.cs`
 
 ## 下一步
 

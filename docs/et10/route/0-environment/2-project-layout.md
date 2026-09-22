@@ -109,14 +109,12 @@ title: 0.2 工程目录与构建入口
 
 ## 真源
 
-| 文件 | 内容 |
-|---|---|
-| `docs/F6编译流程说明.md` | F6 完整流程、CodeMode、常见问题（本工程实测整理） |
-| `Book/8.2ET Package目录.md` | 官方包清单与一句话描述 |
-| `Book/8.1ET Package制作指南.md` | 怎么做一个新包 |
-| `Packages/cn.etetet.harness/skills/et-build/SKILL.md` | 构建 / 导出 / 起服入口 |
-| `AGENTS.md`（工程根） | 分层边界、生成文件禁令 |
-| `Packages/<包>/AGENTS.md` | 单个包的边界说明 |
+- **F6 完整流程、CodeMode、常见问题（本工程实测整理）**<br>`docs/F6编译流程说明.md`
+- **官方包清单与一句话描述**<br>`Book/8.2ET Package目录.md`
+- **怎么做一个新包**<br>`Book/8.1ET Package制作指南.md`
+- **构建 / 导出 / 起服入口**<br>`Packages/cn.etetet.harness/skills/et-build/SKILL.md`
+- **分层边界、生成文件禁令**<br>`AGENTS.md`（工程根）
+- **单个包的边界说明**<br>`Packages/<包>/AGENTS.md`
 
 ## 读完能回答
 

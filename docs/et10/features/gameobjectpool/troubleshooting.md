@@ -114,20 +114,16 @@ title: 排查
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuigameobjectpool/Runtime/GameObjectPool/YIUIAutoRecycleAsyncObjectPool.cs` | 全部校验分支与超时判定 |
-| `Packages/cn.etetet.yiuigameobjectpool/Runtime/GameObjectPool/YIUIGameObjectPool.cs` | 单例级时基与场景清池 |
-| `Packages/cn.etetet.yiuigameobjectpool/Runtime/GameObjectPool/YIUIGameObjectPoolTrigger.cs` | 组件式取放的时机 |
+- **全部校验分支与超时判定**<br>`Packages/cn.etetet.yiuigameobjectpool/Runtime/GameObjectPool/YIUIAutoRecycleAsyncObjectPool.cs`
+- **单例级时基与场景清池**<br>`Packages/cn.etetet.yiuigameobjectpool/Runtime/GameObjectPool/YIUIGameObjectPool.cs`
+- **组件式取放的时机**<br>`Packages/cn.etetet.yiuigameobjectpool/Runtime/GameObjectPool/YIUIGameObjectPoolTrigger.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 全部 Error 文案 | 在包内搜 `Log.Error` / `Debug.LogError` |
-| 配置读取与回落 | `Runtime/GameObjectPool/YIUIGameObjectPool.cs` 的 `GetSettings` 与 `GetAutoRecycleAsyncObjectPool` |
-| 归还的拒绝分支 | `Runtime/GameObjectPool/YIUIAutoRecycleAsyncObjectPool.cs` 的 `Put` |
-| 配置查询 Handler | `Scripts/HotfixView/Client/YIUIInvokeGetGameObjectPoolSettingsHandler.cs` |
+- **全部 Error 文案**<br>在包内搜 `Log.Error` / `Debug.LogError`
+- **配置读取与回落**<br>`Runtime/GameObjectPool/YIUIGameObjectPool.cs` 的 `GetSettings` 与 `GetAutoRecycleAsyncObjectPool`
+- **归还的拒绝分支**<br>`Runtime/GameObjectPool/YIUIAutoRecycleAsyncObjectPool.cs` 的 `Put`
+- **配置查询 Handler**<br>`Scripts/HotfixView/Client/YIUIInvokeGetGameObjectPoolSettingsHandler.cs`
 
 ## 下一步
 

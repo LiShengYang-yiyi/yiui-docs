@@ -82,23 +82,19 @@ ET 客户端实体
 
 ## 真源
 
-| 文件 | 内容 |
-|---|---|
-| `挂点系统使用说明.md`（工程根） | 挂点系统的职责、核心结构、接入流程、失败语义、验证清单（**最完整**） |
-| `Packages/cn.etetet.yiuimountpoint/README.md` | 挂点包入口 |
-| `Packages/cn.etetet.yiuieffect/README.md` | 特效包 |
-| `Packages/cn.etetet.yiui3ddisplay/README.md` | 3D 显示包 |
-| `Packages/cn.etetet.yiuilocalizationpro/README.md` | 多语言包 |
-| ET9 · [`localization`](/et9/features/localization) · [`ui-3d-model`](/et9/features/ui-3d-model/) | 多语言与 3D 显示的整理文档 |
+- **挂点系统的职责、核心结构、接入流程、失败语义、验证清单（最完整）**<br>`挂点系统使用说明.md`（工程根）
+- **挂点包入口**<br>`Packages/cn.etetet.yiuimountpoint/README.md`
+- **特效包**<br>`Packages/cn.etetet.yiuieffect/README.md`
+- **3D 显示包**<br>`Packages/cn.etetet.yiui3ddisplay/README.md`
+- **多语言包**<br>`Packages/cn.etetet.yiuilocalizationpro/README.md`
+- **多语言与 3D 显示的整理文档**<br>ET9 · [`localization`](/et9/features/localization) · [`ui-3d-model`](/et9/features/ui-3d-model/)
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 挂点实现 | `Packages/cn.etetet.yiuimountpoint/Scripts/` |
-| 挂点键生成物 | `Packages/<包>/Scripts/ModelView/Client/Generated/MountPoint/MountPointKeys.g.cs` |
-| 特效 / 3D 显示 / 多语言 | 各包 `Scripts/` |
-| 资源管理 | `Packages/cn.etetet.yiuiyooassets/` |
+- **挂点实现**<br>`Packages/cn.etetet.yiuimountpoint/Scripts/`
+- **挂点键生成物**<br>`Packages/<包>/Scripts/ModelView/Client/Generated/MountPoint/MountPointKeys.g.cs`
+- **特效 / 3D 显示 / 多语言**<br>各包 `Scripts/`
+- **资源管理**<br>`Packages/cn.etetet.yiuiyooassets/`
 
 ## 读完能回答
 

@@ -91,23 +91,19 @@ AudioMgr.Inst.StopAudio(audioKey);
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuiaudio/Runtime/Audio/AudioMgr.cs` | 对外 API 与每帧驱动 |
-| `Packages/cn.etetet.yiuiaudio/Runtime/Audio/AudioEmitterController.cs` | 播放调度与状态机 |
-| `Packages/cn.etetet.yiuiaudio/Runtime/Audio/AudioDataParams.cs` | 全参数调用的参数结构 |
-| `Packages/cn.etetet.yiuiaudio/Runtime/Audio/AudioSystem.cs` | 分组音量 |
-| `Packages/cn.etetet.yiuiaudio/Scripts/Core/Share/IAudioConfig.cs` | 配置读取接口 |
+- **对外 API 与每帧驱动**<br>`Packages/cn.etetet.yiuiaudio/Runtime/Audio/AudioMgr.cs`
+- **播放调度与状态机**<br>`Packages/cn.etetet.yiuiaudio/Runtime/Audio/AudioEmitterController.cs`
+- **全参数调用的参数结构**<br>`Packages/cn.etetet.yiuiaudio/Runtime/Audio/AudioDataParams.cs`
+- **分组音量**<br>`Packages/cn.etetet.yiuiaudio/Runtime/Audio/AudioSystem.cs`
+- **配置读取接口**<br>`Packages/cn.etetet.yiuiaudio/Scripts/Core/Share/IAudioConfig.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| `AudioSource` 池与跟随 | `Runtime/Audio/AudioEmitterPool.cs` · `Runtime/Audio/AudioEmitterFollow.cs` |
-| BGM 优先级与淡入淡出 | `Runtime/Audio/AudioBackgroundMusicPlayer.cs` |
-| clip 引用计数 | `Runtime/Audio/AudioClipController.cs` |
-| 资源加载桥 | `Runtime/Audio/AudioClipLoader.cs` · `Scripts/HotfixView/Client/YIUIInvokeLoadAudioClipHandler.cs` |
-| 音频类型枚举 | `Runtime/Audio/EAudioType.cs` |
+- **`AudioSource` 池与跟随**<br>`Runtime/Audio/AudioEmitterPool.cs` · `Runtime/Audio/AudioEmitterFollow.cs`
+- **BGM 优先级与淡入淡出**<br>`Runtime/Audio/AudioBackgroundMusicPlayer.cs`
+- **clip 引用计数**<br>`Runtime/Audio/AudioClipController.cs`
+- **资源加载桥**<br>`Runtime/Audio/AudioClipLoader.cs` · `Scripts/HotfixView/Client/YIUIInvokeLoadAudioClipHandler.cs`
+- **音频类型枚举**<br>`Runtime/Audio/EAudioType.cs`
 
 ## 下一步
 

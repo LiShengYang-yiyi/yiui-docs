@@ -77,23 +77,19 @@ transfer 发布「切场景」事件
 
 ## 真源
 
-| 文件 | 内容 |
-|---|---|
-| `Packages/cn.etetet.map/AGENTS.md` | map 的边界与禁止依赖 |
-| `Packages/cn.etetet.mapplay/AGENTS.md` | mapplay 的职责与依赖方向 |
-| `Packages/cn.etetet.transfer/AGENTS.md` | transfer 的职责、事件归属、`C2G_EnterMapHandler` 的边界说明 |
-| `Packages/cn.etetet.move/AGENTS.md` | move 与 map 的依赖方向约定 |
+- **map 的边界与禁止依赖**<br>`Packages/cn.etetet.map/AGENTS.md`
+- **mapplay 的职责与依赖方向**<br>`Packages/cn.etetet.mapplay/AGENTS.md`
+- **transfer 的职责、事件归属、`C2G_EnterMapHandler` 的边界说明**<br>`Packages/cn.etetet.transfer/AGENTS.md`
+- **move 与 map 的依赖方向约定**<br>`Packages/cn.etetet.move/AGENTS.md`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 地图基础能力 | `Packages/cn.etetet.map/Scripts/` |
-| 地图玩法与 Unit 组装 | `Packages/cn.etetet.mapplay/Scripts/` |
-| 传送编排与协议 | `Packages/cn.etetet.transfer/Scripts/` · `Proto/Transfer_C_11300.proto` |
-| 进图消息处理 | `Packages/cn.etetet.login/Scripts/Hotfix/Server/Gate/C2G_EnterMapHandler.cs` |
-| 切场景的客户端表现 | `Packages/cn.etetet.statesync/Scripts/` |
-| 地图相关协议号段 | 各包 `Proto/`（`Map_*` `MapPlay_*` `Transfer_*`） |
+- **地图基础能力**<br>`Packages/cn.etetet.map/Scripts/`
+- **地图玩法与 Unit 组装**<br>`Packages/cn.etetet.mapplay/Scripts/`
+- **传送编排与协议**<br>`Packages/cn.etetet.transfer/Scripts/` · `Proto/Transfer_C_11300.proto`
+- **进图消息处理**<br>`Packages/cn.etetet.login/Scripts/Hotfix/Server/Gate/C2G_EnterMapHandler.cs`
+- **切场景的客户端表现**<br>`Packages/cn.etetet.statesync/Scripts/`
+- **地图相关协议号段**<br>各包 `Proto/`（`Map_*` `MapPlay_*` `Transfer_*`）
 
 ## 读完能回答
 

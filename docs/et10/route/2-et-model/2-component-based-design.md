@@ -60,21 +60,17 @@ Unity 和虚幻都在客户端用这套。ET 的额外一步是：**把组件的
 
 ## 真源
 
-| 文件 | 内容 |
-|---|---|
-| `Book/4.1组件式设计.md` | 面向对象的三个缺陷 + 组件模式的特点（中文） |
-| `Book/4.1Component-based design.md` | 同上，英文版 |
-| `AGENTS.md`（工程根） | 分层边界：「定义只能在 Model，逻辑只能在 Hotfix」 |
+- **面向对象的三个缺陷 + 组件模式的特点（中文）**<br>`Book/4.1组件式设计.md`
+- **同上，英文版**<br>`Book/4.1Component-based design.md`
+- **分层边界：「定义只能在 Model，逻辑只能在 Hotfix」**<br>`AGENTS.md`（工程根）
 
 > `Book/4.1` 中的示例代码用了 `[ObjectEvent]` + `IAwake` 的旧写法。当前工程统一用 `AwakeSystem<T>` / `UpdateSystem<T>` 这类 System 类，语义相同。
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 组件定义（数据） | `Packages/<包>/Scripts/Model/` |
-| 组件逻辑（System） | `Packages/<包>/Scripts/Hotfix/` |
-| 端到端例子 | `Packages/cn.etetet.actorlocation/`（组件 + 逻辑分离的完整样例） |
+- **组件定义（数据）**<br>`Packages/<包>/Scripts/Model/`
+- **组件逻辑（System）**<br>`Packages/<包>/Scripts/Hotfix/`
+- **端到端例子**<br>`Packages/cn.etetet.actorlocation/`（组件 + 逻辑分离的完整样例）
 
 ## 读完能回答
 

@@ -100,14 +100,12 @@ powershell -ExecutionPolicy Bypass -Command "& '<工程根>/Packages/cn.etetet.y
 
 ## 真源
 
-| 文件 | 内容 |
-|---|---|
-| `Book/1.1运行指南.md` | 环境、初始化、打包、热重载全流程（中文） |
-| `Book/1.1Running Guide.md` | 同上，英文版 |
-| `AGENTS.md`（工程根） | 强制编译门禁、唯一编译入口、包路由 |
-| `Packages/cn.etetet.harness/skills/et-build/SKILL.md` | 编译 / 导出 / 起服 / 发布的命令与前置条件 |
-| `Scripts/` | 全部 PowerShell 工程脚本 |
-| `docs/YIUIET10说明.md` | 本工程的目标、验收标准与默认假设 |
+- **环境、初始化、打包、热重载全流程（中文）**<br>`Book/1.1运行指南.md`
+- **同上，英文版**<br>`Book/1.1Running Guide.md`
+- **强制编译门禁、唯一编译入口、包路由**<br>`AGENTS.md`（工程根）
+- **编译 / 导出 / 起服 / 发布的命令与前置条件**<br>`Packages/cn.etetet.harness/skills/et-build/SKILL.md`
+- **全部 PowerShell 工程脚本**<br>`Scripts/`
+- **本工程的目标、验收标准与默认假设**<br>`docs/YIUIET10说明.md`
 
 ## 读完能回答
 

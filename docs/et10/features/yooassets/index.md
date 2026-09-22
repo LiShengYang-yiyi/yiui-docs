@@ -100,22 +100,18 @@ title: 资源接入 YooAssets
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuiyooassets/Scripts/HotfixView/Client/System/YIUIYooAssetsLoadComponentSystem.cs` | 四个委托的实现与句柄表 |
-| `Packages/cn.etetet.yiuiyooassets/Scripts/ModelView/Client/Component/YIUIYooAssetsLoadComponent.cs` | 资源组件与句柄字典 |
-| `Packages/cn.etetet.yiuiframework/Scripts/ModelView/Client/YIUILoad/YIUILoadDI.cs` | 框架侧的四个委托定义 |
-| `Packages/cn.etetet.yooassets/Resources/YooConfig.asset` | 运行模式与宿主地址 |
+- **四个委托的实现与句柄表**<br>`Packages/cn.etetet.yiuiyooassets/Scripts/HotfixView/Client/System/YIUIYooAssetsLoadComponentSystem.cs`
+- **资源组件与句柄字典**<br>`Packages/cn.etetet.yiuiyooassets/Scripts/ModelView/Client/Component/YIUIYooAssetsLoadComponent.cs`
+- **框架侧的四个委托定义**<br>`Packages/cn.etetet.yiuiframework/Scripts/ModelView/Client/YIUILoad/YIUILoadDI.cs`
+- **运行模式与宿主地址**<br>`Packages/cn.etetet.yooassets/Resources/YooConfig.asset`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 建包与模式分支 | `Packages/cn.etetet.yooassets/Runtime/ET/ResourcesComponent.cs` |
-| YooAssets 本体 | `Packages/cn.etetet.yooassets/Runtime/YooAssets.cs` |
-| 包对象与句柄 | `Packages/cn.etetet.yooassets/Runtime/ResourcePackage/` |
-| 单名重载（不带包名） | `Scripts/HotfixView/Client/System/YIUILoadComponentSystem_YooAsset.cs` |
-| 初始化完成事件 | `Scripts/ModelView/Client/Event/YIUIYooAssetsEvent.cs` |
+- **建包与模式分支**<br>`Packages/cn.etetet.yooassets/Runtime/ET/ResourcesComponent.cs`
+- **YooAssets 本体**<br>`Packages/cn.etetet.yooassets/Runtime/YooAssets.cs`
+- **包对象与句柄**<br>`Packages/cn.etetet.yooassets/Runtime/ResourcePackage/`
+- **单名重载（不带包名）**<br>`Scripts/HotfixView/Client/System/YIUILoadComponentSystem_YooAsset.cs`
+- **初始化完成事件**<br>`Scripts/ModelView/Client/Event/YIUIYooAssetsEvent.cs`
 
 ## 下一步
 

@@ -82,20 +82,16 @@ title: 排查
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuisuperscroll/Scripts/HotfixView/Client/SuperScroll/List/*ComponentSystem.cs` | Awake 里的预制体校验与取项回调 |
-| `Packages/cn.etetet.yiuisuperscroll/Runtime/RuntimeExtend/ListView/LoopListView2_Extend.cs` | 取项与池复用的错误分支 |
-| `Packages/cn.etetet.yiuisuperscroll/Scripts/HotfixView/Client/SuperScroll/*/*Helper.cs` | 「没有具体实现」类日志的出处 |
+- **Awake 里的预制体校验与取项回调**<br>`Packages/cn.etetet.yiuisuperscroll/Scripts/HotfixView/Client/SuperScroll/List/*ComponentSystem.cs`
+- **取项与池复用的错误分支**<br>`Packages/cn.etetet.yiuisuperscroll/Runtime/RuntimeExtend/ListView/LoopListView2_Extend.cs`
+- **「没有具体实现」类日志的出处**<br>`Packages/cn.etetet.yiuisuperscroll/Scripts/HotfixView/Client/SuperScroll/*/*Helper.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 全部 Error 文案 | 在包内搜 `Log.Error` / `Debug.LogError` |
-| 取项与越界判定 | `Runtime/ListView/LoopListView2.cs` 的 `NewListViewItem` |
-| 点击初始化校验 | `Scripts/HotfixView/Client/SuperScroll/*/*ComponentSystem_OnClick.cs` |
-| 可运行的对照组 | `Packages/cn.etetet.yiuisuperscrolldemo/` |
+- **全部 Error 文案**<br>在包内搜 `Log.Error` / `Debug.LogError`
+- **取项与越界判定**<br>`Runtime/ListView/LoopListView2.cs` 的 `NewListViewItem`
+- **点击初始化校验**<br>`Scripts/HotfixView/Client/SuperScroll/*/*ComponentSystem_OnClick.cs`
+- **可运行的对照组**<br>`Packages/cn.etetet.yiuisuperscrolldemo/`
 
 ## 下一步
 

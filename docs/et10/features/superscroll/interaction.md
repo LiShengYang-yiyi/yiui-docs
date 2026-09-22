@@ -105,20 +105,16 @@ Item 首次被创建时，控件把 Item 自身的事件表里的事件挂到选
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuisuperscroll/Scripts/HotfixView/Client/SuperScroll/*/*ComponentSystem_OnClick.cs` | 点击与选中的全部实现 |
-| `Packages/cn.etetet.yiuisuperscroll/Scripts/HotfixView/Client/SuperScroll/List/*ComponentSystem_Event.cs` | 滚动回调订阅 |
-| `Packages/cn.etetet.yiuisuperscroll/Runtime/Common/ClickEventListener.cs` | 上游点击监听 |
+- **点击与选中的全部实现**<br>`Packages/cn.etetet.yiuisuperscroll/Scripts/HotfixView/Client/SuperScroll/*/*ComponentSystem_OnClick.cs`
+- **滚动回调订阅**<br>`Packages/cn.etetet.yiuisuperscroll/Scripts/HotfixView/Client/SuperScroll/List/*ComponentSystem_Event.cs`
+- **上游点击监听**<br>`Packages/cn.etetet.yiuisuperscroll/Runtime/Common/ClickEventListener.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 点击初始化 | `Scripts/HotfixView/Client/SuperScroll/{List,Grid,StaggeredGrid}/*ComponentSystem_OnClick.cs` |
-| 点击分发与选中判定 | 同上文件内的 `OnClickItem` / `IsSelect` 分支 |
-| 事件订阅开关 | `Scripts/HotfixView/Client/SuperScroll/List/YIUISuperScrollListComponentSystem_Event.cs` |
-| 业务需要实现的点击接口 | `Scripts/ModelView/Client/Event/` |
+- **点击初始化**<br>`Scripts/HotfixView/Client/SuperScroll/{List,Grid,StaggeredGrid}/*ComponentSystem_OnClick.cs`
+- **点击分发与选中判定**<br>同上文件内的 `OnClickItem` / `IsSelect` 分支
+- **事件订阅开关**<br>`Scripts/HotfixView/Client/SuperScroll/List/YIUISuperScrollListComponentSystem_Event.cs`
+- **业务需要实现的点击接口**<br>`Scripts/ModelView/Client/Event/`
 
 ## 下一步
 

@@ -131,18 +131,14 @@ AI 排查时可以先绕开第 4 步，直接验证「这个 key 能不能通过
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiuireddot/Desc/08-红点排查与验证机制.md` | 五步链路、标准顺序、MCP 判定口径 |
+- **五步链路、标准顺序、MCP 判定口径**<br>`Packages/cn.etetet.yiuireddot/Desc/08-红点排查与验证机制.md`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 调试面板预制体 | `Packages/cn.etetet.yiuireddot/Assets/GameRes/YIUI/RedDot/Prefabs/RedDotPanel.prefab` |
-| 调试数据项 | `Packages/cn.etetet.yiuireddot/Assets/GameRes/YIUI/RedDot/Prefabs/RedDotDataItem.prefab` |
-| 红点栈与堆栈信息 | `Packages/cn.etetet.yiuireddot/Runtime/Data/RedDotStack.cs` · `RedDotStackHelper.cs` |
-| 值被谁改过 | `Packages/cn.etetet.yiuireddot/Scripts/HotfixView/Client/System/RedDotChangeCacheComponentSystem.cs` |
+- **调试面板预制体**<br>`Packages/cn.etetet.yiuireddot/Assets/GameRes/YIUI/RedDot/Prefabs/RedDotPanel.prefab`
+- **调试数据项**<br>`Packages/cn.etetet.yiuireddot/Assets/GameRes/YIUI/RedDot/Prefabs/RedDotDataItem.prefab`
+- **红点栈与堆栈信息**<br>`Packages/cn.etetet.yiuireddot/Runtime/Data/RedDotStack.cs` · `RedDotStackHelper.cs`
+- **值被谁改过**<br>`Packages/cn.etetet.yiuireddot/Scripts/HotfixView/Client/System/RedDotChangeCacheComponentSystem.cs`
 
 ## 下一步
 

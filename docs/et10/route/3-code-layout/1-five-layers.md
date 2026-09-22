@@ -66,20 +66,16 @@ ET 是前后端一体仓库，但**运行时分离**。客户端能拿到的数�
 
 ## 真源
 
-| 文件 | 内容 |
-|---|---|
-| `AGENTS.md`（工程根）→「ET 分层与客户端边界」 | 五层职责、Model/Hotfix 划分、UI 边界、组件契约（**权威**） |
-| `AGENTS.md`（工程根）→「生成文件与构建入口」 | 生成物禁令、编译入口 |
-| `Packages/cn.etetet.core/AGENTS.md` | Core 包的目录职责 |
-| `docs/F6编译流程说明.md` | 目录 → 程序集的生成规则与 CodeMode |
+- **五层职责、Model/Hotfix 划分、UI 边界、组件契约（权威）**<br>`AGENTS.md`（工程根）→「ET 分层与客户端边界」
+- **生成物禁令、编译入口**<br>`AGENTS.md`（工程根）→「生成文件与构建入口」
+- **Core 包的目录职责**<br>`Packages/cn.etetet.core/AGENTS.md`
+- **目录 → 程序集的生成规则与 CodeMode**<br>`docs/F6编译流程说明.md`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 分层规则被违反时的报错 | 编译输出中的 `ET01xx` 分析器诊断 |
-| 各层真实写法示例 | `Packages/cn.etetet.core/Scripts/{Model,Hotfix}/` |
-| 服务端独立代码 | `Packages/cn.etetet.core/DotNet~/` |
+- **分层规则被违反时的报错**<br>编译输出中的 `ET01xx` 分析器诊断
+- **各层真实写法示例**<br>`Packages/cn.etetet.core/Scripts/{Model,Hotfix}/`
+- **服务端独立代码**<br>`Packages/cn.etetet.core/DotNet~/`
 
 ## 读完能回答
 

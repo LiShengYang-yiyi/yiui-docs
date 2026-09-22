@@ -82,20 +82,16 @@ title: 排查
 
 ## 真源
 
-| 路径 | 内容 |
-|---|---|
-| `Packages/cn.etetet.yiui3ddisplay/Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Mono.cs` | 生命周期、隔离网格、错误分支 |
-| `Packages/cn.etetet.yiui3ddisplay/Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Base.cs` | RT 创建、相机参数、断言 |
-| `Packages/cn.etetet.yiui3ddisplay/Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Event.cs` | 点击与拖拽的异常处理 |
+- **生命周期、隔离网格、错误分支**<br>`Packages/cn.etetet.yiui3ddisplay/Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Mono.cs`
+- **RT 创建、相机参数、断言**<br>`Packages/cn.etetet.yiui3ddisplay/Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Base.cs`
+- **点击与拖拽的异常处理**<br>`Packages/cn.etetet.yiui3ddisplay/Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Event.cs`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| 断言位置 | `Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Base.cs` |
-| 层号获取与报错 | `Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Mono.cs` |
-| 相机回退逻辑 | `Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Base.cs` |
-| 组件字段定义 | `Runtime/UI3DDisplay.cs` |
+- **断言位置**<br>`Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Base.cs`
+- **层号获取与报错**<br>`Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Mono.cs`
+- **相机回退逻辑**<br>`Scripts/HotfixView/Client/Display/YIUI3DDisplayChildSystem_Base.cs`
+- **组件字段定义**<br>`Runtime/UI3DDisplay.cs`
 
 ## 下一步
 

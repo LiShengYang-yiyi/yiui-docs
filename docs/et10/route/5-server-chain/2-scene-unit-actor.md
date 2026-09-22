@@ -78,23 +78,19 @@ Scene（在哪个进程 / 什么角色）
 
 ## 真源
 
-| 文件 | 内容 |
-|---|---|
-| `Book/5.4Actor模型.md` | Actor 介绍、ET 的 Actor、Actor 消息处理 |
-| `Book/5.5Actor Location-ZH.md` | Actor Location 机制与消息处理 |
-| `Packages/cn.etetet.actorlocation/AGENTS.md` | 路由、锁 token 闭环、持久化迁移要求 |
-| `docs/YIUIET10裁剪记录.md` | `unit` → `yiuiunit` 的完整取舍记录（**权威**） |
-| `Packages/cn.etetet.yiuiunit/README.md` | yiuiunit 的能力说明 |
+- **Actor 介绍、ET 的 Actor、Actor 消息处理**<br>`Book/5.4Actor模型.md`
+- **Actor Location 机制与消息处理**<br>`Book/5.5Actor Location-ZH.md`
+- **路由、锁 token 闭环、持久化迁移要求**<br>`Packages/cn.etetet.actorlocation/AGENTS.md`
+- **`unit` → `yiuiunit` 的完整取舍记录（权威）**<br>`docs/YIUIET10裁剪记录.md`
+- **yiuiunit 的能力说明**<br>`Packages/cn.etetet.yiuiunit/README.md`
 
 ## 源码落点
 
-| 想看什么 | 打开 |
-|---|---|
-| Scene 与 SceneType | `Packages/cn.etetet.netinner/Scripts/Model/Share/SceneType.cs` |
-| Unit 实现（替换后） | `Packages/cn.etetet.yiuiunit/Scripts/` |
-| Unit 配置与 Luban | `Packages/cn.etetet.yiuiunit/Luban/` |
-| Actor 路由与锁 | `Packages/cn.etetet.actorlocation/Scripts/` |
-| Unit 组装（玩法层） | `Packages/cn.etetet.mapplay/Scripts/` 下的 `UnitFactory` / `UnitHelper` |
+- **Scene 与 SceneType**<br>`Packages/cn.etetet.netinner/Scripts/Model/Share/SceneType.cs`
+- **Unit 实现（替换后）**<br>`Packages/cn.etetet.yiuiunit/Scripts/`
+- **Unit 配置与 Luban**<br>`Packages/cn.etetet.yiuiunit/Luban/`
+- **Actor 路由与锁**<br>`Packages/cn.etetet.actorlocation/Scripts/`
+- **Unit 组装（玩法层）**<br>`Packages/cn.etetet.mapplay/Scripts/` 下的 `UnitFactory` / `UnitHelper`
 
 ## 读完能回答
 
